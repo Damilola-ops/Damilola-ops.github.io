@@ -1,2 +1,2 @@
 # damilojohn.github.io
-This is a repository of exciting personal projects 
+This is my personal repository
