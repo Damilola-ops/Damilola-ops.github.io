@@ -66,12 +66,17 @@ font-size: 20px;
     border-radius: 10px;
     font-size: 25px;
 }
-#project-link #cv{
+#project-link #cv {
     border: 2px  rgb(65, 66, 68) solid;
     padding: 14px;
     background-color:  rgb(65, 66, 68); 
     border-radius: 10px;
     font-size: 25px;
+    
+}
+#project-link #cv a{
+    text-decoration: none;
+    background: none;
     
 }
 .footer{
