@@ -1,2 +1,1 @@
-# damilojohn.github.io
-This is my personal repository
+ # my blog 

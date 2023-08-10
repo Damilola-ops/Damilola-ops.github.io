@@ -1,0 +1,44 @@
+baseURL : 'damilojohn.github.io'
+languageCode : 'en-us'
+title : 'Damilola John'
+theme : 'PaperMod' 
+
+params:
+  homeInfoParams:
+    Title: " Hi there , I'm Damilola  "
+    Content: " welcome to my portfolio blog " 
+  socialIcons:
+    - name: twitter 
+      url: https://twitter.com/damilojohn
+    - name: github
+      url: https://github.com/damilojohn
+    - name: linkedin 
+      url: https://www.linkedin.com/in/oduguwa-damilola-b089131a8/
+
+  ShowBreadCrumbs: true 
+
+  ShowReadingTime: true
+
+  ShowPostNavLinks: true 
+
+
+menu:
+  main:
+    - identifier: categories 
+      name: Categories
+      url: /categories/ 
+      weight: 10 
+    - identifier: library 
+      name: Library
+      url: /Library/ 
+      weight: 20 
+    - identifier: archives 
+      name: Archives
+      url: /archives/ 
+      weight: 30 
+    - identifier: tags 
+      name: Tags 
+      url : /tags/
+      weight: 40 
+    
+
