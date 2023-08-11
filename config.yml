@@ -2,10 +2,20 @@ baseURL : 'damilojohn.github.io'
 languageCode : 'en-us'
 title : 'Damilola John'
 theme : 'PaperMod' 
+paginate : 5
+
+enableRobotsTXT : true 
+
 
 params:
+  env: production
+  title: Damilola John 
+  description : "Personal Blog"
+  keywords: [Blog, Portfolio, PaperMod]
+  author: Damilola John
+
   homeInfoParams:
-    Title: " Hi there , I'm Damilola  "
+    Title: " Hi there , I'm Damilola \U0001F44B"
     Content: " welcome to my portfolio blog " 
   socialIcons:
     - name: twitter 
@@ -14,31 +24,62 @@ params:
       url: https://github.com/damilojohn
     - name: linkedin 
       url: https://www.linkedin.com/in/oduguwa-damilola-b089131a8/
-
+  profileMode:
+        enabled: true
+        title: Oduguwa Damilola John # optional default will be site title
+        subtitle: >
+          Software engineer specialized in Machine Learning Engineering . 
+        imageUrl: "1b3.jpg"
+        imageWidth: 400
+        imageHeight: 300
+        imageTitle: pp
+        buttons:
+            - name: Articles 
+              url: "/posts"
+            - name: Projects
+              url: "/projects"
+            - name: CV 
+              Url: "/resume.pdf"
+        
+  
+  
   ShowBreadCrumbs: true 
 
   ShowReadingTime: true
 
   ShowPostNavLinks: true 
+  
+  ShowCodeCopyButtons: true 
+
+  disableScrollToTop: false 
+
+  ShowToc: true
+
+  defaultTheme : light
+
+  assets : 
+    favicon: "/static/favicon.ico"
+    favicon16x16: "/static/favicon-16x16.png"
+    favicon32x32: "/static/favicon-32x32.png"
+    apple_touch_icon: "/static/apple-touch-icon.png"
+  
+  ShowWordCount: true
+
 
 
 menu:
   main:
-    - identifier: categories 
-      name: Categories
-      url: /categories/ 
-      weight: 10 
-    - identifier: library 
-      name: Library
-      url: /Library/ 
-      weight: 20 
-    - identifier: archives 
-      name: Archives
-      url: /archives/ 
-      weight: 30 
-    - identifier: tags 
-      name: Tags 
-      url : /tags/
-      weight: 40 
+     - identifier: archives 
+       name: Archives
+       url: /archives/
+       weight: 10 
+     - identifier: categories 
+       name: Categories
+       url: /categories/ 
+       weight: 20 
+     - identifier: tags 
+       name: Tags 
+       url : /tags/
+       weight: 30 
     
 

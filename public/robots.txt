@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: damilojohn.github.io/sitemap.xml

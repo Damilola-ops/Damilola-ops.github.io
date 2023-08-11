@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on Damilola John</title>
+    <link>damilojohn.github.io/tags/</link>
+    <description>Recent content in Tags on Damilola John</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 11 Aug 2023 02:14:46 +0100</lastBuildDate><atom:link href="damilojohn.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Embeddings</title>
+      <link>damilojohn.github.io/tags/embeddings/</link>
+      <pubDate>Fri, 11 Aug 2023 02:14:46 +0100</pubDate>
+      
+      <guid>damilojohn.github.io/tags/embeddings/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Semantic Search</title>
+      <link>damilojohn.github.io/tags/semantic-search/</link>
+      <pubDate>Fri, 11 Aug 2023 02:14:46 +0100</pubDate>
+      
+      <guid>damilojohn.github.io/tags/semantic-search/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Transformers</title>
+      <link>damilojohn.github.io/tags/transformers/</link>
+      <pubDate>Fri, 11 Aug 2023 02:14:46 +0100</pubDate>
+      
+      <guid>damilojohn.github.io/tags/transformers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deep Learning</title>
+      <link>damilojohn.github.io/tags/deep-learning/</link>
+      <pubDate>Thu, 10 Aug 2023 04:14:46 +0100</pubDate>
+      
+      <guid>damilojohn.github.io/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Natural Language Processing</title>
+      <link>damilojohn.github.io/tags/natural-language-processing/</link>
+      <pubDate>Thu, 10 Aug 2023 04:14:46 +0100</pubDate>
+      
+      <guid>damilojohn.github.io/tags/natural-language-processing/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
