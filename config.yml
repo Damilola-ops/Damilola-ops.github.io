@@ -3,8 +3,11 @@ languageCode : 'en-us'
 title : 'Damilola John'
 theme : 'PaperMod' 
 paginate : 5
+copyright : Copyright Damilola John &copy; 2023
+
 
 enableRobotsTXT : true 
+enableEmoji: true
 
 
 params:
@@ -15,8 +18,15 @@ params:
   author: Damilola John
 
   homeInfoParams:
-    Title: " Hi there , I'm Damilola \U0001F44B"
-    Content: " welcome to my portfolio blog " 
+    Title: " Damilola John \U0001F44B"
+    Content: >
+      - **Damilola John ** currently studying Computer Engineering at the University of Lagos 
+           
+      -     A software engineer whose primary focus is in building 
+            scalable and transparent Machine learning systems,
+            living and studying at the university of lagos.
+                     
+    imageURL: "1b3.jpg"
   socialIcons:
     - name: twitter 
       url: https://twitter.com/damilojohn
@@ -25,7 +35,7 @@ params:
     - name: linkedin 
       url: https://www.linkedin.com/in/oduguwa-damilola-b089131a8/
   profileMode:
-        enabled: true
+        enabled: false
         title: Oduguwa Damilola John # optional default will be site title
         subtitle: >
           Software engineer specialized in Machine Learning Engineering . 
@@ -77,9 +87,9 @@ menu:
        name: Categories
        url: /categories/ 
        weight: 20 
-     - identifier: tags 
-       name: Tags 
-       url : /tags/
+     - identifier: CV
+       name: CV
+       url : /CV/
        weight: 30 
     
 
