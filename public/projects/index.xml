@@ -6,6 +6,7 @@
     <description>Recent content in Projects on Damilola John</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>Copyright Damilola John &amp;copy; 2023</copyright>
     <lastBuildDate>Fri, 11 Aug 2023 02:14:46 +0100</lastBuildDate><atom:link href="damilojohn.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Playlist Generator</title>
@@ -15,6 +16,15 @@
       <guid>damilojohn.github.io/projects/playlist_generator/</guid>
       <description>Playlist Generator An app that uses semantic search to generate afrobeat song playlists from input texts In the last year , ChatGPT changed the landscape of Artificial Intelligence and software engineering.
 This is why I and emmanuel offisong decided to build an app that made it easier to discover new afrobeats songs</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>damilojohn.github.io/projects/text-desrambler/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>damilojohn.github.io/projects/text-desrambler/</guid>
+      <description></description>
     </item>
     
   </channel>

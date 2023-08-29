@@ -6,9 +6,10 @@
     <description>Recent content in Categories on Damilola John</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>Copyright Damilola John &amp;copy; 2023</copyright>
     <lastBuildDate>Fri, 11 Aug 2023 02:14:46 +0100</lastBuildDate><atom:link href="damilojohn.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Cloud&#39;</title>
+      <title>Cloud</title>
       <link>damilojohn.github.io/categories/cloud/</link>
       <pubDate>Fri, 11 Aug 2023 02:14:46 +0100</pubDate>
       
@@ -40,6 +41,24 @@
       <pubDate>Fri, 11 Aug 2023 02:14:46 +0100</pubDate>
       
       <guid>damilojohn.github.io/categories/semantic-search/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NLP</title>
+      <link>damilojohn.github.io/categories/nlp/</link>
+      <pubDate>Thu, 10 Aug 2023 04:14:46 +0100</pubDate>
+      
+      <guid>damilojohn.github.io/categories/nlp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Photography</title>
+      <link>damilojohn.github.io/categories/photography/</link>
+      <pubDate>Thu, 10 Aug 2023 04:14:46 +0100</pubDate>
+      
+      <guid>damilojohn.github.io/categories/photography/</guid>
       <description></description>
     </item>
     

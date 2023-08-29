@@ -6,6 +6,7 @@
     <description>Recent content in Tags on Damilola John</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>Copyright Damilola John &amp;copy; 2023</copyright>
     <lastBuildDate>Fri, 11 Aug 2023 02:14:46 +0100</lastBuildDate><atom:link href="damilojohn.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Embeddings</title>
@@ -31,6 +32,24 @@
       <pubDate>Fri, 11 Aug 2023 02:14:46 +0100</pubDate>
       
       <guid>damilojohn.github.io/tags/transformers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Aritificial Intelligence</title>
+      <link>damilojohn.github.io/tags/aritificial-intelligence/</link>
+      <pubDate>Thu, 10 Aug 2023 04:14:46 +0100</pubDate>
+      
+      <guid>damilojohn.github.io/tags/aritificial-intelligence/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Computer Vision</title>
+      <link>damilojohn.github.io/tags/computer-vision/</link>
+      <pubDate>Thu, 10 Aug 2023 04:14:46 +0100</pubDate>
+      
+      <guid>damilojohn.github.io/tags/computer-vision/</guid>
       <description></description>
     </item>
     

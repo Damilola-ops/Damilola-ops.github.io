@@ -1,9 +1,9 @@
 ---
 title: "A guide on how AI is changing Computational Photography "
 date: 2023-08-10T04:14:46+01:00
-draft: true
+draft: false
 cover:
-    image: ""
+    image: 'static\comp.photography.png'
     alt: 'image sensor'
 tags: ['Aritificial Intelligence','Deep Learning', 'Computer Vision']
 Categories: ['Machine Learning','Photography']

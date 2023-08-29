@@ -1,5 +1,5 @@
 ---
-title: "Classifying Programming Languages from short code snippets  "
+title: "I Tried to teach BERT 15 programming languages. "
 date: 2023-08-10T04:14:46+01:00
 draft: false 
 cover:
@@ -11,15 +11,14 @@ Categories: ['Machine Learning','NLP']
 
 # 
 
-This is a simple classification problem where we try to build a  classifier to classify code snippets into the programming language it was written in. 
-We would start with simple machine learning approaches and work our way up to more complex methods till we have a satisfactory solution. 
+This is was a fun side project where I decided to build a model that could identify 15 of the most popular programming languages.
+We would start with simple machine learning approaches and gradually work our way up to more complex methods till we have a satisfactory solution. 
 
 ## The Dataset 
 Our dataset is a csv containing 45,000 samples . The dataset is made up of two columns, the 'code' feature contains  code snippets we want to classify and the language column, which is our label contains the programming language it belongs to.Our train and test datasets were created from stratified sampling based on the target variable. 
 
 # Exploring the dataset 
 To get a better picture of our dataset , we look at the distribution of classes in the dataset 
-
 
 We also check the number of unique categories in our label . 
 

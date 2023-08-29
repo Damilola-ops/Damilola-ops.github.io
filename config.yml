@@ -1,6 +1,6 @@
 baseURL : 'damilojohn.github.io'
 languageCode : 'en-us'
-title : 'Damilola John'
+title : 'Home'
 theme : 'PaperMod' 
 paginate : 5
 copyright : Copyright Damilola John &copy; 2023
@@ -35,13 +35,19 @@ params:
     - name: linkedin 
       url: https://www.linkedin.com/in/oduguwa-damilola-b089131a8/
   profileMode:
-        enabled: false
+        enabled: True
         title: Oduguwa Damilola John # optional default will be site title
         subtitle: >
-          Software engineer specialized in Machine Learning Engineering . 
+                **Software Engineer** specializing in **Machine learning**.
+                    
+                  Passionate about building scalable and transparent Artificial intelligent systems that integrate with more robust systems and  harnessing the power of data to solve
+                real world problems. 
+
+                Exploring the intersections of **Computers**, art, Biology and astronomy
+
         imageUrl: "1b3.jpg"
-        imageWidth: 400
-        imageHeight: 300
+        imageWidth: 300
+        imageHeight: 200
         imageTitle: pp
         buttons:
             - name: Articles 
@@ -79,17 +85,25 @@ params:
 
 menu:
   main:
-     - identifier: archives 
+     - identifier: About me
+       name: About Me
+       url: /About Me
+       weight: 10 
+     - identifier: projects
+       name: Projects
+       url : /projects/
+       weight: 20
+     - identifier: posts
+       name: Posts
+       url: /posts/ 
+       weight: 30 
+     - identifier: categories
+       name: Categories
+       url : /Categories/
+       weight: 40 
+     - identifier: Archives 
        name: Archives
        url: /archives/
-       weight: 10 
-     - identifier: categories 
-       name: Categories
-       url: /categories/ 
-       weight: 20 
-     - identifier: CV
-       name: CV
-       url : /CV/
-       weight: 30 
-    
+       weight : 50
+
 

@@ -31,13 +31,18 @@ Given a sequence of text, a tokenizer turns the given sequence of text into a bu
 The block of code below shows how to tokenize a sentence of text using the HuggingFace library.
 <image is coming >
 As you probably already figured out, there are multiple ways to go about this.
+
 ### A BRIEF HISTORY OF BYTE PAIR ENCODING
+
 Byte Pair Encoding ( first described by Philip Gage in 1994) finds its roots in data compression. The Byte Pair Encoding algorithm is essentially a data compression algorithm that replaces the most frequently occurring pair of adjacent bytes with a new previously unused byte, recursively. If we have a string 'aaabcdaadab'. During the first iteration, the pair 'aa' is the most frequently occurring so it gets replaced by a new byte that we can call X . Our string is now 'XabcdXdab'. During the next iteration, the most frequently occurring pair is 'ab', so we replace it with a new byte 'Z' and we our string becomes 'XZcdXdaZ '. This process continues recursively till no further compressions can be made (every pair occurs only once). Decompression is simple and is done with a look-up table that contains the byte pairs and their replacements.
 
 ## Parallels between Tokenization and Compression
+
 In Tokenization, the compression algorithm is modified to replace the most frequently occurring words as individual tokens, and the less frequently occurring words are broken into their more frequently occurring sub-words. For example the word ' compressor' would likely be split into 'compress' and 'or', since the former is likely to have occurred as a standalone word and the latter a suffix to many other words. From a data compression viewpoint, the byte 'compressor' has been broken down into two smaller bytes ' compress' and 'or' which is sort of the reverse of what we want during compression.
 During tokenization, all unique tokens are stored in the tokenizer's vocabulary ( the tokenizer's equivalent of a look-up table) and the process of creating the vocabulary is typically referred to as ' training '.
+
 ## Tokenization
+
 The tokenization process can be split into 2 steps, the training step and the actual tokenization of the input text. Training the tokenizer builds the tokenizer's vocabulary. One of the main advantages of byte pair encoding is that the tokenizer could be adapted for any corpus of interest and even languages as long as the smallest unit of the corpus can be encoded as bytes (irrespective of format - Unicode or ASCII). Typically tokenizers are trained on collections of datasets that encompass their use case. For example, if you are creating a tokenizer that is going to be used on medical problems, then you have to train it on a dataset containing medical terminologies and not everyday vocabulary, this way, the tokenizer can encode meaningful patterns such as prefixes like 'gastro', 'neuro' and other medical nuances that have specific meanings and we end up with tokens with meaningful word-level representations that can be learned by models during training.
 
 The Training Process
