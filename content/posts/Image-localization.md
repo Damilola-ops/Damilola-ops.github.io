@@ -1,12 +1,12 @@
 ---
 title: " Image Localization and Object Distance Prediction with Pytorch."
-date: 2023-08-10T04:14:46+01:00
+date: 2023-08-16T04:14:46+01:00
 draft: true
 cover:
-    image: ""
+    image: "iss.jpg"
     alt: 'image sensor'
 tags: ['Computer Vision','Deep Learning', 'Pytorch']
-Categories: ['Machine Learning','Computer Vision','Deep Learning','Pytorch']
+Categories: ['Machine Learning','Computer Vision','Deep Learning']
 ---
 
 #

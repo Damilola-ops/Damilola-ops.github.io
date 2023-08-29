@@ -24,7 +24,7 @@ Dataset The dataset consists</description>
       <pubDate>Sat, 12 Aug 2023 04:14:46 +0100</pubDate>
       
       <guid>damilojohn.github.io/posts/spotify_skip/</guid>
-      <description>Predicting whether users would skip a song on spotify,from data about user&amp;rsquo;s listening sessions</description>
+      <description>Trying to predict whether users would skip a song on spotify,from data about users listening sessions.</description>
     </item>
     
   </channel>
