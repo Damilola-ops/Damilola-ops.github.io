@@ -1,13 +1,49 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Tags on Damilola John</title>
+    <title>Tags on Home</title>
     <link>damilojohn.github.io/tags/</link>
-    <description>Recent content in Tags on Damilola John</description>
+    <description>Recent content in Tags on Home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright Damilola John &amp;copy; 2023</copyright>
-    <lastBuildDate>Fri, 11 Aug 2023 02:14:46 +0100</lastBuildDate><atom:link href="damilojohn.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 19 Aug 2023 04:14:46 +0100</lastBuildDate><atom:link href="damilojohn.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Deep Learning</title>
+      <link>damilojohn.github.io/tags/deep-learning/</link>
+      <pubDate>Sat, 19 Aug 2023 04:14:46 +0100</pubDate>
+      
+      <guid>damilojohn.github.io/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Natural Language Processing</title>
+      <link>damilojohn.github.io/tags/natural-language-processing/</link>
+      <pubDate>Sat, 19 Aug 2023 04:14:46 +0100</pubDate>
+      
+      <guid>damilojohn.github.io/tags/natural-language-processing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Transformers</title>
+      <link>damilojohn.github.io/tags/transformers/</link>
+      <pubDate>Sat, 19 Aug 2023 04:14:46 +0100</pubDate>
+      
+      <guid>damilojohn.github.io/tags/transformers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>songs</title>
+      <link>damilojohn.github.io/tags/songs/</link>
+      <pubDate>Sat, 12 Aug 2023 04:14:46 +0100</pubDate>
+      
+      <guid>damilojohn.github.io/tags/songs/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Embeddings</title>
       <link>damilojohn.github.io/tags/embeddings/</link>
@@ -27,15 +63,6 @@
     </item>
     
     <item>
-      <title>Transformers</title>
-      <link>damilojohn.github.io/tags/transformers/</link>
-      <pubDate>Fri, 11 Aug 2023 02:14:46 +0100</pubDate>
-      
-      <guid>damilojohn.github.io/tags/transformers/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Aritificial Intelligence</title>
       <link>damilojohn.github.io/tags/aritificial-intelligence/</link>
       <pubDate>Thu, 10 Aug 2023 04:14:46 +0100</pubDate>
@@ -50,24 +77,6 @@
       <pubDate>Thu, 10 Aug 2023 04:14:46 +0100</pubDate>
       
       <guid>damilojohn.github.io/tags/computer-vision/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Deep Learning</title>
-      <link>damilojohn.github.io/tags/deep-learning/</link>
-      <pubDate>Thu, 10 Aug 2023 04:14:46 +0100</pubDate>
-      
-      <guid>damilojohn.github.io/tags/deep-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Natural Language Processing</title>
-      <link>damilojohn.github.io/tags/natural-language-processing/</link>
-      <pubDate>Thu, 10 Aug 2023 04:14:46 +0100</pubDate>
-      
-      <guid>damilojohn.github.io/tags/natural-language-processing/</guid>
       <description></description>
     </item>
     

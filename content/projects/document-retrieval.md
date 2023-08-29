@@ -1,10 +1,10 @@
 ---
 title: "Document Retreival with LightGBM and XGBoost"
 date: 2023-08-10T04:14:46+01:00
-draft: true 
+draft: false
 cover:
-    image: ""
-    alt: ''
+    image: 
+    alt: 
 tags: ['Natural Language Processing','Deep Learning', 'Transformers']
 Categories: ['Machine Learning','NLP']
 ---

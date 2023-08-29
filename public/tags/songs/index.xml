@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>songs on Home</title>
+    <link>damilojohn.github.io/tags/songs/</link>
+    <description>Recent content in songs on Home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright Damilola John &amp;copy; 2023</copyright>
+    <lastBuildDate>Sat, 12 Aug 2023 04:14:46 +0100</lastBuildDate><atom:link href="damilojohn.github.io/tags/songs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Skip Prediction on Spotify</title>
+      <link>damilojohn.github.io/posts/spotify_skip/</link>
+      <pubDate>Sat, 12 Aug 2023 04:14:46 +0100</pubDate>
+      
+      <guid>damilojohn.github.io/posts/spotify_skip/</guid>
+      <description>Predicting whether users would skip a song on spotify,from data about user&amp;rsquo;s listening sessions</description>
+    </item>
+    
+  </channel>
+</rss>

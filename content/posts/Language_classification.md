@@ -1,9 +1,9 @@
 ---
 title: "I Tried to teach BERT 15 programming languages. "
-date: 2023-08-10T04:14:46+01:00
+date: 2023-08-19T04:14:46+01:00
 draft: false 
 cover:
-    image: ""
+    image: "prog_class.jpg"
     alt: ''
 tags: ['Natural Language Processing','Deep Learning', 'Transformers']
 Categories: ['Machine Learning','NLP']

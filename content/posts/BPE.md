@@ -1,6 +1,6 @@
 ---
 title: "Byte-Pair Encoding, The Tokenization algorithm powering Large Language Models. "
-date: 2023-08-10T04:14:46+01:00
+date: 2023-07-20T04:14:46+01:00
 draft: false 
 cover:
     image: "tokenizers.jpg"
