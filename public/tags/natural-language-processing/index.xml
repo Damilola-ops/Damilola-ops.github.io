@@ -24,18 +24,8 @@ The Dataset Our dataset is a csv containing 45,000 samples . The dataset is made
       <pubDate>Tue, 15 Aug 2023 04:14:46 +0100</pubDate>
       
       <guid>damilojohn.github.io/posts/learning_to_smell/</guid>
-      <description>The title of this post might be a little confusing but we are really just going to try and build a model to classify smells from their molecular compounds. This little project intertwines realms of chemistry and machine learning and it doesn&amp;rsquo;t get more interesting than that.
+      <description>The title of this post might be a little confusing but what we are really going to do is to try and build a model to classify smells from their molecular compounds. This little project intertwines realms of chemistry and machine learning and it doesn&amp;rsquo;t get more interesting than that.
 This was definitely the most interesting machine learning thing I have done so far.</description>
-    </item>
-    
-    <item>
-      <title>Adventures with the Spotify Millions Playlist Dataset</title>
-      <link>damilojohn.github.io/posts/spotify_playlists/</link>
-      <pubDate>Sat, 12 Aug 2023 04:14:46 +0100</pubDate>
-      
-      <guid>damilojohn.github.io/posts/spotify_playlists/</guid>
-      <description>I recently came across a competition hosted on AIcrowd, where the challenge was to solve the problem of generating recommendations for user playlists from older songs and metadata in their playlists. I decided to take on the problem and see how far I could get with it.
-Dataset The dataset consists</description>
     </item>
     
     <item>

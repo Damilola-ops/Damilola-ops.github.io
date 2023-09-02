@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>About Mes on Home</title>
+    <link>damilojohn.github.io/about-me/</link>
+    <description>Recent content in About Mes on Home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright Damilola John &amp;copy; 2023</copyright><atom:link href="damilojohn.github.io/about-me/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About me</title>
+      <link>damilojohn.github.io/about-me/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>damilojohn.github.io/about-me/about/</guid>
+      <description>About me 20year old, Computer Engineering , University of Lagos
+Hello! I&amp;rsquo;m [Your Name], a passionate and driven software engineering student with a deep fascination for the intersection of technology and intelligence. Currently pursuing my degree in [Your Degree] from [Your University], I am enthusiastic about leveraging my skills to contribute meaningfully in the field of machine learning engineering.
+Throughout my academic journey, I have developed a solid foundation in software engineering principles and practices.</description>
+    </item>
+    
+  </channel>
+</rss>

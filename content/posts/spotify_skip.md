@@ -1,7 +1,7 @@
 ---
 title: "Skip Prediction on Spotify"
 date: 2023-08-12T04:14:46+01:00
-draft: false
+draft: true
 cover:
     image: "spotify_skip.png"
     alt: 'spotify'

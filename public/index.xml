@@ -19,32 +19,23 @@ The Dataset Our dataset is a csv containing 45,000 samples . The dataset is made
     </item>
     
     <item>
+      <title> Image Localization and Object Distance Prediction with Pytorch.</title>
+      <link>damilojohn.github.io/posts/image-localization/</link>
+      <pubDate>Wed, 16 Aug 2023 04:14:46 +0100</pubDate>
+      
+      <guid>damilojohn.github.io/posts/image-localization/</guid>
+      <description>Docking to the ISS would have been more fun if we actually had to dock with the international space station, regardless, we have an interesting problem of trying to create an automatic ISS docker by estimating the coordinates and distance of the international space station from images.
+In this article , we would be using deep learning to estimate the coordinates of an object in an image and also training the model to predict the distance of images .</description>
+    </item>
+    
+    <item>
       <title>Learning to smell from Molecules </title>
       <link>damilojohn.github.io/posts/learning_to_smell/</link>
       <pubDate>Tue, 15 Aug 2023 04:14:46 +0100</pubDate>
       
       <guid>damilojohn.github.io/posts/learning_to_smell/</guid>
-      <description>The title of this post might be a little confusing but we are really just going to try and build a model to classify smells from their molecular compounds. This little project intertwines realms of chemistry and machine learning and it doesn&amp;rsquo;t get more interesting than that.
+      <description>The title of this post might be a little confusing but what we are really going to do is to try and build a model to classify smells from their molecular compounds. This little project intertwines realms of chemistry and machine learning and it doesn&amp;rsquo;t get more interesting than that.
 This was definitely the most interesting machine learning thing I have done so far.</description>
-    </item>
-    
-    <item>
-      <title>Adventures with the Spotify Millions Playlist Dataset</title>
-      <link>damilojohn.github.io/posts/spotify_playlists/</link>
-      <pubDate>Sat, 12 Aug 2023 04:14:46 +0100</pubDate>
-      
-      <guid>damilojohn.github.io/posts/spotify_playlists/</guid>
-      <description>I recently came across a competition hosted on AIcrowd, where the challenge was to solve the problem of generating recommendations for user playlists from older songs and metadata in their playlists. I decided to take on the problem and see how far I could get with it.
-Dataset The dataset consists</description>
-    </item>
-    
-    <item>
-      <title>Skip Prediction on Spotify</title>
-      <link>damilojohn.github.io/posts/spotify_skip/</link>
-      <pubDate>Sat, 12 Aug 2023 04:14:46 +0100</pubDate>
-      
-      <guid>damilojohn.github.io/posts/spotify_skip/</guid>
-      <description>Trying to predict whether users would skip a song on spotify,from data about users listening sessions.</description>
     </item>
     
     <item>
@@ -88,12 +79,14 @@ LightGBM </description>
     </item>
     
     <item>
-      <title></title>
-      <link>damilojohn.github.io/projects/text-desrambler/</link>
+      <title>About me</title>
+      <link>damilojohn.github.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>damilojohn.github.io/projects/text-desrambler/</guid>
-      <description></description>
+      <guid>damilojohn.github.io/about/</guid>
+      <description>About me 20year old, Computer Engineering , University of Lagos
+Hello! I&amp;rsquo;m [Your Name], a passionate and driven software engineering student with a deep fascination for the intersection of technology and intelligence. Currently pursuing my degree in [Your Degree] from [Your University], I am enthusiastic about leveraging my skills to contribute meaningfully in the field of machine learning engineering.
+Throughout my academic journey, I have developed a solid foundation in software engineering principles and practices.</description>
     </item>
     
     

@@ -1,7 +1,7 @@
 ---
 title: "Adventures with the Spotify Millions Playlist Dataset"
 date: 2023-08-12T04:14:46+01:00
-draft: false
+draft: true 
 cover:
     image: "The-Million-Playlist-Dataset-thumb.jpg"
     alt: 'spotify'

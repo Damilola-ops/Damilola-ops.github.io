@@ -27,11 +27,20 @@
     </item>
     
     <item>
-      <title>Recommendation Systems</title>
-      <link>damilojohn.github.io/categories/recommendation-systems/</link>
-      <pubDate>Sat, 12 Aug 2023 04:14:46 +0100</pubDate>
+      <title>Computer Vision</title>
+      <link>damilojohn.github.io/categories/computer-vision/</link>
+      <pubDate>Wed, 16 Aug 2023 04:14:46 +0100</pubDate>
       
-      <guid>damilojohn.github.io/categories/recommendation-systems/</guid>
+      <guid>damilojohn.github.io/categories/computer-vision/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deep Learning</title>
+      <link>damilojohn.github.io/categories/deep-learning/</link>
+      <pubDate>Wed, 16 Aug 2023 04:14:46 +0100</pubDate>
+      
+      <guid>damilojohn.github.io/categories/deep-learning/</guid>
       <description></description>
     </item>
     
@@ -59,15 +68,6 @@
       <pubDate>Fri, 11 Aug 2023 02:14:46 +0100</pubDate>
       
       <guid>damilojohn.github.io/categories/semantic-search/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Computer Vision</title>
-      <link>damilojohn.github.io/categories/computer-vision/</link>
-      <pubDate>Thu, 10 Aug 2023 04:14:46 +0100</pubDate>
-      
-      <guid>damilojohn.github.io/categories/computer-vision/</guid>
       <description></description>
     </item>
     

@@ -86,9 +86,9 @@ params:
 
 menu:
   main:
-     - identifier: About me
+     - identifier: about
        name: About Me
-       url: /About Me
+       url: /about
        weight: 10 
      - identifier: projects
        name: Projects
