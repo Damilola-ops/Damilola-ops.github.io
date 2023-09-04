@@ -1,0 +1,42 @@
+.row{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.hero{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+.hero h1{
+    font-size: 80px;
+    font-weight: 700;
+}
+.social-link{
+    padding: 40px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4rem;
+}
+.social-link a{
+    cursor: pointer;
+    margin-right: 20px;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    transition: .4s;
+}
+.social-link a i{
+    font-size: 40px;
+    transition: .4s;
+}
+

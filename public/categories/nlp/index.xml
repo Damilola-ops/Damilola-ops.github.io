@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>NLP on Home</title>
+    <link>damilojohn.github.io/categories/nlp/</link>
+    <description>Recent content in NLP on Home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright Damilola John &amp;copy; 2023</copyright>
+    <lastBuildDate>Sat, 19 Aug 2023 04:14:46 +0100</lastBuildDate><atom:link href="damilojohn.github.io/categories/nlp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>I Tried to teach BERT 15 programming languages. </title>
+      <link>damilojohn.github.io/posts/language_classification/</link>
+      <pubDate>Sat, 19 Aug 2023 04:14:46 +0100</pubDate>
+      
+      <guid>damilojohn.github.io/posts/language_classification/</guid>
+      <description>This is was a fun side project where I decided to build a model that could identify 15 of the most popular programming languages. We would start with simple machine learning approaches and gradually work our way up to more complex methods till we have a satisfactory solution.
+The Dataset Our dataset is a csv containing 45,000 samples . The dataset is made up of two columns, the &amp;lsquo;code&amp;rsquo; feature contains code snippets we want to classify and the language column, which is our label contains the programming language it belongs to.</description>
+    </item>
+    
+    <item>
+      <title>Learning to smell from Molecules </title>
+      <link>damilojohn.github.io/posts/learning_to_smell/</link>
+      <pubDate>Tue, 15 Aug 2023 04:14:46 +0100</pubDate>
+      
+      <guid>damilojohn.github.io/posts/learning_to_smell/</guid>
+      <description>The title of this post might be a little confusing but what we are really going to do is to try and build a model to classify smells from their molecular compounds. This little project intertwines realms of chemistry and machine learning and it doesn&amp;rsquo;t get more interesting than that.
+This was definitely the most interesting machine learning thing I have done so far.</description>
+    </item>
+    
+    <item>
+      <title>Document Retreival with LightGBM and XGBoost</title>
+      <link>damilojohn.github.io/projects/document-retrieval/</link>
+      <pubDate>Thu, 10 Aug 2023 04:14:46 +0100</pubDate>
+      
+      <guid>damilojohn.github.io/projects/document-retrieval/</guid>
+      <description>Exploring Document Retrieval with Ensemble methods . The aim of this article is to try to tackle document retrieval using two of the current most popular ensemble methods in machine learning and to draw and compare insights in their performance and efficiencies .
+Dataset Our dataset is the
+LightGBM </description>
+    </item>
+    
+  </channel>
+</rss>
