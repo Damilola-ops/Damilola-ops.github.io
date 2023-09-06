@@ -14,8 +14,8 @@
       <pubDate>Sat, 19 Aug 2023 04:14:46 +0100</pubDate>
       
       <guid>damilojohn.github.io/posts/language_classification/</guid>
-      <description>This is was a fun side project where I decided to build a model that could identify 15 of the most popular programming languages. We would start with simple machine learning approaches and gradually work our way up to more complex methods till we have a satisfactory solution.
-The Dataset Our dataset is a csv containing 45,000 samples . The dataset is made up of two columns, the &amp;lsquo;code&amp;rsquo; feature contains code snippets we want to classify and the language column, which is our label contains the programming language it belongs to.</description>
+      <description>This is a fun side project where I tried to build a model that could identify 15 of the most popular programming languages. We would start with simple machine learning approaches and gradually work our way up to more complex methods till we have a satisfactory solution.
+The Dataset Our dataset is a csv containing 45,000 samples. The dataset is made up of two columns, the &amp;lsquo;code&amp;rsquo; feature contains code snippets we want to classify and the language column, which is our label contains the programming language it belongs to.</description>
     </item>
     
     <item>
