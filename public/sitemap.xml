@@ -2,89 +2,86 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>damilojohn.github.io/categories/</loc>
+    <loc>//localhost:1313/categories/</loc>
     <lastmod>2023-08-19T04:14:46+01:00</lastmod>
   </url><url>
-    <loc>damilojohn.github.io/tags/deep-learning/</loc>
+    <loc>//localhost:1313/tags/deep-learning/</loc>
     <lastmod>2023-08-19T04:14:46+01:00</lastmod>
   </url><url>
-    <loc>damilojohn.github.io/</loc>
+    <loc>//localhost:1313/</loc>
     <lastmod>2023-08-19T04:14:46+01:00</lastmod>
   </url><url>
-    <loc>damilojohn.github.io/posts/language_classification/</loc>
+    <loc>//localhost:1313/posts/language_classification/</loc>
     <lastmod>2023-08-19T04:14:46+01:00</lastmod>
   </url><url>
-    <loc>damilojohn.github.io/categories/machine-learning/</loc>
+    <loc>//localhost:1313/categories/machine-learning/</loc>
     <lastmod>2023-08-19T04:14:46+01:00</lastmod>
   </url><url>
-    <loc>damilojohn.github.io/tags/natural-language-processing/</loc>
+    <loc>//localhost:1313/tags/natural-language-processing/</loc>
     <lastmod>2023-08-19T04:14:46+01:00</lastmod>
   </url><url>
-    <loc>damilojohn.github.io/categories/nlp/</loc>
+    <loc>//localhost:1313/categories/nlp/</loc>
     <lastmod>2023-08-19T04:14:46+01:00</lastmod>
   </url><url>
-    <loc>damilojohn.github.io/posts/</loc>
+    <loc>//localhost:1313/posts/</loc>
     <lastmod>2023-08-19T04:14:46+01:00</lastmod>
   </url><url>
-    <loc>damilojohn.github.io/tags/</loc>
+    <loc>//localhost:1313/tags/</loc>
     <lastmod>2023-08-19T04:14:46+01:00</lastmod>
   </url><url>
-    <loc>damilojohn.github.io/tags/transformers/</loc>
+    <loc>//localhost:1313/tags/transformers/</loc>
     <lastmod>2023-08-19T04:14:46+01:00</lastmod>
   </url><url>
-    <loc>damilojohn.github.io/posts/image-localization/</loc>
+    <loc>//localhost:1313/posts/image-localization/</loc>
     <lastmod>2023-08-16T04:14:46+01:00</lastmod>
   </url><url>
-    <loc>damilojohn.github.io/tags/computer-vision/</loc>
+    <loc>//localhost:1313/tags/computer-vision/</loc>
     <lastmod>2023-08-16T04:14:46+01:00</lastmod>
   </url><url>
-    <loc>damilojohn.github.io/categories/computer-vision/</loc>
+    <loc>//localhost:1313/categories/computer-vision/</loc>
     <lastmod>2023-08-16T04:14:46+01:00</lastmod>
   </url><url>
-    <loc>damilojohn.github.io/categories/deep-learning/</loc>
+    <loc>//localhost:1313/categories/deep-learning/</loc>
     <lastmod>2023-08-16T04:14:46+01:00</lastmod>
   </url><url>
-    <loc>damilojohn.github.io/tags/pytorch/</loc>
+    <loc>//localhost:1313/tags/pytorch/</loc>
     <lastmod>2023-08-16T04:14:46+01:00</lastmod>
   </url><url>
-    <loc>damilojohn.github.io/posts/learning_to_smell/</loc>
+    <loc>//localhost:1313/posts/learning_to_smell/</loc>
     <lastmod>2023-08-15T04:14:46+01:00</lastmod>
   </url><url>
-    <loc>damilojohn.github.io/categories/cloud/</loc>
+    <loc>//localhost:1313/projects/</loc>
+    <lastmod>2023-08-15T04:14:46+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/categories/cloud/</loc>
     <lastmod>2023-08-11T02:14:46+01:00</lastmod>
   </url><url>
-    <loc>damilojohn.github.io/tags/embeddings/</loc>
+    <loc>//localhost:1313/tags/embeddings/</loc>
     <lastmod>2023-08-11T02:14:46+01:00</lastmod>
   </url><url>
-    <loc>damilojohn.github.io/projects/playlist_generator/</loc>
+    <loc>//localhost:1313/projects/playlist_generator/</loc>
     <lastmod>2023-08-11T02:14:46+01:00</lastmod>
   </url><url>
-    <loc>damilojohn.github.io/projects/</loc>
+    <loc>//localhost:1313/categories/recsys/</loc>
     <lastmod>2023-08-11T02:14:46+01:00</lastmod>
   </url><url>
-    <loc>damilojohn.github.io/categories/recsys/</loc>
+    <loc>//localhost:1313/tags/semantic-search/</loc>
     <lastmod>2023-08-11T02:14:46+01:00</lastmod>
   </url><url>
-    <loc>damilojohn.github.io/tags/semantic-search/</loc>
+    <loc>//localhost:1313/categories/semantic-search/</loc>
     <lastmod>2023-08-11T02:14:46+01:00</lastmod>
   </url><url>
-    <loc>damilojohn.github.io/categories/semantic-search/</loc>
-    <lastmod>2023-08-11T02:14:46+01:00</lastmod>
-  </url><url>
-    <loc>damilojohn.github.io/posts/computational-photography/</loc>
+    <loc>//localhost:1313/posts/computational-photography/</loc>
     <lastmod>2023-08-10T04:14:46+01:00</lastmod>
   </url><url>
-    <loc>damilojohn.github.io/tags/aritificial-intelligence/</loc>
+    <loc>//localhost:1313/tags/aritificial-intelligence/</loc>
     <lastmod>2023-08-10T04:14:46+01:00</lastmod>
   </url><url>
-    <loc>damilojohn.github.io/projects/document-retrieval/</loc>
-    <lastmod>2023-08-10T04:14:46+01:00</lastmod>
-  </url><url>
-    <loc>damilojohn.github.io/posts/bpe/</loc>
+    <loc>//localhost:1313/posts/bpe/</loc>
     <lastmod>2023-07-20T04:14:46+01:00</lastmod>
   </url><url>
-    <loc>damilojohn.github.io/about/</loc>
+    <loc>//localhost:1313/about/</loc>
   </url><url>
-    <loc>damilojohn.github.io/archives/</loc>
+    <loc>//localhost:1313/archives/</loc>
   </url>
 </urlset>

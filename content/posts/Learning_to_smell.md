@@ -5,7 +5,7 @@ draft: false
 cover:
     image: "molecule.gif"
     alt: ''
-tags: ['Natural Language Processing','Deep Learning', 'Transformers']
+tags: ['Chemistry','Predictive-Modelling', 'Transformers']
 Categories: ['Machine Learning','NLP']
 ---
 
@@ -13,4 +13,29 @@ Categories: ['Machine Learning','NLP']
 
 The title of this post might be a little confusing but what we are really going to do is to try and build a model to classify smells from their molecular compounds. This little project intertwines realms of chemistry and machine learning and it doesn't get more interesting than that. 
 
-This was definitely the most interesting machine learning thing I have done so far.
+
+## Dataset 
+
+
+
+
+## Visualizing molecules 
+
+
+
+
+## Evaluation metrics 
+
+
+
+
+## Model 
+
+
+
+
+
+## Conclusions
+
+
+

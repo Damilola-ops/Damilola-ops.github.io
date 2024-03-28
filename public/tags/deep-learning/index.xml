@@ -2,69 +2,58 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Deep Learning on Home</title>
-    <link>damilojohn.github.io/tags/deep-learning/</link>
+    <link>//localhost:1313/tags/deep-learning/</link>
     <description>Recent content in Deep Learning on Home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright Damilola John &amp;copy; 2023</copyright>
-    <lastBuildDate>Sat, 19 Aug 2023 04:14:46 +0100</lastBuildDate><atom:link href="damilojohn.github.io/tags/deep-learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 19 Aug 2023 04:14:46 +0100</lastBuildDate><atom:link href="//localhost:1313/tags/deep-learning/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>I Tried to teach BERT 15 programming languages. </title>
-      <link>damilojohn.github.io/posts/language_classification/</link>
+      <link>//localhost:1313/posts/language_classification/</link>
       <pubDate>Sat, 19 Aug 2023 04:14:46 +0100</pubDate>
       
-      <guid>damilojohn.github.io/posts/language_classification/</guid>
+      <guid>//localhost:1313/posts/language_classification/</guid>
       <description>This is a fun side project where I tried to build a model that could identify 15 of the most popular programming languages. We would start with simple machine learning approaches and gradually work our way up to more complex methods till we have a satisfactory solution.
 The Dataset Our dataset is a csv containing 45,000 samples. The dataset is made up of two columns, the &amp;lsquo;code&amp;rsquo; feature contains code snippets we want to classify and the language column, which is our label contains the programming language it belongs to.</description>
     </item>
     
     <item>
       <title> Image Localization and Object Distance Prediction with Pytorch.</title>
-      <link>damilojohn.github.io/posts/image-localization/</link>
+      <link>//localhost:1313/posts/image-localization/</link>
       <pubDate>Wed, 16 Aug 2023 04:14:46 +0100</pubDate>
       
-      <guid>damilojohn.github.io/posts/image-localization/</guid>
+      <guid>//localhost:1313/posts/image-localization/</guid>
       <description>Docking to the ISS would have been more fun if we actually had to dock with the international space station, regardless, we have an interesting problem of trying to create an automatic ISS docker by estimating the coordinates and distance of the international space station from images.
 In this article , we would be using deep learning to estimate the coordinates of an object in an image and also training the model to predict the distance of images .</description>
     </item>
     
     <item>
       <title>Learning to smell from Molecules </title>
-      <link>damilojohn.github.io/posts/learning_to_smell/</link>
+      <link>//localhost:1313/posts/learning_to_smell/</link>
       <pubDate>Tue, 15 Aug 2023 04:14:46 +0100</pubDate>
       
-      <guid>damilojohn.github.io/posts/learning_to_smell/</guid>
+      <guid>//localhost:1313/posts/learning_to_smell/</guid>
       <description>The title of this post might be a little confusing but what we are really going to do is to try and build a model to classify smells from their molecular compounds. This little project intertwines realms of chemistry and machine learning and it doesn&amp;rsquo;t get more interesting than that.
 This was definitely the most interesting machine learning thing I have done so far.</description>
     </item>
     
     <item>
       <title>A guide on how AI is changing Computational Photography </title>
-      <link>damilojohn.github.io/posts/computational-photography/</link>
+      <link>//localhost:1313/posts/computational-photography/</link>
       <pubDate>Thu, 10 Aug 2023 04:14:46 +0100</pubDate>
       
-      <guid>damilojohn.github.io/posts/computational-photography/</guid>
+      <guid>//localhost:1313/posts/computational-photography/</guid>
       <description>And Enhance!! (from Blade Runner ), that&amp;rsquo;s Computational Photography .
 Computational photography describes signal processing techniques and algorithms that allow computers to replicate photographic processes like motion - blur correction , auto-focus ,depth-sensing , zoom and other features that would otherwise be impossible without optics ,while some of these processes use artificial intelligence techniques, Computational Photography is more than just AI , it involves a series of process like that takes an image from the Ones and Zeros on captured by image signal sensors and process to the final image displayed on screens .</description>
     </item>
     
     <item>
-      <title>Document Retreival with LightGBM and XGBoost</title>
-      <link>damilojohn.github.io/projects/document-retrieval/</link>
-      <pubDate>Thu, 10 Aug 2023 04:14:46 +0100</pubDate>
-      
-      <guid>damilojohn.github.io/projects/document-retrieval/</guid>
-      <description>Exploring Document Retrieval with Ensemble methods . The aim of this article is to try to tackle document retrieval using two of the current most popular ensemble methods in machine learning and to draw and compare insights in their performance and efficiencies .
-Dataset Our dataset is the
-LightGBM </description>
-    </item>
-    
-    <item>
       <title>Byte-Pair Encoding, The Tokenization algorithm powering Large Language Models. </title>
-      <link>damilojohn.github.io/posts/bpe/</link>
+      <link>//localhost:1313/posts/bpe/</link>
       <pubDate>Thu, 20 Jul 2023 04:14:46 +0100</pubDate>
       
-      <guid>damilojohn.github.io/posts/bpe/</guid>
+      <guid>//localhost:1313/posts/bpe/</guid>
       <description>Tokenization is an umbrella term for the methods used to turn texts into chunks of words or sub-words. Tokenization has a lot of applications in computer science, from compilers to Natural Language Processing. In this article, we would be focusing on tokenizers in Language models, in particular, a method of tokenization called Byte Pair Encoding. The last few years have witnessed a revolution in NLP catalyzed mainly by the introduction of the transformers architecture in 2017 with the paper &amp;lsquo;Attention is all you need &amp;rsquo; epitomized by the introduction of ChatGPT in late 2022.</description>
     </item>
     
