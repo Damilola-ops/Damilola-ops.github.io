@@ -47,7 +47,7 @@ The tokenization process can be split into 2 steps, the training step and the ac
 
 The Training Process
 Training a tokenizer isn't the same as training processes we are familiar with in machine learning and deep learning. Here, there are no gradients or optimizers as it is simply an encoding process where the tokenizer learns to create merges and learn new merge rules. At every step of the training process, the most pair of consecutive tokens are merged and the vocabulary is updated. This process is repeated until a specified vocabulary size is reached
-Implementation
+## Implementation
 We would start by creating the example corpus or dataset we want our tokenizer to encode. Usually, this is replaced by an actual dataset like Wikipedia pages or books containing words that encompass the distribution of words we expect the tokenizer to come across. For simplification, our dataset is just a list of sentences (Tyler the Creator song titles if you haven't noticed).
 
 ```
