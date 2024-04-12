@@ -1,13 +1,14 @@
 ---
-title: "Melvin: An AI auto mechanics assistant  "
+title: "Melvin"
 date: 2023-08-15T04:14:46+01:00
-draft: true 
+draft: true
 cover:
-    image: ""
+    image: "melvin.png"
     alt: ''
 tags: ['Langchain','Modal', 'RAG']
 Categories: ['LLM','NLP','RAG']
 ---
+An auto-mechanics AI assistant 
 ## Advanced RAG customer Service Chatbot
 [Melvin](melvin.vercel.app) is a customer service AI assistant designed to help users get help on matters relating to road-worthy automobiles by helping in diagnosis of failures, providing repair and maintenance guides and being a user friendly companion in matters relating to cars.
 

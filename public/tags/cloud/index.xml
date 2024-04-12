@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Cloud on Home</title>
+    <link>//localhost:1313/tags/cloud/</link>
+    <description>Recent content in Cloud on Home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright Damilola John &amp;copy; 2023</copyright>
+    <lastBuildDate>Tue, 15 Aug 2023 04:14:46 +0100</lastBuildDate><atom:link href="//localhost:1313/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Zeeno - A text-based books recommendation service</title>
+      <link>//localhost:1313/projects/zeeno/</link>
+      <pubDate>Tue, 15 Aug 2023 04:14:46 +0100</pubDate>
+      
+      <guid>//localhost:1313/projects/zeeno/</guid>
+      <description>A text based books recommendation engine Find books by describing what they are about.
+Finding books What does that really mean? A recommendation engine is an algorithm or bunch of algorithms that help users find contents about a particular modality(video, text etc). A text based recommendation engine is one that helps users find information about some text input.
+Semantic Search Architecture Zeeno was built using a combination of semantic search, Sentence Transformers and Knowledge graphs,.</description>
+    </item>
+    
+  </channel>
+</rss>

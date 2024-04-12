@@ -1,21 +1,15 @@
 ---
-title: "Zeeno:
-A text-based books recommendation service "
-date: 2023-08-15T04:14:46+01:00
-draft: true
+title: "Zeeno - A text-based books recommendation service"
+date: 2024-03-15T04:14:46+01:00
+draft: False
 cover:
-    image: ""
-    alt: ''
+    image: "zeno-cover.jpg"
+    alt: 'Vanitas Still Life with a Candlestick, Musical Instruments, Dutch Books, a Writing Set, an Astrological and a Terrestial Globe and an Hourglass, All on a Draped Table by Evert Collier'
 tags: ['NLP','Semantic Search', 'Cloud','CI/CD']
-Categories: ['Cloud','NLP']
+Categories: ['Cloud','Semantic Search','Recsys']
 ---
-
-
-# A text based book recommendation engine 
-
-
-
-
+# A text based  books recommendation engine
+Find books by describing what they are about.
 
 ## Finding books 
 What does that really mean? 

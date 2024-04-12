@@ -1,12 +1,12 @@
 ---
-title: "I Tried to teach BERT 15 programming languages. "
+title: "Teaching BERT to identify 15 programming languages. "
 date: 2023-08-19T04:14:46+01:00
 draft: false 
 cover:
     image: "prog_class.jpg"
     alt: ''
 tags: ['Natural Language Processing','Deep Learning', 'Transformers']
-Categories: ['Machine Learning','NLP']
+Categories: ['LLM','Finetuning']
 ---
 
 # 

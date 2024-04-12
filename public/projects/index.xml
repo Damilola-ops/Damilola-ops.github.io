@@ -7,7 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright Damilola John &amp;copy; 2023</copyright>
-    <lastBuildDate>Tue, 15 Aug 2023 04:14:46 +0100</lastBuildDate><atom:link href="//localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 Mar 2024 04:14:46 +0100</lastBuildDate><atom:link href="//localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Zeeno - A text-based books recommendation service</title>
+      <link>//localhost:1313/projects/zeeno/</link>
+      <pubDate>Fri, 15 Mar 2024 04:14:46 +0100</pubDate>
+      
+      <guid>//localhost:1313/projects/zeeno/</guid>
+      <description>A text based books recommendation engine Find books by describing what they are about.
+Finding books What does that really mean? A recommendation engine is an algorithm or bunch of algorithms that help users find contents about a particular modality(video, text etc). A text based recommendation engine is one that helps users find information about some text input.
+Semantic Search Architecture Zeeno was built using a combination of semantic search, Sentence Transformers and Knowledge graphs,.</description>
+    </item>
+    
     <item>
       <title>Playlist Generator</title>
       <link>//localhost:1313/projects/playlist_generator/</link>

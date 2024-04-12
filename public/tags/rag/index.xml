@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>RAG on Home</title>
+    <link>//localhost:1313/tags/rag/</link>
+    <description>Recent content in RAG on Home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright Damilola John &amp;copy; 2023</copyright>
+    <lastBuildDate>Tue, 15 Aug 2023 04:14:46 +0100</lastBuildDate><atom:link href="//localhost:1313/tags/rag/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Melvin An AI auto mechanics assistant</title>
+      <link>//localhost:1313/projects/melvin/</link>
+      <pubDate>Tue, 15 Aug 2023 04:14:46 +0100</pubDate>
+      
+      <guid>//localhost:1313/projects/melvin/</guid>
+      <description>An auto-mechanics AI assistant
+Advanced RAG customer Service Chatbot Melvin is a customer service AI assistant designed to help users get help on matters relating to road-worthy automobiles by helping in diagnosis of failures, providing repair and maintenance guides and being a user friendly companion in matters relating to cars.
+Implementation Melvin is implemented using a combination of advanced RAG techniques, knowledge graphs, and a language model (OPENAI&amp;rsquo;S GPT-3.5-turbo). The whole service runs on Modal(a serverless cloud compute service) and uses a FASTAPI + Pydantic backend and a React Frontend, a MongoDB database,and a Pinecone Vector database</description>
+    </item>
+    
+  </channel>
+</rss>

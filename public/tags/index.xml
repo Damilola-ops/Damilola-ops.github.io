@@ -54,20 +54,101 @@
     </item>
     
     <item>
-      <title>Embeddings</title>
-      <link>//localhost:1313/tags/embeddings/</link>
-      <pubDate>Fri, 11 Aug 2023 02:14:46 +0100</pubDate>
+      <title>Chemistry</title>
+      <link>//localhost:1313/tags/chemistry/</link>
+      <pubDate>Tue, 15 Aug 2023 04:14:46 +0100</pubDate>
       
-      <guid>//localhost:1313/tags/embeddings/</guid>
+      <guid>//localhost:1313/tags/chemistry/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CI/CD</title>
+      <link>//localhost:1313/tags/ci/cd/</link>
+      <pubDate>Tue, 15 Aug 2023 04:14:46 +0100</pubDate>
+      
+      <guid>//localhost:1313/tags/ci/cd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cloud</title>
+      <link>//localhost:1313/tags/cloud/</link>
+      <pubDate>Tue, 15 Aug 2023 04:14:46 +0100</pubDate>
+      
+      <guid>//localhost:1313/tags/cloud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GPT</title>
+      <link>//localhost:1313/tags/gpt/</link>
+      <pubDate>Tue, 15 Aug 2023 04:14:46 +0100</pubDate>
+      
+      <guid>//localhost:1313/tags/gpt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Langchain</title>
+      <link>//localhost:1313/tags/langchain/</link>
+      <pubDate>Tue, 15 Aug 2023 04:14:46 +0100</pubDate>
+      
+      <guid>//localhost:1313/tags/langchain/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modal</title>
+      <link>//localhost:1313/tags/modal/</link>
+      <pubDate>Tue, 15 Aug 2023 04:14:46 +0100</pubDate>
+      
+      <guid>//localhost:1313/tags/modal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NLP</title>
+      <link>//localhost:1313/tags/nlp/</link>
+      <pubDate>Tue, 15 Aug 2023 04:14:46 +0100</pubDate>
+      
+      <guid>//localhost:1313/tags/nlp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Predictive-Modelling</title>
+      <link>//localhost:1313/tags/predictive-modelling/</link>
+      <pubDate>Tue, 15 Aug 2023 04:14:46 +0100</pubDate>
+      
+      <guid>//localhost:1313/tags/predictive-modelling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RAG</title>
+      <link>//localhost:1313/tags/rag/</link>
+      <pubDate>Tue, 15 Aug 2023 04:14:46 +0100</pubDate>
+      
+      <guid>//localhost:1313/tags/rag/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Semantic Search</title>
       <link>//localhost:1313/tags/semantic-search/</link>
-      <pubDate>Fri, 11 Aug 2023 02:14:46 +0100</pubDate>
+      <pubDate>Tue, 15 Aug 2023 04:14:46 +0100</pubDate>
       
       <guid>//localhost:1313/tags/semantic-search/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Embeddings</title>
+      <link>//localhost:1313/tags/embeddings/</link>
+      <pubDate>Fri, 11 Aug 2023 02:14:46 +0100</pubDate>
+      
+      <guid>//localhost:1313/tags/embeddings/</guid>
       <description></description>
     </item>
     

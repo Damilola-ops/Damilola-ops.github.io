@@ -9,7 +9,7 @@
     <copyright>Copyright Damilola John &amp;copy; 2023</copyright>
     <lastBuildDate>Sat, 19 Aug 2023 04:14:46 +0100</lastBuildDate><atom:link href="//localhost:1313/tags/natural-language-processing/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>I Tried to teach BERT 15 programming languages. </title>
+      <title>Teaching BERT to identify 15 programming languages. </title>
       <link>//localhost:1313/posts/language_classification/</link>
       <pubDate>Sat, 19 Aug 2023 04:14:46 +0100</pubDate>
       
@@ -19,13 +19,16 @@ The Dataset Our dataset is a csv containing 45,000 samples. The dataset is made 
     </item>
     
     <item>
-      <title>Learning to smell from Molecules </title>
-      <link>//localhost:1313/posts/learning_to_smell/</link>
+      <title>Finetuning GPT2 to Descramble Sentences</title>
+      <link>//localhost:1313/posts/text-desrambler/</link>
       <pubDate>Tue, 15 Aug 2023 04:14:46 +0100</pubDate>
       
-      <guid>//localhost:1313/posts/learning_to_smell/</guid>
-      <description>The title of this post might be a little confusing but what we are really going to do is to try and build a model to classify smells from their molecular compounds. This little project intertwines realms of chemistry and machine learning and it doesn&amp;rsquo;t get more interesting than that.
-This was definitely the most interesting machine learning thing I have done so far.</description>
+      <guid>//localhost:1313/posts/text-desrambler/</guid>
+      <description>Goal In this article, we would be fine-tuning OPENAI&amp;rsquo;s GPT2 on a non-trivial task of turning descrambled sentences into their grammatically correct forms using the same words in the sentence.
+This essentially means that we would be teaching GPT2 how to turn sentences from:
+The equations expensive. show is optimization computationally that to :
+The equations show that optimization is computationally expensive. More examples:
+&amp;#39;the which wiring flow. propose to diagram, method network a reflects signal We visualize&amp;#39;,&amp;#39;the interaction networks.</description>
     </item>
     
     <item>

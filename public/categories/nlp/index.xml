@@ -7,15 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright Damilola John &amp;copy; 2023</copyright>
-    <lastBuildDate>Sat, 19 Aug 2023 04:14:46 +0100</lastBuildDate><atom:link href="//localhost:1313/categories/nlp/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Aug 2023 04:14:46 +0100</lastBuildDate><atom:link href="//localhost:1313/categories/nlp/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>I Tried to teach BERT 15 programming languages. </title>
-      <link>//localhost:1313/posts/language_classification/</link>
-      <pubDate>Sat, 19 Aug 2023 04:14:46 +0100</pubDate>
+      <title>Finetuning GPT2 to Descramble Sentences</title>
+      <link>//localhost:1313/posts/text-desrambler/</link>
+      <pubDate>Tue, 15 Aug 2023 04:14:46 +0100</pubDate>
       
-      <guid>//localhost:1313/posts/language_classification/</guid>
-      <description>This is a fun side project where I tried to build a model that could identify 15 of the most popular programming languages. We would start with simple machine learning approaches and gradually work our way up to more complex methods till we have a satisfactory solution.
-The Dataset Our dataset is a csv containing 45,000 samples. The dataset is made up of two columns, the &amp;lsquo;code&amp;rsquo; feature contains code snippets we want to classify and the language column, which is our label contains the programming language it belongs to.</description>
+      <guid>//localhost:1313/posts/text-desrambler/</guid>
+      <description>Goal In this article, we would be fine-tuning OPENAI&amp;rsquo;s GPT2 on a non-trivial task of turning descrambled sentences into their grammatically correct forms using the same words in the sentence.
+This essentially means that we would be teaching GPT2 how to turn sentences from:
+The equations expensive. show is optimization computationally that to :
+The equations show that optimization is computationally expensive. More examples:
+&amp;#39;the which wiring flow. propose to diagram, method network a reflects signal We visualize&amp;#39;,&amp;#39;the interaction networks.</description>
     </item>
     
     <item>
@@ -24,8 +27,19 @@ The Dataset Our dataset is a csv containing 45,000 samples. The dataset is made 
       <pubDate>Tue, 15 Aug 2023 04:14:46 +0100</pubDate>
       
       <guid>//localhost:1313/posts/learning_to_smell/</guid>
-      <description>The title of this post might be a little confusing but what we are really going to do is to try and build a model to classify smells from their molecular compounds. This little project intertwines realms of chemistry and machine learning and it doesn&amp;rsquo;t get more interesting than that.
-This was definitely the most interesting machine learning thing I have done so far.</description>
+      <description>The title of this post might be a little confusing but what we are really going to do is to try and build a model to classify smells from their molecular compounds. This little project intertwines the realms of chemistry and machine learning,
+Our noses have more than 400 types of olfactory receptors expressed in 1 million+ olfactory sensory neurons, which are all on a small tissue - olfactory epithelium.</description>
+    </item>
+    
+    <item>
+      <title>Melvin An AI auto mechanics assistant</title>
+      <link>//localhost:1313/projects/melvin/</link>
+      <pubDate>Tue, 15 Aug 2023 04:14:46 +0100</pubDate>
+      
+      <guid>//localhost:1313/projects/melvin/</guid>
+      <description>An auto-mechanics AI assistant
+Advanced RAG customer Service Chatbot Melvin is a customer service AI assistant designed to help users get help on matters relating to road-worthy automobiles by helping in diagnosis of failures, providing repair and maintenance guides and being a user friendly companion in matters relating to cars.
+Implementation Melvin is implemented using a combination of advanced RAG techniques, knowledge graphs, and a language model (OPENAI&amp;rsquo;S GPT-3.5-turbo). The whole service runs on Modal(a serverless cloud compute service) and uses a FASTAPI + Pydantic backend and a React Frontend, a MongoDB database,and a Pinecone Vector database</description>
     </item>
     
   </channel>

@@ -9,20 +9,20 @@
     <copyright>Copyright Damilola John &amp;copy; 2023</copyright>
     <lastBuildDate>Sat, 19 Aug 2023 04:14:46 +0100</lastBuildDate><atom:link href="//localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Machine Learning</title>
-      <link>//localhost:1313/categories/machine-learning/</link>
+      <title>Finetuning</title>
+      <link>//localhost:1313/categories/finetuning/</link>
       <pubDate>Sat, 19 Aug 2023 04:14:46 +0100</pubDate>
       
-      <guid>//localhost:1313/categories/machine-learning/</guid>
+      <guid>//localhost:1313/categories/finetuning/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>NLP</title>
-      <link>//localhost:1313/categories/nlp/</link>
+      <title>LLM</title>
+      <link>//localhost:1313/categories/llm/</link>
       <pubDate>Sat, 19 Aug 2023 04:14:46 +0100</pubDate>
       
-      <guid>//localhost:1313/categories/nlp/</guid>
+      <guid>//localhost:1313/categories/llm/</guid>
       <description></description>
     </item>
     
@@ -45,18 +45,45 @@
     </item>
     
     <item>
+      <title>Machine Learning</title>
+      <link>//localhost:1313/categories/machine-learning/</link>
+      <pubDate>Wed, 16 Aug 2023 04:14:46 +0100</pubDate>
+      
+      <guid>//localhost:1313/categories/machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Cloud</title>
       <link>//localhost:1313/categories/cloud/</link>
-      <pubDate>Fri, 11 Aug 2023 02:14:46 +0100</pubDate>
+      <pubDate>Tue, 15 Aug 2023 04:14:46 +0100</pubDate>
       
       <guid>//localhost:1313/categories/cloud/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>NLP</title>
+      <link>//localhost:1313/categories/nlp/</link>
+      <pubDate>Tue, 15 Aug 2023 04:14:46 +0100</pubDate>
+      
+      <guid>//localhost:1313/categories/nlp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RAG</title>
+      <link>//localhost:1313/categories/rag/</link>
+      <pubDate>Tue, 15 Aug 2023 04:14:46 +0100</pubDate>
+      
+      <guid>//localhost:1313/categories/rag/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Recsys</title>
       <link>//localhost:1313/categories/recsys/</link>
-      <pubDate>Fri, 11 Aug 2023 02:14:46 +0100</pubDate>
+      <pubDate>Tue, 15 Aug 2023 04:14:46 +0100</pubDate>
       
       <guid>//localhost:1313/categories/recsys/</guid>
       <description></description>
@@ -65,7 +92,7 @@
     <item>
       <title>Semantic Search</title>
       <link>//localhost:1313/categories/semantic-search/</link>
-      <pubDate>Fri, 11 Aug 2023 02:14:46 +0100</pubDate>
+      <pubDate>Tue, 15 Aug 2023 04:14:46 +0100</pubDate>
       
       <guid>//localhost:1313/categories/semantic-search/</guid>
       <description></description>

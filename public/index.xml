@@ -7,9 +7,30 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright Damilola John &amp;copy; 2023</copyright>
-    <lastBuildDate>Sat, 19 Aug 2023 04:14:46 +0100</lastBuildDate><atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 Mar 2024 04:14:46 +0100</lastBuildDate><atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>I Tried to teach BERT 15 programming languages. </title>
+      <title>Zeeno - A text-based books recommendation service</title>
+      <link>//localhost:1313/projects/zeeno/</link>
+      <pubDate>Fri, 15 Mar 2024 04:14:46 +0100</pubDate>
+      
+      <guid>//localhost:1313/projects/zeeno/</guid>
+      <description>A text based books recommendation engine Find books by describing what they are about.
+Finding books What does that really mean? A recommendation engine is an algorithm or bunch of algorithms that help users find contents about a particular modality(video, text etc). A text based recommendation engine is one that helps users find information about some text input.
+Semantic Search Architecture Zeeno was built using a combination of semantic search, Sentence Transformers and Knowledge graphs,.</description>
+    </item>
+    
+    <item>
+      <title>Finetuning GPT2 to Reconstruct Sentences</title>
+      <link>//localhost:1313/posts/text-desrambler/</link>
+      <pubDate>Thu, 15 Feb 2024 04:14:46 +0100</pubDate>
+      
+      <guid>//localhost:1313/posts/text-desrambler/</guid>
+      <description>In this article, I would be fine-tuning OPENAI&amp;rsquo;s GPT2 on a non-trivial task of turning descrambled sentences into their grammatically correct forms using the same words in the sentence. It also provides a walkthrough on how to finetune models in modal&amp;rsquo;s gpu cloud and explores different training, optimization and generation strategies.
+Through this project, I aimed to explore the capabilities of large language models in performing text reconstruction - a valuable skill with applications in areas like language learning, content moderation, and semantic search.</description>
+    </item>
+    
+    <item>
+      <title>Teaching BERT to identify 15 programming languages. </title>
       <link>//localhost:1313/posts/language_classification/</link>
       <pubDate>Sat, 19 Aug 2023 04:14:46 +0100</pubDate>
       
@@ -34,8 +55,8 @@ In this article , we would be using deep learning to estimate the coordinates o
       <pubDate>Tue, 15 Aug 2023 04:14:46 +0100</pubDate>
       
       <guid>//localhost:1313/posts/learning_to_smell/</guid>
-      <description>The title of this post might be a little confusing but what we are really going to do is to try and build a model to classify smells from their molecular compounds. This little project intertwines realms of chemistry and machine learning and it doesn&amp;rsquo;t get more interesting than that.
-This was definitely the most interesting machine learning thing I have done so far.</description>
+      <description>The title of this post might be a little confusing but what we are really going to do is to try and build a model to classify smells from their molecular compounds. This little project intertwines the realms of chemistry and machine learning,
+Our noses have more than 400 types of olfactory receptors expressed in 1 million+ olfactory sensory neurons, which are all on a small tissue - olfactory epithelium.</description>
     </item>
     
     <item>
