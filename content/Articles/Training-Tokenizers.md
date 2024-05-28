@@ -3,7 +3,7 @@ title: "The untold problems that arise when Training BPE Tokenizers on large dat
 date: 2024-02-15T04:14:46+01:00
 draft: false 
 cover:
-    image: "anagrams.jpg"
+    image: ""
     alt: ''
 tags: ['Natural Language Processing', 'Transformers']
 Categories: ['NLP','LLM']

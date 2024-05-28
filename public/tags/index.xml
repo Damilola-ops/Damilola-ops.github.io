@@ -7,31 +7,112 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright Damilola John &amp;copy; 2023</copyright>
-    <lastBuildDate>Sat, 19 Aug 2023 04:14:46 +0100</lastBuildDate><atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 Mar 2024 04:14:46 +0100</lastBuildDate><atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Deep Learning</title>
-      <link>//localhost:1313/tags/deep-learning/</link>
-      <pubDate>Sat, 19 Aug 2023 04:14:46 +0100</pubDate>
+      <title>CI/CD</title>
+      <link>//localhost:1313/tags/ci/cd/</link>
+      <pubDate>Fri, 15 Mar 2024 04:14:46 +0100</pubDate>
       
-      <guid>//localhost:1313/tags/deep-learning/</guid>
+      <guid>//localhost:1313/tags/ci/cd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cloud</title>
+      <link>//localhost:1313/tags/cloud/</link>
+      <pubDate>Fri, 15 Mar 2024 04:14:46 +0100</pubDate>
+      
+      <guid>//localhost:1313/tags/cloud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NLP</title>
+      <link>//localhost:1313/tags/nlp/</link>
+      <pubDate>Fri, 15 Mar 2024 04:14:46 +0100</pubDate>
+      
+      <guid>//localhost:1313/tags/nlp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Semantic Search</title>
+      <link>//localhost:1313/tags/semantic-search/</link>
+      <pubDate>Fri, 15 Mar 2024 04:14:46 +0100</pubDate>
+      
+      <guid>//localhost:1313/tags/semantic-search/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chatbot</title>
+      <link>//localhost:1313/tags/chatbot/</link>
+      <pubDate>Thu, 15 Feb 2024 04:14:46 +0100</pubDate>
+      
+      <guid>//localhost:1313/tags/chatbot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Decision-Trees</title>
+      <link>//localhost:1313/tags/decision-trees/</link>
+      <pubDate>Thu, 15 Feb 2024 04:14:46 +0100</pubDate>
+      
+      <guid>//localhost:1313/tags/decision-trees/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Natural Language Processing</title>
       <link>//localhost:1313/tags/natural-language-processing/</link>
-      <pubDate>Sat, 19 Aug 2023 04:14:46 +0100</pubDate>
+      <pubDate>Thu, 15 Feb 2024 04:14:46 +0100</pubDate>
       
       <guid>//localhost:1313/tags/natural-language-processing/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>Papers</title>
+      <link>//localhost:1313/tags/papers/</link>
+      <pubDate>Thu, 15 Feb 2024 04:14:46 +0100</pubDate>
+      
+      <guid>//localhost:1313/tags/papers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RAG</title>
+      <link>//localhost:1313/tags/rag/</link>
+      <pubDate>Thu, 15 Feb 2024 04:14:46 +0100</pubDate>
+      
+      <guid>//localhost:1313/tags/rag/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RecSys</title>
+      <link>//localhost:1313/tags/recsys/</link>
+      <pubDate>Thu, 15 Feb 2024 04:14:46 +0100</pubDate>
+      
+      <guid>//localhost:1313/tags/recsys/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Transformers</title>
       <link>//localhost:1313/tags/transformers/</link>
-      <pubDate>Sat, 19 Aug 2023 04:14:46 +0100</pubDate>
+      <pubDate>Thu, 15 Feb 2024 04:14:46 +0100</pubDate>
       
       <guid>//localhost:1313/tags/transformers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deep Learning</title>
+      <link>//localhost:1313/tags/deep-learning/</link>
+      <pubDate>Sat, 19 Aug 2023 04:14:46 +0100</pubDate>
+      
+      <guid>//localhost:1313/tags/deep-learning/</guid>
       <description></description>
     </item>
     
@@ -63,83 +144,11 @@
     </item>
     
     <item>
-      <title>CI/CD</title>
-      <link>//localhost:1313/tags/ci/cd/</link>
-      <pubDate>Tue, 15 Aug 2023 04:14:46 +0100</pubDate>
-      
-      <guid>//localhost:1313/tags/ci/cd/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cloud</title>
-      <link>//localhost:1313/tags/cloud/</link>
-      <pubDate>Tue, 15 Aug 2023 04:14:46 +0100</pubDate>
-      
-      <guid>//localhost:1313/tags/cloud/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>GPT</title>
-      <link>//localhost:1313/tags/gpt/</link>
-      <pubDate>Tue, 15 Aug 2023 04:14:46 +0100</pubDate>
-      
-      <guid>//localhost:1313/tags/gpt/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Langchain</title>
-      <link>//localhost:1313/tags/langchain/</link>
-      <pubDate>Tue, 15 Aug 2023 04:14:46 +0100</pubDate>
-      
-      <guid>//localhost:1313/tags/langchain/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Modal</title>
-      <link>//localhost:1313/tags/modal/</link>
-      <pubDate>Tue, 15 Aug 2023 04:14:46 +0100</pubDate>
-      
-      <guid>//localhost:1313/tags/modal/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>NLP</title>
-      <link>//localhost:1313/tags/nlp/</link>
-      <pubDate>Tue, 15 Aug 2023 04:14:46 +0100</pubDate>
-      
-      <guid>//localhost:1313/tags/nlp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Predictive-Modelling</title>
       <link>//localhost:1313/tags/predictive-modelling/</link>
       <pubDate>Tue, 15 Aug 2023 04:14:46 +0100</pubDate>
       
       <guid>//localhost:1313/tags/predictive-modelling/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>RAG</title>
-      <link>//localhost:1313/tags/rag/</link>
-      <pubDate>Tue, 15 Aug 2023 04:14:46 +0100</pubDate>
-      
-      <guid>//localhost:1313/tags/rag/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Semantic Search</title>
-      <link>//localhost:1313/tags/semantic-search/</link>
-      <pubDate>Tue, 15 Aug 2023 04:14:46 +0100</pubDate>
-      
-      <guid>//localhost:1313/tags/semantic-search/</guid>
       <description></description>
     </item>
     

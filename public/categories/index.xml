@@ -7,22 +7,85 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright Damilola John &amp;copy; 2023</copyright>
-    <lastBuildDate>Sat, 19 Aug 2023 04:14:46 +0100</lastBuildDate><atom:link href="//localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 Mar 2024 04:14:46 +0100</lastBuildDate><atom:link href="//localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Finetuning</title>
-      <link>//localhost:1313/categories/finetuning/</link>
-      <pubDate>Sat, 19 Aug 2023 04:14:46 +0100</pubDate>
+      <title>Cloud</title>
+      <link>//localhost:1313/categories/cloud/</link>
+      <pubDate>Fri, 15 Mar 2024 04:14:46 +0100</pubDate>
       
-      <guid>//localhost:1313/categories/finetuning/</guid>
+      <guid>//localhost:1313/categories/cloud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recsys</title>
+      <link>//localhost:1313/categories/recsys/</link>
+      <pubDate>Fri, 15 Mar 2024 04:14:46 +0100</pubDate>
+      
+      <guid>//localhost:1313/categories/recsys/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Semantic Search</title>
+      <link>//localhost:1313/categories/semantic-search/</link>
+      <pubDate>Fri, 15 Mar 2024 04:14:46 +0100</pubDate>
+      
+      <guid>//localhost:1313/categories/semantic-search/</guid>
       <description></description>
     </item>
     
     <item>
       <title>LLM</title>
       <link>//localhost:1313/categories/llm/</link>
-      <pubDate>Sat, 19 Aug 2023 04:14:46 +0100</pubDate>
+      <pubDate>Thu, 15 Feb 2024 04:14:46 +0100</pubDate>
       
       <guid>//localhost:1313/categories/llm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine Learning</title>
+      <link>//localhost:1313/categories/machine-learning/</link>
+      <pubDate>Thu, 15 Feb 2024 04:14:46 +0100</pubDate>
+      
+      <guid>//localhost:1313/categories/machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NLP</title>
+      <link>//localhost:1313/categories/nlp/</link>
+      <pubDate>Thu, 15 Feb 2024 04:14:46 +0100</pubDate>
+      
+      <guid>//localhost:1313/categories/nlp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RAG</title>
+      <link>//localhost:1313/categories/rag/</link>
+      <pubDate>Thu, 15 Feb 2024 04:14:46 +0100</pubDate>
+      
+      <guid>//localhost:1313/categories/rag/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Transformers</title>
+      <link>//localhost:1313/categories/transformers/</link>
+      <pubDate>Thu, 15 Feb 2024 04:14:46 +0100</pubDate>
+      
+      <guid>//localhost:1313/categories/transformers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Finetuning</title>
+      <link>//localhost:1313/categories/finetuning/</link>
+      <pubDate>Sat, 19 Aug 2023 04:14:46 +0100</pubDate>
+      
+      <guid>//localhost:1313/categories/finetuning/</guid>
       <description></description>
     </item>
     
@@ -41,60 +104,6 @@
       <pubDate>Wed, 16 Aug 2023 04:14:46 +0100</pubDate>
       
       <guid>//localhost:1313/categories/deep-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Machine Learning</title>
-      <link>//localhost:1313/categories/machine-learning/</link>
-      <pubDate>Wed, 16 Aug 2023 04:14:46 +0100</pubDate>
-      
-      <guid>//localhost:1313/categories/machine-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cloud</title>
-      <link>//localhost:1313/categories/cloud/</link>
-      <pubDate>Tue, 15 Aug 2023 04:14:46 +0100</pubDate>
-      
-      <guid>//localhost:1313/categories/cloud/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>NLP</title>
-      <link>//localhost:1313/categories/nlp/</link>
-      <pubDate>Tue, 15 Aug 2023 04:14:46 +0100</pubDate>
-      
-      <guid>//localhost:1313/categories/nlp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>RAG</title>
-      <link>//localhost:1313/categories/rag/</link>
-      <pubDate>Tue, 15 Aug 2023 04:14:46 +0100</pubDate>
-      
-      <guid>//localhost:1313/categories/rag/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Recsys</title>
-      <link>//localhost:1313/categories/recsys/</link>
-      <pubDate>Tue, 15 Aug 2023 04:14:46 +0100</pubDate>
-      
-      <guid>//localhost:1313/categories/recsys/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Semantic Search</title>
-      <link>//localhost:1313/categories/semantic-search/</link>
-      <pubDate>Tue, 15 Aug 2023 04:14:46 +0100</pubDate>
-      
-      <guid>//localhost:1313/categories/semantic-search/</guid>
       <description></description>
     </item>
     

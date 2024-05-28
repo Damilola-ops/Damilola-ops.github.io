@@ -7,39 +7,54 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright Damilola John &amp;copy; 2023</copyright>
-    <lastBuildDate>Tue, 15 Aug 2023 04:14:46 +0100</lastBuildDate><atom:link href="//localhost:1313/categories/nlp/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 15 Feb 2024 04:14:46 +0100</lastBuildDate><atom:link href="//localhost:1313/categories/nlp/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Finetuning GPT2 to Descramble Sentences</title>
-      <link>//localhost:1313/posts/text-desrambler/</link>
-      <pubDate>Tue, 15 Aug 2023 04:14:46 +0100</pubDate>
+      <title>Art History Educational Tool</title>
+      <link>//localhost:1313/projects/askarthistory/</link>
+      <pubDate>Thu, 15 Feb 2024 04:14:46 +0100</pubDate>
       
-      <guid>//localhost:1313/posts/text-desrambler/</guid>
-      <description>Goal In this article, we would be fine-tuning OPENAI&amp;rsquo;s GPT2 on a non-trivial task of turning descrambled sentences into their grammatically correct forms using the same words in the sentence.
-This essentially means that we would be teaching GPT2 how to turn sentences from:
-The equations expensive. show is optimization computationally that to :
-The equations show that optimization is computationally expensive. More examples:
-&amp;#39;the which wiring flow. propose to diagram, method network a reflects signal We visualize&amp;#39;,&amp;#39;the interaction networks.</description>
+      <guid>//localhost:1313/projects/askarthistory/</guid>
+      <description>A telegram bot that answers questions on Modern Art History. Built using LlamaIndex and GPT3.5.</description>
+    </item>
+    
+    <item>
+      <title>Finetuning GPT2 to Reconstruct Sentences</title>
+      <link>//localhost:1313/articles/text-desrambler/</link>
+      <pubDate>Thu, 15 Feb 2024 04:14:46 +0100</pubDate>
+      
+      <guid>//localhost:1313/articles/text-desrambler/</guid>
+      <description>In this article, I would be fine-tuning OPENAI&amp;rsquo;s GPT2 on a non-trivial task of turning descrambled sentences into their grammatically correct forms using the same words in the sentence. It also provides a walkthrough on how to finetune models in modal&amp;rsquo;s gpu cloud and explores different training, optimization and generation strategies.
+Through this project, I aimed to explore the capabilities of large language models in performing text reconstruction - a valuable skill with applications in areas like language learning, content moderation, and semantic search.</description>
+    </item>
+    
+    <item>
+      <title>Personalized Prompt Learning for Explainable Recommendations.</title>
+      <link>//localhost:1313/projects/pepler/</link>
+      <pubDate>Thu, 15 Feb 2024 04:14:46 +0100</pubDate>
+      
+      <guid>//localhost:1313/projects/pepler/</guid>
+      <description>An Implementation of the PEPLER paper ,an exploration in soft-prompt tuning.</description>
+    </item>
+    
+    <item>
+      <title>The untold problems that arise when Training BPE Tokenizers on large datasets</title>
+      <link>//localhost:1313/articles/training-tokenizers/</link>
+      <pubDate>Thu, 15 Feb 2024 04:14:46 +0100</pubDate>
+      
+      <guid>//localhost:1313/articles/training-tokenizers/</guid>
+      <description>The first step to training a language model on a new domain is to train a tokenizer. In this article, we would be focusing on the challenges that arise when training tokenizers on large datasets, in particular, Byte-Pair-Encoding Tokenizers.
+If you weren&amp;rsquo;t already familiar with Byte-Pair-Encoding, You can check out Karpathy&amp;rsquo;s(link to karpathy BPE) video or an article I wrote a while ago👀
+Training a BPE tokenizer is a CPU and memory heavy tasks that can get out of hand pretty quickly.</description>
     </item>
     
     <item>
       <title>Learning to smell from Molecules </title>
-      <link>//localhost:1313/posts/learning_to_smell/</link>
+      <link>//localhost:1313/articles/learning_to_smell/</link>
       <pubDate>Tue, 15 Aug 2023 04:14:46 +0100</pubDate>
       
-      <guid>//localhost:1313/posts/learning_to_smell/</guid>
+      <guid>//localhost:1313/articles/learning_to_smell/</guid>
       <description>The title of this post might be a little confusing but what we are really going to do is to try and build a model to classify smells from their molecular compounds. This little project intertwines the realms of chemistry and machine learning,
 Our noses have more than 400 types of olfactory receptors expressed in 1 million+ olfactory sensory neurons, which are all on a small tissue - olfactory epithelium.</description>
-    </item>
-    
-    <item>
-      <title>Melvin An AI auto mechanics assistant</title>
-      <link>//localhost:1313/projects/melvin/</link>
-      <pubDate>Tue, 15 Aug 2023 04:14:46 +0100</pubDate>
-      
-      <guid>//localhost:1313/projects/melvin/</guid>
-      <description>An auto-mechanics AI assistant
-Advanced RAG customer Service Chatbot Melvin is a customer service AI assistant designed to help users get help on matters relating to road-worthy automobiles by helping in diagnosis of failures, providing repair and maintenance guides and being a user friendly companion in matters relating to cars.
-Implementation Melvin is implemented using a combination of advanced RAG techniques, knowledge graphs, and a language model (OPENAI&amp;rsquo;S GPT-3.5-turbo). The whole service runs on Modal(a serverless cloud compute service) and uses a FASTAPI + Pydantic backend and a React Frontend, a MongoDB database,and a Pinecone Vector database</description>
     </item>
     
   </channel>

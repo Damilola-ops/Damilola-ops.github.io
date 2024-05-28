@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Chatbot on Home</title>
+    <link>//localhost:1313/tags/chatbot/</link>
+    <description>Recent content in Chatbot on Home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright Damilola John &amp;copy; 2023</copyright>
+    <lastBuildDate>Thu, 15 Feb 2024 04:14:46 +0100</lastBuildDate><atom:link href="//localhost:1313/tags/chatbot/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Art History Educational Tool</title>
+      <link>//localhost:1313/projects/askarthistory/</link>
+      <pubDate>Thu, 15 Feb 2024 04:14:46 +0100</pubDate>
+      
+      <guid>//localhost:1313/projects/askarthistory/</guid>
+      <description>A telegram bot that answers questions on Modern Art History. Built using LlamaIndex and GPT3.5.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -52,7 +52,7 @@ params:
         imageTitle: pp
         buttons:
             - name: Articles 
-              url: "/posts"
+              url: "/Articles"
             - name: Projects
               url: "/projects"
             - name: CV 
@@ -94,9 +94,9 @@ menu:
        name: Projects
        url : /projects/
        weight: 20
-     - identifier: posts
-       name: Posts
-       url: /posts/ 
+     - identifier: Articles
+       name: Articles
+       url: /Articles/ 
        weight: 30 
      - identifier: categories
        name: Categories

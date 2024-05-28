@@ -19,6 +19,17 @@ Through this project, I aimed to explore the capabilities of large language mode
     </item>
     
     <item>
+      <title>The untold problems that arise when Training BPE Tokenizers on large datasets</title>
+      <link>//localhost:1313/posts/training-tokenizers/</link>
+      <pubDate>Thu, 15 Feb 2024 04:14:46 +0100</pubDate>
+      
+      <guid>//localhost:1313/posts/training-tokenizers/</guid>
+      <description>The first step to training a language model on a new domain is to train a tokenizer. In this article, we would be focusing on the challenges that arise when training tokenizers on large datasets, in particular, Byte-Pair-Encoding Tokenizers.
+If you weren&amp;rsquo;t already familiar with Byte-Pair-Encoding, You can check out Karpathy&amp;rsquo;s(link to karpathy BPE) video or an article I wrote a while ago👀
+Training a BPE tokenizer is a CPU and memory heavy tasks that can get out of hand pretty quickly.</description>
+    </item>
+    
+    <item>
       <title>Teaching BERT to identify 15 programming languages. </title>
       <link>//localhost:1313/posts/language_classification/</link>
       <pubDate>Sat, 19 Aug 2023 04:14:46 +0100</pubDate>

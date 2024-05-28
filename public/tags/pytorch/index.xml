@@ -10,10 +10,10 @@
     <lastBuildDate>Wed, 16 Aug 2023 04:14:46 +0100</lastBuildDate><atom:link href="//localhost:1313/tags/pytorch/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title> Image Localization and Object Distance Prediction with Pytorch.</title>
-      <link>//localhost:1313/posts/image-localization/</link>
+      <link>//localhost:1313/articles/image-localization/</link>
       <pubDate>Wed, 16 Aug 2023 04:14:46 +0100</pubDate>
       
-      <guid>//localhost:1313/posts/image-localization/</guid>
+      <guid>//localhost:1313/articles/image-localization/</guid>
       <description>Docking to the ISS would have been more fun if we actually had to dock with the international space station, regardless, we have an interesting problem of trying to create an automatic ISS docker by estimating the coordinates and distance of the international space station from images.
 In this article , we would be using deep learning to estimate the coordinates of an object in an image and also training the model to predict the distance of images .</description>
     </item>
