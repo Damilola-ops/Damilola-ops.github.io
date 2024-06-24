@@ -14,9 +14,10 @@
       <pubDate>Fri, 15 Mar 2024 04:14:46 +0100</pubDate>
       
       <guid>//localhost:1313/projects/zeeno/</guid>
-      <description>A text based books recommendation engine Find books by describing what they are about.
-Finding books What does that really mean? A recommendation engine is an algorithm or bunch of algorithms that help users find contents about a particular modality(video, text etc). A text based recommendation engine is one that helps users find information about some text input.
-Semantic Search Architecture Zeeno was built using a combination of semantic search, Sentence Transformers and Knowledge graphs,.</description>
+      <description>Find books about topics/ideas in your head An app that lets you find books about ideas or topics you are thinking about.
+Examples Find books by describing what they are about.
+Contributors :
+Oduguwa Damilola John (Machine Learning) Makinde Damilola (Frontend Engineering) Offisong Emmanuel Etim (Devops) Adebowale Segun (Design) Babaoye (Design) Lawal Adenike Lateefah(Product Management) Dahood Kolawole Olaoluwa (Cyber-Security) Umeh Lotanna (Emotional support) </description>
     </item>
     
     <item>

@@ -8,41 +8,15 @@ cover:
 tags: ['NLP','Semantic Search', 'Cloud','CI/CD']
 Categories: ['Cloud','Semantic Search','Recsys']
 ---
-# A text based  books recommendation engine
+# Find books about topics/ideas  in your head 
+An app that lets you find books about ideas or topics you are thinking about. 
+
+## Examples 
+
+
+
 Find books by describing what they are about.
 
-## Finding books 
-What does that really mean? 
-A recommendation engine is an algorithm or bunch of algorithms that help users find contents about a particular modality(video, text etc). A text based recommendation engine is one that helps users find information about some text input. 
-
-## Semantic Search 
-
-
-
-## Architecture 
-[Zeeno](https://zeeno.vercel.app) was built using a combination of semantic search, Sentence Transformers and Knowledge graphs,. The backend is built by deploying a serverless AWS lambda function from container images. The lambda function is triggered via API Gateway by queries from the frontend. The AWS Lambda function takes the users query and performs semantic search over a Pinecone vector database
-
-
-
-
-## Finetuning Embeddings 
-
-
-
-
-## Data 
-
-
-
-
-## CI/CD 
-
-
-
-## Serverless Hosting and Inference 
-
-
-## 
 
 
 Contributors :
@@ -54,4 +28,4 @@ Contributors :
 - Lawal Adenike Lateefah(Product Management)
 - Dahood 
 - Kolawole Olaoluwa (Cyber-Security)
-- Umeh Lotanna (Moral support)
+- Umeh Lotanna (Emotional support)
