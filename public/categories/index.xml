@@ -7,7 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright Damilola John &amp;copy; 2023</copyright>
-    <lastBuildDate>Fri, 15 Mar 2024 04:14:46 +0100</lastBuildDate><atom:link href="//localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 15 May 2024 04:14:46 +0100</lastBuildDate><atom:link href="//localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LLM</title>
+      <link>//localhost:1313/categories/llm/</link>
+      <pubDate>Wed, 15 May 2024 04:14:46 +0100</pubDate>
+      
+      <guid>//localhost:1313/categories/llm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NLP</title>
+      <link>//localhost:1313/categories/nlp/</link>
+      <pubDate>Wed, 15 May 2024 04:14:46 +0100</pubDate>
+      
+      <guid>//localhost:1313/categories/nlp/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Cloud</title>
       <link>//localhost:1313/categories/cloud/</link>
@@ -36,29 +54,11 @@
     </item>
     
     <item>
-      <title>LLM</title>
-      <link>//localhost:1313/categories/llm/</link>
-      <pubDate>Thu, 15 Feb 2024 04:14:46 +0100</pubDate>
-      
-      <guid>//localhost:1313/categories/llm/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Machine Learning</title>
       <link>//localhost:1313/categories/machine-learning/</link>
       <pubDate>Thu, 15 Feb 2024 04:14:46 +0100</pubDate>
       
       <guid>//localhost:1313/categories/machine-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>NLP</title>
-      <link>//localhost:1313/categories/nlp/</link>
-      <pubDate>Thu, 15 Feb 2024 04:14:46 +0100</pubDate>
-      
-      <guid>//localhost:1313/categories/nlp/</guid>
       <description></description>
     </item>
     

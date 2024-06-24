@@ -2,8 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>//localhost:1313/articles/</loc>
+    <lastmod>2024-05-15T04:14:46+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/articles/zeeno/</loc>
+    <lastmod>2024-05-15T04:14:46+01:00</lastmod>
+  </url><url>
     <loc>//localhost:1313/categories/</loc>
-    <lastmod>2024-03-15T04:14:46+01:00</lastmod>
+    <lastmod>2024-05-15T04:14:46+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/</loc>
+    <lastmod>2024-05-15T04:14:46+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/categories/llm/</loc>
+    <lastmod>2024-05-15T04:14:46+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/natural-language-processing/</loc>
+    <lastmod>2024-05-15T04:14:46+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/categories/nlp/</loc>
+    <lastmod>2024-05-15T04:14:46+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/</loc>
+    <lastmod>2024-05-15T04:14:46+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/transformers/</loc>
+    <lastmod>2024-05-15T04:14:46+01:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/ci/cd/</loc>
     <lastmod>2024-03-15T04:14:46+01:00</lastmod>
@@ -12,9 +36,6 @@
     <lastmod>2024-03-15T04:14:46+01:00</lastmod>
   </url><url>
     <loc>//localhost:1313/categories/cloud/</loc>
-    <lastmod>2024-03-15T04:14:46+01:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/</loc>
     <lastmod>2024-03-15T04:14:46+01:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/nlp/</loc>
@@ -32,9 +53,6 @@
     <loc>//localhost:1313/categories/semantic-search/</loc>
     <lastmod>2024-03-15T04:14:46+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/</loc>
-    <lastmod>2024-03-15T04:14:46+01:00</lastmod>
-  </url><url>
     <loc>//localhost:1313/projects/zeeno/</loc>
     <lastmod>2024-03-15T04:14:46+01:00</lastmod>
   </url><url>
@@ -42,9 +60,6 @@
     <lastmod>2024-02-15T04:14:46+01:00</lastmod>
   </url><url>
     <loc>//localhost:1313/projects/askarthistory/</loc>
-    <lastmod>2024-02-15T04:14:46+01:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/articles/</loc>
     <lastmod>2024-02-15T04:14:46+01:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/chatbot/</loc>
@@ -56,16 +71,7 @@
     <loc>//localhost:1313/articles/text-desrambler/</loc>
     <lastmod>2024-02-15T04:14:46+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/llm/</loc>
-    <lastmod>2024-02-15T04:14:46+01:00</lastmod>
-  </url><url>
     <loc>//localhost:1313/categories/machine-learning/</loc>
-    <lastmod>2024-02-15T04:14:46+01:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/natural-language-processing/</loc>
-    <lastmod>2024-02-15T04:14:46+01:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/categories/nlp/</loc>
     <lastmod>2024-02-15T04:14:46+01:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/papers/</loc>
@@ -84,9 +90,6 @@
     <lastmod>2024-02-15T04:14:46+01:00</lastmod>
   </url><url>
     <loc>//localhost:1313/articles/training-tokenizers/</loc>
-    <lastmod>2024-02-15T04:14:46+01:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/transformers/</loc>
     <lastmod>2024-02-15T04:14:46+01:00</lastmod>
   </url><url>
     <loc>//localhost:1313/categories/transformers/</loc>

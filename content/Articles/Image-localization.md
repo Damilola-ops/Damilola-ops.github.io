@@ -1,7 +1,7 @@
 ---
 title: " Image Localization and Object Distance Prediction with Pytorch."
 date: 2023-08-16T04:14:46+01:00
-draft: false
+draft: True
 cover:
     image: "iss.jpg"
     alt: 'image sensor'

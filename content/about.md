@@ -6,7 +6,7 @@ type: page
 
 # Hi I'm  Damilola 
 
-### a passionate and driven software engineering student with a deep fascination for the intersection of technology and intelligence. Currently pursuing my degree in Computer Engineering from the University of Lagos, I am enthusiastic about leveraging my skills to contribute meaningfully in the field of machine learning engineering.  
+### a passionate and driven software engineering student with a deep fascination for the intersection of technology and intelligence. Currently pursuing a degree in Computer Engineering from the University of Lagos, I am enthusiastic about leveraging my skills to contribute meaningfully in the field of machine learning engineering.  
 
 # 
 
