@@ -7,11 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright Damilola John &amp;copy; 2023</copyright>
-    <lastBuildDate>Wed, 15 May 2024 04:14:46 +0100</lastBuildDate><atom:link href="//localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 15 Jun 2024 04:14:46 +0100</lastBuildDate><atom:link href="//localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LLM</title>
       <link>//localhost:1313/categories/llm/</link>
-      <pubDate>Wed, 15 May 2024 04:14:46 +0100</pubDate>
+      <pubDate>Sat, 15 Jun 2024 04:14:46 +0100</pubDate>
       
       <guid>//localhost:1313/categories/llm/</guid>
       <description></description>
@@ -20,7 +20,7 @@
     <item>
       <title>NLP</title>
       <link>//localhost:1313/categories/nlp/</link>
-      <pubDate>Wed, 15 May 2024 04:14:46 +0100</pubDate>
+      <pubDate>Sat, 15 Jun 2024 04:14:46 +0100</pubDate>
       
       <guid>//localhost:1313/categories/nlp/</guid>
       <description></description>
@@ -54,33 +54,6 @@
     </item>
     
     <item>
-      <title>Machine Learning</title>
-      <link>//localhost:1313/categories/machine-learning/</link>
-      <pubDate>Thu, 15 Feb 2024 04:14:46 +0100</pubDate>
-      
-      <guid>//localhost:1313/categories/machine-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>RAG</title>
-      <link>//localhost:1313/categories/rag/</link>
-      <pubDate>Thu, 15 Feb 2024 04:14:46 +0100</pubDate>
-      
-      <guid>//localhost:1313/categories/rag/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Transformers</title>
-      <link>//localhost:1313/categories/transformers/</link>
-      <pubDate>Thu, 15 Feb 2024 04:14:46 +0100</pubDate>
-      
-      <guid>//localhost:1313/categories/transformers/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Finetuning</title>
       <link>//localhost:1313/categories/finetuning/</link>
       <pubDate>Sat, 19 Aug 2023 04:14:46 +0100</pubDate>
@@ -90,20 +63,20 @@
     </item>
     
     <item>
-      <title>Computer Vision</title>
-      <link>//localhost:1313/categories/computer-vision/</link>
-      <pubDate>Wed, 16 Aug 2023 04:14:46 +0100</pubDate>
+      <title>Machine Learning</title>
+      <link>//localhost:1313/categories/machine-learning/</link>
+      <pubDate>Fri, 11 Aug 2023 02:14:46 +0100</pubDate>
       
-      <guid>//localhost:1313/categories/computer-vision/</guid>
+      <guid>//localhost:1313/categories/machine-learning/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Deep Learning</title>
-      <link>//localhost:1313/categories/deep-learning/</link>
-      <pubDate>Wed, 16 Aug 2023 04:14:46 +0100</pubDate>
+      <title>Computer Vision</title>
+      <link>//localhost:1313/categories/computer-vision/</link>
+      <pubDate>Wed, 10 May 2023 04:14:46 +0100</pubDate>
       
-      <guid>//localhost:1313/categories/deep-learning/</guid>
+      <guid>//localhost:1313/categories/computer-vision/</guid>
       <description></description>
     </item>
     

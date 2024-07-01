@@ -30,16 +30,6 @@ The Dataset Our dataset is a csv containing 45,000 samples. The dataset is made 
     </item>
     
     <item>
-      <title>Learning to smell from Molecules </title>
-      <link>//localhost:1313/articles/learning_to_smell/</link>
-      <pubDate>Tue, 15 Aug 2023 04:14:46 +0100</pubDate>
-      
-      <guid>//localhost:1313/articles/learning_to_smell/</guid>
-      <description>The title of this post might be a little confusing but what we are really going to do is to try and build a model to classify smells from their molecular compounds. This little project intertwines the realms of chemistry and machine learning,
-Our noses have more than 400 types of olfactory receptors expressed in 1 million+ olfactory sensory neurons, which are all on a small tissue - olfactory epithelium.</description>
-    </item>
-    
-    <item>
       <title>Byte-Pair Encoding, The Tokenization algorithm powering Large Language Models. </title>
       <link>//localhost:1313/articles/bpe/</link>
       <pubDate>Thu, 20 Jul 2023 04:14:46 +0100</pubDate>

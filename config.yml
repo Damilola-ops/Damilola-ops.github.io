@@ -52,11 +52,11 @@ params:
         imageTitle: pp
         buttons:
             - name: Articles 
-              url: "/Articles"
+              url: "/Articles/"
             - name: Projects
               url: "/projects"
             - name: CV 
-              url: "./Oduguwa-Damilola-John Resume.pdf"
+              url: "./Damilola-John-Oduguwa-CV.pdf"
         
   
   

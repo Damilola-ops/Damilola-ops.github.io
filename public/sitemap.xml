@@ -3,31 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>//localhost:1313/articles/</loc>
-    <lastmod>2024-05-15T04:14:46+01:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/articles/zeeno/</loc>
-    <lastmod>2024-05-15T04:14:46+01:00</lastmod>
+    <lastmod>2024-06-15T04:14:46+01:00</lastmod>
   </url><url>
     <loc>//localhost:1313/categories/</loc>
-    <lastmod>2024-05-15T04:14:46+01:00</lastmod>
+    <lastmod>2024-06-15T04:14:46+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/articles/text-desrambler/</loc>
+    <lastmod>2024-06-15T04:14:46+01:00</lastmod>
   </url><url>
     <loc>//localhost:1313/</loc>
-    <lastmod>2024-05-15T04:14:46+01:00</lastmod>
+    <lastmod>2024-06-15T04:14:46+01:00</lastmod>
   </url><url>
     <loc>//localhost:1313/categories/llm/</loc>
-    <lastmod>2024-05-15T04:14:46+01:00</lastmod>
+    <lastmod>2024-06-15T04:14:46+01:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/natural-language-processing/</loc>
-    <lastmod>2024-05-15T04:14:46+01:00</lastmod>
+    <lastmod>2024-06-15T04:14:46+01:00</lastmod>
   </url><url>
     <loc>//localhost:1313/categories/nlp/</loc>
-    <lastmod>2024-05-15T04:14:46+01:00</lastmod>
+    <lastmod>2024-06-15T04:14:46+01:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/</loc>
-    <lastmod>2024-05-15T04:14:46+01:00</lastmod>
+    <lastmod>2024-06-15T04:14:46+01:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/transformers/</loc>
-    <lastmod>2024-05-15T04:14:46+01:00</lastmod>
+    <lastmod>2024-06-15T04:14:46+01:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/ci/cd/</loc>
     <lastmod>2024-03-15T04:14:46+01:00</lastmod>
@@ -56,45 +56,6 @@
     <loc>//localhost:1313/projects/zeeno/</loc>
     <lastmod>2024-03-15T04:14:46+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/projects/decision-trees_planning/</loc>
-    <lastmod>2024-02-15T04:14:46+01:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/projects/askarthistory/</loc>
-    <lastmod>2024-02-15T04:14:46+01:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/chatbot/</loc>
-    <lastmod>2024-02-15T04:14:46+01:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/decision-trees/</loc>
-    <lastmod>2024-02-15T04:14:46+01:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/articles/text-desrambler/</loc>
-    <lastmod>2024-02-15T04:14:46+01:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/categories/machine-learning/</loc>
-    <lastmod>2024-02-15T04:14:46+01:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/papers/</loc>
-    <lastmod>2024-02-15T04:14:46+01:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/projects/pepler/</loc>
-    <lastmod>2024-02-15T04:14:46+01:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/rag/</loc>
-    <lastmod>2024-02-15T04:14:46+01:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/categories/rag/</loc>
-    <lastmod>2024-02-15T04:14:46+01:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/recsys/</loc>
-    <lastmod>2024-02-15T04:14:46+01:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/articles/training-tokenizers/</loc>
-    <lastmod>2024-02-15T04:14:46+01:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/categories/transformers/</loc>
-    <lastmod>2024-02-15T04:14:46+01:00</lastmod>
-  </url><url>
     <loc>//localhost:1313/tags/deep-learning/</loc>
     <lastmod>2023-08-19T04:14:46+01:00</lastmod>
   </url><url>
@@ -104,44 +65,29 @@
     <loc>//localhost:1313/articles/language_classification/</loc>
     <lastmod>2023-08-19T04:14:46+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/articles/image-localization/</loc>
-    <lastmod>2023-08-16T04:14:46+01:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/computer-vision/</loc>
-    <lastmod>2023-08-16T04:14:46+01:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/categories/computer-vision/</loc>
-    <lastmod>2023-08-16T04:14:46+01:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/categories/deep-learning/</loc>
-    <lastmod>2023-08-16T04:14:46+01:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/pytorch/</loc>
-    <lastmod>2023-08-16T04:14:46+01:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/chemistry/</loc>
-    <lastmod>2023-08-15T04:14:46+01:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/articles/learning_to_smell/</loc>
-    <lastmod>2023-08-15T04:14:46+01:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/predictive-modelling/</loc>
-    <lastmod>2023-08-15T04:14:46+01:00</lastmod>
-  </url><url>
     <loc>//localhost:1313/tags/embeddings/</loc>
+    <lastmod>2023-08-11T02:14:46+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/categories/machine-learning/</loc>
     <lastmod>2023-08-11T02:14:46+01:00</lastmod>
   </url><url>
     <loc>//localhost:1313/projects/playlist_generator/</loc>
     <lastmod>2023-08-11T02:14:46+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/articles/computational-photography/</loc>
-    <lastmod>2023-08-10T04:14:46+01:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/aritificial-intelligence/</loc>
-    <lastmod>2023-08-10T04:14:46+01:00</lastmod>
-  </url><url>
     <loc>//localhost:1313/articles/bpe/</loc>
     <lastmod>2023-07-20T04:14:46+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/articles/computational-photography/</loc>
+    <lastmod>2023-05-10T04:14:46+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/aritificial-intelligence/</loc>
+    <lastmod>2023-05-10T04:14:46+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/computer-vision/</loc>
+    <lastmod>2023-05-10T04:14:46+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/categories/computer-vision/</loc>
+    <lastmod>2023-05-10T04:14:46+01:00</lastmod>
   </url><url>
     <loc>//localhost:1313/projects/localagent/</loc>
   </url><url>

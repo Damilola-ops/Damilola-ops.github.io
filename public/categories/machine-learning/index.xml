@@ -7,36 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright Damilola John &amp;copy; 2023</copyright>
-    <lastBuildDate>Thu, 15 Feb 2024 04:14:46 +0100</lastBuildDate><atom:link href="//localhost:1313/categories/machine-learning/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>A rail planning bot based on Decision Trees</title>
-      <link>//localhost:1313/projects/decision-trees_planning/</link>
-      <pubDate>Thu, 15 Feb 2024 04:14:46 +0100</pubDate>
-      
-      <guid>//localhost:1313/projects/decision-trees_planning/</guid>
-      <description>A decision-tree based</description>
-    </item>
-    
-    <item>
-      <title> Image Localization and Object Distance Prediction with Pytorch.</title>
-      <link>//localhost:1313/articles/image-localization/</link>
-      <pubDate>Wed, 16 Aug 2023 04:14:46 +0100</pubDate>
-      
-      <guid>//localhost:1313/articles/image-localization/</guid>
-      <description>Docking to the ISS would have been more fun if we actually had to dock with the international space station, regardless, we have an interesting problem of trying to create an automatic ISS docker by estimating the coordinates and distance of the international space station from images.
-In this article , we would be using deep learning to estimate the coordinates of an object in an image and also training the model to predict the distance of images .</description>
-    </item>
-    
-    <item>
-      <title>Learning to smell from Molecules </title>
-      <link>//localhost:1313/articles/learning_to_smell/</link>
-      <pubDate>Tue, 15 Aug 2023 04:14:46 +0100</pubDate>
-      
-      <guid>//localhost:1313/articles/learning_to_smell/</guid>
-      <description>The title of this post might be a little confusing but what we are really going to do is to try and build a model to classify smells from their molecular compounds. This little project intertwines the realms of chemistry and machine learning,
-Our noses have more than 400 types of olfactory receptors expressed in 1 million+ olfactory sensory neurons, which are all on a small tissue - olfactory epithelium.</description>
-    </item>
-    
+    <lastBuildDate>Fri, 11 Aug 2023 02:14:46 +0100</lastBuildDate><atom:link href="//localhost:1313/categories/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Playlist Generator</title>
       <link>//localhost:1313/projects/playlist_generator/</link>
@@ -47,22 +18,22 @@ Our noses have more than 400 types of olfactory receptors expressed in 1 million
     </item>
     
     <item>
-      <title>A guide on how AI is changing Computational Photography </title>
-      <link>//localhost:1313/articles/computational-photography/</link>
-      <pubDate>Thu, 10 Aug 2023 04:14:46 +0100</pubDate>
-      
-      <guid>//localhost:1313/articles/computational-photography/</guid>
-      <description>And Enhance!! (from Blade Runner ), that&amp;rsquo;s Computational Photography .
-Computational photography describes signal processing techniques and algorithms that allow computers to replicate photographic processes like motion - blur correction , auto-focus ,depth-sensing , zoom and other features that would otherwise be impossible without optics ,while some of these processes use artificial intelligence techniques, Computational Photography is more than just AI , it involves a series of process like that takes an image from the Ones and Zeros on captured by image signal sensors and process to the final image displayed on screens .</description>
-    </item>
-    
-    <item>
       <title>Byte-Pair Encoding, The Tokenization algorithm powering Large Language Models. </title>
       <link>//localhost:1313/articles/bpe/</link>
       <pubDate>Thu, 20 Jul 2023 04:14:46 +0100</pubDate>
       
       <guid>//localhost:1313/articles/bpe/</guid>
       <description>Tokenization is an umbrella term for the methods used to turn texts into chunks of words or sub-words. Tokenization has a lot of applications in computer science, from compilers to Natural Language Processing. In this article, we would be focusing on tokenizers in Language models, in particular, a method of tokenization called Byte Pair Encoding. The last few years have witnessed a revolution in NLP catalyzed mainly by the introduction of the transformers architecture in 2017 with the paper &amp;lsquo;Attention is all you need &amp;rsquo; epitomized by the introduction of ChatGPT in late 2022.</description>
+    </item>
+    
+    <item>
+      <title>A guide on how AI is changing Computational Photography </title>
+      <link>//localhost:1313/articles/computational-photography/</link>
+      <pubDate>Wed, 10 May 2023 04:14:46 +0100</pubDate>
+      
+      <guid>//localhost:1313/articles/computational-photography/</guid>
+      <description>And Enhance!! (from Blade Runner ), that&amp;rsquo;s Computational Photography .
+Computational photography describes signal processing techniques and algorithms that allow computers to replicate photographic processes like motion - blur correction , auto-focus ,depth-sensing , zoom and other features that would otherwise be impossible without optics ,while some of these processes use artificial intelligence techniques, Computational Photography is more than just AI , it involves a series of process like that takes an image from the Ones and Zeros on captured by image signal sensors and process to the final image displayed on screens .</description>
     </item>
     
   </channel>

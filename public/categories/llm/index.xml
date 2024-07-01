@@ -7,46 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright Damilola John &amp;copy; 2023</copyright>
-    <lastBuildDate>Wed, 15 May 2024 04:14:46 +0100</lastBuildDate><atom:link href="//localhost:1313/categories/llm/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Building A Text based Books Recommendation engine</title>
-      <link>//localhost:1313/articles/zeeno/</link>
-      <pubDate>Wed, 15 May 2024 04:14:46 +0100</pubDate>
-      
-      <guid>//localhost:1313/articles/zeeno/</guid>
-      <description>Building a text-based books recommendation engine Find books by describing what they are about.
-Finding books What does that really mean? A recommendation engine is an algorithm or bunch of algorithms that help users find contents about a particular modality(video, text etc). A text based recommendation engine is one that helps users find information about some text input.
-Semantic Search Architecture Zeeno was built using a combination of semantic search and hybrid keyword search.</description>
-    </item>
-    
+    <lastBuildDate>Sat, 15 Jun 2024 04:14:46 +0100</lastBuildDate><atom:link href="//localhost:1313/categories/llm/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Finetuning GPT2 to Reconstruct Sentences</title>
       <link>//localhost:1313/articles/text-desrambler/</link>
-      <pubDate>Thu, 15 Feb 2024 04:14:46 +0100</pubDate>
+      <pubDate>Sat, 15 Jun 2024 04:14:46 +0100</pubDate>
       
       <guid>//localhost:1313/articles/text-desrambler/</guid>
       <description>Two words are anagrams if one can be formed by permuting the letters of the other. Applying the same logic to a sentence, would be saying that two sentences are anagrams(no such thing) if their component words can be permutated to form clones of each other.
-I thought it would be interesting to teach a language model to do this. You might be thinking that simply re-arranging words in a sentence doesn&amp;rsquo;t require intelligence and can be done with very trivial algorithms,you would be right, but I added an edge to this task, given a random sequence of words, the language model has to return a grammatically correct sequence using the same words.</description>
+I thought it would be interesting to teach a language model to do this. You might be thinking that simply re-arranging words in a sentence doesn&amp;rsquo;t require intelligence and can be done with very trivial algorithms,you would be right, but I added an edge to this task, given a random sequence of words, the language model has to return a grammatically correct sequence using the same set of words.</description>
     </item>
     
     <item>
-      <title>The untold problems that arise when Training Byte-Pair-Encoding Tokenizers on large datasets</title>
-      <link>//localhost:1313/articles/training-tokenizers/</link>
-      <pubDate>Thu, 15 Feb 2024 04:14:46 +0100</pubDate>
-      
-      <guid>//localhost:1313/articles/training-tokenizers/</guid>
-      <description>The first step to training a language model on a new domain is to train a tokenizer. In this article, we would be focusing on the challenges that arise when training tokenizers on large datasets, in particular, Byte-Pair-Encoding Tokenizers.
-If you weren&amp;rsquo;t already familiar with Byte-Pair-Encoding, You can check out Karpathy&amp;rsquo;s(link to karpathy BPE) video or an article I wrote a while ago👀
-Training a BPE tokenizer is a CPU and memory heavy tasks that can get out of hand pretty quickly.</description>
-    </item>
-    
-    <item>
-      <title>Teaching BERT to identify 15 programming languages. </title>
+      <title>Training BERT to identify 15 programming languages. </title>
       <link>//localhost:1313/articles/language_classification/</link>
       <pubDate>Sat, 19 Aug 2023 04:14:46 +0100</pubDate>
       
       <guid>//localhost:1313/articles/language_classification/</guid>
-      <description>This is a fun side project where I tried to build a model that could identify 15 of the most popular programming languages. We would start with simple machine learning approaches and gradually work our way up to more complex methods till we have a satisfactory solution.
+      <description>This is a fun side project where I explored transformers based sentiment classification for the first time by training BERT to identify 15 of the most popular programming languages.
+i startED with simple machine learning approaches and gradually work our way up to more complex methods till we have a satisfactory solution.
 The Dataset Our dataset is a csv containing 45,000 samples. The dataset is made up of two columns, the &amp;lsquo;code&amp;rsquo; feature contains code snippets we want to classify and the language column, which is our label contains the programming language it belongs to.</description>
     </item>
     

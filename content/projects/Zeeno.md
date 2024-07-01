@@ -9,9 +9,17 @@ tags: ['NLP','Semantic Search', 'Cloud','CI/CD']
 Categories: ['Cloud','Semantic Search','Recsys']
 ---
 # Find books about topics/ideas  in your head 
-An app that lets you find books about ideas or topics you are thinking about. 
+An app that lets you find books about ideas or topics you are thinking about, by simply describing them with sentences. 
 
-## Examples 
+Demo : 
+
+https://zeeno.vercel.app 
+
+Code:
+
+https://github.com/damilojohn/zeno
+
+## 
 
 
 
@@ -22,10 +30,5 @@ Find books by describing what they are about.
 Contributors :
 - Oduguwa Damilola John (Machine Learning)
 - Makinde Damilola (Frontend Engineering)
-- Offisong Emmanuel Etim (Devops)
 - Adebowale Segun (Design)
 - Babaoye (Design)
-- Lawal Adenike Lateefah(Product Management)
-- Dahood 
-- Kolawole Olaoluwa (Cyber-Security)
-- Umeh Lotanna (Emotional support)

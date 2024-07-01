@@ -53,6 +53,10 @@ The CI/CD workflow was mainly based on
 ## Serverless Hosting and Inference 
 
 
+## Optimization 
+
+
+
 ## Putting it all together 
 
 The whole application was built as a fastapi backend. 

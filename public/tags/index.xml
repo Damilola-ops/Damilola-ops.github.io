@@ -7,11 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright Damilola John &amp;copy; 2023</copyright>
-    <lastBuildDate>Wed, 15 May 2024 04:14:46 +0100</lastBuildDate><atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 15 Jun 2024 04:14:46 +0100</lastBuildDate><atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Natural Language Processing</title>
       <link>//localhost:1313/tags/natural-language-processing/</link>
-      <pubDate>Wed, 15 May 2024 04:14:46 +0100</pubDate>
+      <pubDate>Sat, 15 Jun 2024 04:14:46 +0100</pubDate>
       
       <guid>//localhost:1313/tags/natural-language-processing/</guid>
       <description></description>
@@ -20,7 +20,7 @@
     <item>
       <title>Transformers</title>
       <link>//localhost:1313/tags/transformers/</link>
-      <pubDate>Wed, 15 May 2024 04:14:46 +0100</pubDate>
+      <pubDate>Sat, 15 Jun 2024 04:14:46 +0100</pubDate>
       
       <guid>//localhost:1313/tags/transformers/</guid>
       <description></description>
@@ -63,92 +63,11 @@
     </item>
     
     <item>
-      <title>Chatbot</title>
-      <link>//localhost:1313/tags/chatbot/</link>
-      <pubDate>Thu, 15 Feb 2024 04:14:46 +0100</pubDate>
-      
-      <guid>//localhost:1313/tags/chatbot/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Decision-Trees</title>
-      <link>//localhost:1313/tags/decision-trees/</link>
-      <pubDate>Thu, 15 Feb 2024 04:14:46 +0100</pubDate>
-      
-      <guid>//localhost:1313/tags/decision-trees/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Papers</title>
-      <link>//localhost:1313/tags/papers/</link>
-      <pubDate>Thu, 15 Feb 2024 04:14:46 +0100</pubDate>
-      
-      <guid>//localhost:1313/tags/papers/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>RAG</title>
-      <link>//localhost:1313/tags/rag/</link>
-      <pubDate>Thu, 15 Feb 2024 04:14:46 +0100</pubDate>
-      
-      <guid>//localhost:1313/tags/rag/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>RecSys</title>
-      <link>//localhost:1313/tags/recsys/</link>
-      <pubDate>Thu, 15 Feb 2024 04:14:46 +0100</pubDate>
-      
-      <guid>//localhost:1313/tags/recsys/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Deep Learning</title>
       <link>//localhost:1313/tags/deep-learning/</link>
       <pubDate>Sat, 19 Aug 2023 04:14:46 +0100</pubDate>
       
       <guid>//localhost:1313/tags/deep-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Computer Vision</title>
-      <link>//localhost:1313/tags/computer-vision/</link>
-      <pubDate>Wed, 16 Aug 2023 04:14:46 +0100</pubDate>
-      
-      <guid>//localhost:1313/tags/computer-vision/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Pytorch</title>
-      <link>//localhost:1313/tags/pytorch/</link>
-      <pubDate>Wed, 16 Aug 2023 04:14:46 +0100</pubDate>
-      
-      <guid>//localhost:1313/tags/pytorch/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Chemistry</title>
-      <link>//localhost:1313/tags/chemistry/</link>
-      <pubDate>Tue, 15 Aug 2023 04:14:46 +0100</pubDate>
-      
-      <guid>//localhost:1313/tags/chemistry/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Predictive-Modelling</title>
-      <link>//localhost:1313/tags/predictive-modelling/</link>
-      <pubDate>Tue, 15 Aug 2023 04:14:46 +0100</pubDate>
-      
-      <guid>//localhost:1313/tags/predictive-modelling/</guid>
       <description></description>
     </item>
     
@@ -164,9 +83,18 @@
     <item>
       <title>Aritificial Intelligence</title>
       <link>//localhost:1313/tags/aritificial-intelligence/</link>
-      <pubDate>Thu, 10 Aug 2023 04:14:46 +0100</pubDate>
+      <pubDate>Wed, 10 May 2023 04:14:46 +0100</pubDate>
       
       <guid>//localhost:1313/tags/aritificial-intelligence/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Computer Vision</title>
+      <link>//localhost:1313/tags/computer-vision/</link>
+      <pubDate>Wed, 10 May 2023 04:14:46 +0100</pubDate>
+      
+      <guid>//localhost:1313/tags/computer-vision/</guid>
       <description></description>
     </item>
     
