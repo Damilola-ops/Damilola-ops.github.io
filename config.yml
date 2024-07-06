@@ -51,8 +51,8 @@ params:
         imageHeight: 200
         imageTitle: pp
         buttons:
-            - name: Articles 
-              url: "/Articles"
+            - name: articles 
+              url: "/articles"
             - name: Projects
               url: "/projects"
             - name: CV 
@@ -96,14 +96,14 @@ menu:
        weight: 20
      - identifier: Articles
        name: Articles
-       url: /Articles/ 
+       url: /articles/ 
        weight: 30 
      - identifier: categories
        name: Categories
        url : /Categories/
        weight: 40 
-     - identifier: Archives 
-       name: Archives
+     - identifier: archives 
+       name: archives
        url: /archives/
        weight : 50
 
