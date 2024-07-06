@@ -103,7 +103,7 @@ menu:
        url : /Categories/
        weight: 40 
      - identifier: archives 
-       name: archives
+       name: Archives
        url: /archives
        weight : 50
 
