@@ -1,7 +1,7 @@
 ---
 title: "Playlist Generator"
 date: 2023-08-11T02:14:46+01:00
-draft: false 
+draft: True
 cover:
     image: "vibe_book.png"
     alt: 'Playlist Generator'

@@ -10,7 +10,7 @@
 <meta name="description" content="Projects - Home">
 <meta name="author" content="Damilola John">
 <link rel="canonical" href="//localhost:1313/projects/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.bf5f9f73cf17311d52cedbcda82c922e91b2f566d88a85ad9f5b5a08b586bd5f.css" integrity="sha256-v1&#43;fc88XMR1SztvNqCySLpGy9WbYioWtn1taCLWGvV8=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.51ae2dfd23423d479cfd90ba4215aeebadfd8c0833c61a978bfbc8648cc56365.css" integrity="sha256-Ua4t/SNCPUec/ZC6QhWu6639jAgzxhqXi/vIZIzFY2U=" rel="preload stylesheet" as="style">
 <link rel="icon" href="//localhost:1313/static/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="//localhost:1313/static/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="//localhost:1313/static/favicon-32x32.png">
@@ -108,13 +108,13 @@
                 </a>
             </li>
             <li>
-                <a href="//localhost:1313/categories/" title="Categories">
-                    <span>Categories</span>
+                <a href="//localhost:1313/archives/" title="Archives">
+                    <span>Archives</span>
                 </a>
             </li>
             <li>
-                <a href="//localhost:1313/archives" title="Archives">
-                    <span>Archives</span>
+                <a href="//localhost:1313/categories/" title="Categories">
+                    <span>Categories</span>
                 </a>
             </li>
         </ul>
@@ -127,52 +127,63 @@
   </h1>
 </header>
 
-<article class="post-entry"> 
-<figure class="entry-cover"><img loading="lazy" src="//localhost:1313/zeno-cover.jpg" alt="Vanitas Still Life with a Candlestick, Musical Instruments, Dutch Books, a Writing Set, an Astrological and a Terrestial Globe and an Hourglass, All on a Draped Table by Evert Collier">
+<div class="grid-container">
+    <article class="post-entry"> 
+<figure class="entry-cover"><img loading="lazy" src="//localhost:1313/anagrams.jpg" alt="">
 </figure>
-  <header class="entry-header">
-    <h2>Zeeno - A text-based books recommendation service
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Find books about topics/ideas in your head An app that lets you find books about ideas or topics you are thinking about, by simply describing them with sentences.
-Demo :
-https://zeeno.vercel.app
-Code:
-https://github.com/damilojohn/zeno
-Find books by describing what they are about.
-Contributors :
-Oduguwa Damilola John (Machine Learning) Makinde Damilola (Frontend Engineering) Adebowale Segun (Design) Babaoye (Design) </p>
-  </div>
-  <footer class="entry-footer">&lt;span title=&#39;2024-03-15 04:14:46 &#43;0100 WAT&#39;&gt;March 15, 2024&lt;/span&gt;&amp;nbsp;·&amp;nbsp;1 min&amp;nbsp;·&amp;nbsp;57 words&amp;nbsp;·&amp;nbsp;Damilola John</footer>
-  <a class="entry-link" aria-label="post link to Zeeno - A text-based books recommendation service" href="//localhost:1313/projects/zeeno/"></a>
-</article>
-
-<article class="post-entry"> 
-<figure class="entry-cover"><img loading="lazy" src="//localhost:1313/vibe_book.png" alt="Playlist Generator">
+      <header class="entry-header">
+        <h2>
+          <a href="//localhost:1313/projects/text_descrambler/">Text Descrambling</a>
+        </h2>
+      </header>
+      <div class="entry-content">
+        <p>Finetuning GPT2 to Reconstruct sentences Two words are anagrams if one can be formed by permuting the letters of the other. Applying the same logic to a sentence, would be saying that two sentences are anagrams(no such thing) if their component words can be permutated to form clones of each other.
+I thought it would be interesting to teach a language model to do this. You might be thinking that simply re-arranging words in a sentence doesn’t require intelligence and can be done with very trivial algorithms,you would be right, but I added an edge to this task, given a random sequence of words, the language model has to return a grammatically correct sequence using the same set of words....</p>
+      </div>
+      <footer class="entry-footer">&lt;span title=&#39;2024-06-15 04:14:46 &#43;0100 WAT&#39;&gt;June 15, 2024&lt;/span&gt;&amp;nbsp;·&amp;nbsp;1 min&amp;nbsp;·&amp;nbsp;153 words&amp;nbsp;·&amp;nbsp;Damilola John</footer>
+    </article>
+    <article class="post-entry"> 
+      <header class="entry-header">
+        <h2>
+          <a href="//localhost:1313/projects/sabiyarn/">SabiYarn- Nigeria&#39;s First Foundational Language model</a>
+        </h2>
+      </header>
+      <div class="entry-content">
+        <p>Building and Training Nigeria’s first foundational language model. demo
+Paper
+Article</p>
+      </div>
+      <footer class="entry-footer">&lt;span title=&#39;2024-03-15 04:14:46 &#43;0100 WAT&#39;&gt;March 15, 2024&lt;/span&gt;&amp;nbsp;·&amp;nbsp;1 min&amp;nbsp;·&amp;nbsp;11 words&amp;nbsp;·&amp;nbsp;Damilola John</footer>
+    </article>
+    <article class="post-entry"> 
+      <header class="entry-header">
+        <h2>
+          <a href="//localhost:1313/projects/traceroute/">TraceRoute</a>
+        </h2>
+      </header>
+      <div class="entry-content">
+        <p>Tracking a packet from source to destination. A tool for tracing the path followed by an internet packet across the internet implemented in python. Inspired by TraceRoute the Unix tool.
+github
+Try tracing a packet here</p>
+      </div>
+      <footer class="entry-footer">&lt;span title=&#39;2024-03-15 04:14:46 &#43;0100 WAT&#39;&gt;March 15, 2024&lt;/span&gt;&amp;nbsp;·&amp;nbsp;1 min&amp;nbsp;·&amp;nbsp;36 words&amp;nbsp;·&amp;nbsp;Damilola John</footer>
+    </article>
+    <article class="post-entry"> 
+<figure class="entry-cover"><img loading="lazy" src="//localhost:1313/zeeno.jpg" alt="Vanitas Still Life with a Candlestick, Musical Instruments, Dutch Books, a Writing Set, an Astrological and a Terrestial Globe and an Hourglass, All on a Draped Table by Evert Collier">
 </figure>
-  <header class="entry-header">
-    <h2>Playlist Generator
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Playlist Generator An app that uses semantic search to generate afrobeat song playlists from input texts This is a side project where I built an end-to-end machine learning application that uses a sentence transformer model hosted as a model-as-a-service. It is a simple recommendation system that tries to find afrobeat songs about a user’s sentiment by comparing the user’s text inputs to song lyrics and then return the most similar songs....</p>
-  </div>
-  <footer class="entry-footer">&lt;span title=&#39;2023-08-11 02:14:46 &#43;0100 WAT&#39;&gt;August 11, 2023&lt;/span&gt;&amp;nbsp;·&amp;nbsp;1 min&amp;nbsp;·&amp;nbsp;138 words&amp;nbsp;·&amp;nbsp;Damilola John</footer>
-  <a class="entry-link" aria-label="post link to Playlist Generator" href="//localhost:1313/projects/playlist_generator/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2>
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p></p>
-  </div>
-  <footer class="entry-footer">0 min&amp;nbsp;·&amp;nbsp;0 words&amp;nbsp;·&amp;nbsp;Damilola John</footer>
-  <a class="entry-link" aria-label="post link to " href="//localhost:1313/projects/localagent/"></a>
-</article>
+      <header class="entry-header">
+        <h2>
+          <a href="//localhost:1313/projects/zeeno/">Zeeno - Find books by describing them. A personal librarian for discovering books</a>
+        </h2>
+      </header>
+      <div class="entry-content">
+        <p>Find books about topics/ideas in your head A recommendation service that let’s you find books about any topic or ideas you are thinking about by describing them in natural language.
+Github repo
+Link</p>
+      </div>
+      <footer class="entry-footer">&lt;span title=&#39;2024-03-15 04:14:46 &#43;0100 WAT&#39;&gt;March 15, 2024&lt;/span&gt;&amp;nbsp;·&amp;nbsp;1 min&amp;nbsp;·&amp;nbsp;33 words&amp;nbsp;·&amp;nbsp;Damilola John</footer>
+    </article>
+</div>
     </main>
     
 <footer class="footer">

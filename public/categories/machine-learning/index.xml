@@ -7,16 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright Damilola John &amp;copy; 2023</copyright>
-    <lastBuildDate>Fri, 11 Aug 2023 02:14:46 +0100</lastBuildDate><atom:link href="//localhost:1313/categories/machine-learning/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Playlist Generator</title>
-      <link>//localhost:1313/projects/playlist_generator/</link>
-      <pubDate>Fri, 11 Aug 2023 02:14:46 +0100</pubDate>
-      
-      <guid>//localhost:1313/projects/playlist_generator/</guid>
-      <description>Playlist Generator An app that uses semantic search to generate afrobeat song playlists from input texts This is a side project where I built an end-to-end machine learning application that uses a sentence transformer model hosted as a model-as-a-service. It is a simple recommendation system that tries to find afrobeat songs about a user&amp;rsquo;s sentiment by comparing the user&amp;rsquo;s text inputs to song lyrics and then return the most similar songs.</description>
-    </item>
-    
+    <lastBuildDate>Thu, 20 Jul 2023 04:14:46 +0100</lastBuildDate><atom:link href="//localhost:1313/categories/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Byte-Pair Encoding, The Tokenization algorithm powering Large Language Models. </title>
       <link>//localhost:1313/articles/bpe/</link>

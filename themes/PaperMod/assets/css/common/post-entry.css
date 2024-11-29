@@ -1,77 +1,96 @@
-.first-entry {
-    position: relative;
+/* Grid container to hold all the posts */
+body .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 30rem;
+    row-gap: 6.81rem; /* Add more space between grid items */
+    padding: 2rem; /* Add padding around the grid */
+    justify-items: center; 
+    width: auto;/* Center the items within their grid cells */
+}
+
+/* .horizontal-container {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    min-height: 320px;
-    margin: var(--gap) 0 calc(var(--gap) * 2) 0;
-}
+    flex-wrap: wrap; 
+    gap: 2rem; 
+    justify-content: center; 
+    padding: 1rem; 
+} */
 
-.first-entry .entry-header {
-    overflow: hidden;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 3;
-}
-
-.first-entry .entry-header h1 {
-    font-size: 34px;
-    line-height: 1.3;
-}
-
-.first-entry .entry-content {
-    margin: 14px 0;
-    font-size: 16px;
-    -webkit-line-clamp: 3;
-}
-
-.first-entry .entry-footer {
-    font-size: 14px;
-}
-
-.home-info .entry-content {
-    -webkit-line-clamp: unset;
-}
-
+/* Individual post cards */
 .post-entry {
     position: relative;
-    margin-bottom: var(--gap);
-    padding: var(--gap);
+    margin: 0; /* Remove margin to avoid unnecessary spacing */
+    padding: 2rem; /* Increase padding for more space around content */
     background: var(--entry);
-    border-radius: var(--radius);
-    transition: transform 0.1s;
+    border-radius: 12px; /* Rounded corners */
+    transition: transform 0.2s ease, box-shadow 0.2s ease; /* Smooth transition for hover effect */
     border: 1px solid var(--border);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow to make cards pop */
+    height: auto; /* Allow the card to adjust height based on content */
+    display: flex;
+    flex-direction: column; /* Stack content vertically */
+    width: 30rem; /* Three cards per row, with gap between them */
+    box-sizing: border-box; /* Max width of each card */
 }
 
-.post-entry:active {
-    transform: scale(0.96);
+/* For smaller screens (mobile), stack cards vertically */
+@media screen and (max-width: 768px) {
+    .post-entry {
+        width: calc(50% - 1rem); /* Two cards per row on smaller screens */
+    }
 }
 
-.tag-entry .entry-cover {
-    display: none;
+/* For very small screens (like phones), make it a single column layout */
+@media screen and (max-width: 480px) {
+    .post-entry {
+        width: 100%; /* One card per row on very small screens */
+    }
 }
 
+/* Hover effect for cards */
+.post-entry:hover {
+    transform: scale(1.05); /* Slightly enlarge the card on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* Increase shadow size on hover */
+}
+
+/* Card header (title) */
 .entry-header h2 {
-    font-size: 24px;
+    font-size: 28px; /* Increase font size for better readability */
     line-height: 1.3;
+    margin-bottom: 1rem;
+    color: var(--primary-text);
 }
 
+/* Content description */
 .entry-content {
-    margin: 8px 0;
+    font-size: 16px; /* Slightly larger font for readability */
     color: var(--secondary);
-    font-size: 14px;
-    line-height: 1.6;
+    line-height: 1.8;
     overflow: hidden;
     display: -webkit-box;
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2;
+    -webkit-line-clamp: 4; /* Limit content to 4 lines */
+    margin-bottom: 1rem;
 }
 
+/* Footer with meta info */
 .entry-footer {
+    font-size: 14px;
     color: var(--secondary);
-    font-size: 13px;
+    margin-top: 1rem;
+    text-align: left;
 }
 
+/* Image styling */
+.entry-cover img {
+    width: 100%; /* Make the image take full width of the card */
+    height: auto;
+    border-radius: 12px; /* Rounded corners */
+    margin-bottom: 1rem; /* Add space below the image */
+}
+
+/* Styling for links in the post entry */
 .entry-link {
     position: absolute;
     left: 0;
@@ -80,25 +99,15 @@
     bottom: 0;
 }
 
-.entry-cover,
-.entry-isdraft {
-    font-size: 14px;
-    color: var(--secondary);
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .post-entry {
+        width: calc(50% - 2rem); /* 2 cards per row on smaller screens */
+    }
 }
 
-.entry-cover {
-    margin-bottom: var(--gap);
-    text-align: center;
-}
-
-.entry-cover img {
-    border-radius: var(--radius);
-    pointer-events: none;
-    width: 100%;
-    height: auto;
-}
-
-.entry-cover a {
-    color: var(--secondary);
-    box-shadow: 0 1px 0 var(--primary);
+@media (max-width: 480px) {
+    .post-entry {
+        width: 100%; /* 1 card per row on very small screens */
+    }
 }

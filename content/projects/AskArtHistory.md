@@ -8,5 +8,6 @@ cover:
 tags: ['RAG', 'chatbot']
 Categories: ['NLP','RAG','Transformers']
 ---
+## Nike
 
-A telegram bot that answers questions on Modern Art History. Built using LlamaIndex and GPT3.5. 
+A RAG-based multimodal chatbot that acts as an education tool and answers questions on Yoruba Art History.  

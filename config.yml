@@ -38,10 +38,8 @@ params:
         enabled: True
         title: Oduguwa Damilola John # optional default will be site title
         subtitle: >
-                **Software Engineer** specializing in **Machine learning**.
+                **Machine Learning Engineer**.
                     
-                  Passionate about building scalable and transparent Artificial intelligent systems that seamlessly integrate with robust software architectures and  harnessing the power of data to elegantly address
-                 complex real world problems. 
 
                 Beyond the world of code, I find myself at the crossroads of technology, Art, Biology, and Astronomy. These disciplines intertwine in my pursuit of innovative solutions, painting a diverse canvas where creativity meets cutting-edge innovation.
 
@@ -102,9 +100,9 @@ menu:
        name: Categories
        url : /Categories/
        weight: 40 
-     - identifier: archives 
+     - identifier: Archives 
        name: Archives
-       url: /archives
-       weight : 50
+       url: /Archives/
+       weight : 40
 
 

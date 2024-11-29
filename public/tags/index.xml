@@ -27,6 +27,15 @@
     </item>
     
     <item>
+      <title>Agents</title>
+      <link>//localhost:1313/tags/agents/</link>
+      <pubDate>Fri, 15 Mar 2024 04:14:46 +0100</pubDate>
+      
+      <guid>//localhost:1313/tags/agents/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>CI/CD</title>
       <link>//localhost:1313/tags/ci/cd/</link>
       <pubDate>Fri, 15 Mar 2024 04:14:46 +0100</pubDate>
@@ -68,15 +77,6 @@
       <pubDate>Sat, 19 Aug 2023 04:14:46 +0100</pubDate>
       
       <guid>//localhost:1313/tags/deep-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Embeddings</title>
-      <link>//localhost:1313/tags/embeddings/</link>
-      <pubDate>Fri, 11 Aug 2023 02:14:46 +0100</pubDate>
-      
-      <guid>//localhost:1313/tags/embeddings/</guid>
       <description></description>
     </item>
     

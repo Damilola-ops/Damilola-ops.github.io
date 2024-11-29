@@ -10,7 +10,7 @@
 <meta name="description" content="Articles - Home">
 <meta name="author" content="Damilola John">
 <link rel="canonical" href="//localhost:1313/articles/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.bf5f9f73cf17311d52cedbcda82c922e91b2f566d88a85ad9f5b5a08b586bd5f.css" integrity="sha256-v1&#43;fc88XMR1SztvNqCySLpGy9WbYioWtn1taCLWGvV8=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.1c1e28998f9753533f43564f2a25ff185fdd931db31172d494f8b22215dfff16.css" integrity="sha256-HB4omY&#43;XU1M/Q1ZPKiX/GF/dkx2zEXLUlPiyIhXf/xY=" rel="preload stylesheet" as="style">
 <link rel="icon" href="//localhost:1313/static/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="//localhost:1313/static/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="//localhost:1313/static/favicon-32x32.png">
@@ -108,13 +108,13 @@
                 </a>
             </li>
             <li>
-                <a href="//localhost:1313/categories/" title="Categories">
-                    <span>Categories</span>
+                <a href="//localhost:1313/archives/" title="Archives">
+                    <span>Archives</span>
                 </a>
             </li>
             <li>
-                <a href="//localhost:1313/archives" title="Archives">
-                    <span>Archives</span>
+                <a href="//localhost:1313/categories/" title="Categories">
+                    <span>Categories</span>
                 </a>
             </li>
         </ul>
@@ -127,65 +127,64 @@
   </h1>
 </header>
 
-<article class="post-entry"> 
+<div class="grid-container">
+  <article class="post-entry"> 
 <figure class="entry-cover"><img loading="lazy" src="//localhost:1313/anagrams.jpg" alt="">
 </figure>
-  <header class="entry-header">
-    <h2>Finetuning GPT2 to Reconstruct Sentences
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Two words are anagrams if one can be formed by permuting the letters of the other. Applying the same logic to a sentence, would be saying that two sentences are anagrams(no such thing) if their component words can be permutated to form clones of each other.
+    <header class="entry-header">
+      <h2>
+        <a href="//localhost:1313/articles/text-desrambler/">Finetuning GPT2 to Reconstruct Sentences</a>
+      </h2>
+    </header>
+    <div class="entry-content">
+      <p>Two words are anagrams if one can be formed by permuting the letters of the other. Applying the same logic to a sentence, would be saying that two sentences are anagrams(no such thing) if their component words can be permutated to form clones of each other.
 I thought it would be interesting to teach a language model to do this. You might be thinking that simply re-arranging words in a sentence doesn’t require intelligence and can be done with very trivial algorithms,you would be right, but I added an edge to this task, given a random sequence of words, the language model has to return a grammatically correct sequence using the same set of words....</p>
-  </div>
-  <footer class="entry-footer">&lt;span title=&#39;2024-06-15 04:14:46 &#43;0100 WAT&#39;&gt;June 15, 2024&lt;/span&gt;&amp;nbsp;·&amp;nbsp;10 min&amp;nbsp;·&amp;nbsp;2047 words&amp;nbsp;·&amp;nbsp;Damilola John</footer>
-  <a class="entry-link" aria-label="post link to Finetuning GPT2 to Reconstruct Sentences" href="//localhost:1313/articles/text-desrambler/"></a>
-</article>
-
-<article class="post-entry"> 
+    </div>
+    <footer class="entry-footer">&lt;span title=&#39;2024-06-15 04:14:46 &#43;0100 WAT&#39;&gt;June 15, 2024&lt;/span&gt;&amp;nbsp;·&amp;nbsp;10 min&amp;nbsp;·&amp;nbsp;2047 words&amp;nbsp;·&amp;nbsp;Damilola John</footer>
+  </article>
+  <article class="post-entry"> 
 <figure class="entry-cover"><img loading="lazy" src="//localhost:1313/prog_class.jpg" alt="">
 </figure>
-  <header class="entry-header">
-    <h2>Training BERT to identify 15 programming languages. 
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>This is a fun side project where I explored transformers based sentiment classification for the first time by training BERT to identify 15 of the most popular programming languages.
+    <header class="entry-header">
+      <h2>
+        <a href="//localhost:1313/articles/language_classification/">Training BERT to identify 15 programming languages. </a>
+      </h2>
+    </header>
+    <div class="entry-content">
+      <p>This is a fun side project where I explored transformers based sentiment classification for the first time by training BERT to identify 15 of the most popular programming languages.
 i startED with simple machine learning approaches and gradually work our way up to more complex methods till we have a satisfactory solution.
 The Dataset Our dataset is a csv containing 45,000 samples. The dataset is made up of two columns, the ‘code’ feature contains code snippets we want to classify and the language column, which is our label contains the programming language it belongs to....</p>
-  </div>
-  <footer class="entry-footer">&lt;span title=&#39;2023-08-19 04:14:46 &#43;0100 WAT&#39;&gt;August 19, 2023&lt;/span&gt;&amp;nbsp;·&amp;nbsp;4 min&amp;nbsp;·&amp;nbsp;841 words&amp;nbsp;·&amp;nbsp;Damilola John</footer>
-  <a class="entry-link" aria-label="post link to Training BERT to identify 15 programming languages. " href="//localhost:1313/articles/language_classification/"></a>
-</article>
-
-<article class="post-entry"> 
+    </div>
+    <footer class="entry-footer">&lt;span title=&#39;2023-08-19 04:14:46 &#43;0100 WAT&#39;&gt;August 19, 2023&lt;/span&gt;&amp;nbsp;·&amp;nbsp;4 min&amp;nbsp;·&amp;nbsp;841 words&amp;nbsp;·&amp;nbsp;Damilola John</footer>
+  </article>
+  <article class="post-entry"> 
 <figure class="entry-cover"><img loading="lazy" src="//localhost:1313/tokenizers.jpg" alt="tokenizers">
 </figure>
-  <header class="entry-header">
-    <h2>Byte-Pair Encoding, The Tokenization algorithm powering Large Language Models. 
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Tokenization is an umbrella term for the methods used to turn texts into chunks of words or sub-words. Tokenization has a lot of applications in computer science, from compilers to Natural Language Processing. In this article, we would be focusing on tokenizers in Language models, in particular, a method of tokenization called Byte Pair Encoding. The last few years have witnessed a revolution in NLP catalyzed mainly by the introduction of the transformers architecture in 2017 with the paper ‘Attention is all you need ’ epitomized by the introduction of ChatGPT in late 2022....</p>
-  </div>
-  <footer class="entry-footer">&lt;span title=&#39;2023-07-20 04:14:46 &#43;0100 WAT&#39;&gt;July 20, 2023&lt;/span&gt;&amp;nbsp;·&amp;nbsp;13 min&amp;nbsp;·&amp;nbsp;2564 words&amp;nbsp;·&amp;nbsp;Damilola John</footer>
-  <a class="entry-link" aria-label="post link to Byte-Pair Encoding, The Tokenization algorithm powering Large Language Models. " href="//localhost:1313/articles/bpe/"></a>
-</article>
-
-<article class="post-entry"> 
+    <header class="entry-header">
+      <h2>
+        <a href="//localhost:1313/articles/bpe/">Byte-Pair Encoding, The Tokenization algorithm powering Large Language Models. </a>
+      </h2>
+    </header>
+    <div class="entry-content">
+      <p>Tokenization is an umbrella term for the methods used to turn texts into chunks of words or sub-words. Tokenization has a lot of applications in computer science, from compilers to Natural Language Processing. In this article, we would be focusing on tokenizers in Language models, in particular, a method of tokenization called Byte Pair Encoding. The last few years have witnessed a revolution in NLP catalyzed mainly by the introduction of the transformers architecture in 2017 with the paper ‘Attention is all you need ’ epitomized by the introduction of ChatGPT in late 2022....</p>
+    </div>
+    <footer class="entry-footer">&lt;span title=&#39;2023-07-20 04:14:46 &#43;0100 WAT&#39;&gt;July 20, 2023&lt;/span&gt;&amp;nbsp;·&amp;nbsp;13 min&amp;nbsp;·&amp;nbsp;2564 words&amp;nbsp;·&amp;nbsp;Damilola John</footer>
+  </article>
+  <article class="post-entry"> 
 <figure class="entry-cover"><img loading="lazy" src="//localhost:1313/comp.photography.png" alt="image sensor">
 </figure>
-  <header class="entry-header">
-    <h2>A guide on how AI is changing Computational Photography 
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>And Enhance!! (from Blade Runner ), that’s Computational Photography .
+    <header class="entry-header">
+      <h2>
+        <a href="//localhost:1313/articles/computational-photography/">A guide on how AI is changing Computational Photography </a>
+      </h2>
+    </header>
+    <div class="entry-content">
+      <p>And Enhance!! (from Blade Runner ), that’s Computational Photography .
 Computational photography describes signal processing techniques and algorithms that allow computers to replicate photographic processes like motion - blur correction , auto-focus ,depth-sensing , zoom and other features that would otherwise be impossible without optics ,while some of these processes use artificial intelligence techniques, Computational Photography is more than just AI , it involves a series of process like that takes an image from the Ones and Zeros on captured by image signal sensors and process to the final image displayed on screens ....</p>
-  </div>
-  <footer class="entry-footer">&lt;span title=&#39;2023-05-10 04:14:46 &#43;0100 WAT&#39;&gt;May 10, 2023&lt;/span&gt;&amp;nbsp;·&amp;nbsp;3 min&amp;nbsp;·&amp;nbsp;500 words&amp;nbsp;·&amp;nbsp;Damilola John</footer>
-  <a class="entry-link" aria-label="post link to A guide on how AI is changing Computational Photography " href="//localhost:1313/articles/computational-photography/"></a>
-</article>
+    </div>
+    <footer class="entry-footer">&lt;span title=&#39;2023-05-10 04:14:46 &#43;0100 WAT&#39;&gt;May 10, 2023&lt;/span&gt;&amp;nbsp;·&amp;nbsp;3 min&amp;nbsp;·&amp;nbsp;500 words&amp;nbsp;·&amp;nbsp;Damilola John</footer>
+  </article>
+</div>
     </main>
     
 <footer class="footer">

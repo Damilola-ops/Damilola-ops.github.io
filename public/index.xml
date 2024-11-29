@@ -19,19 +19,46 @@ I thought it would be interesting to teach a language model to do this. You migh
     </item>
     
     <item>
-      <title>Zeeno - A text-based books recommendation service</title>
+      <title>Text Descrambling</title>
+      <link>//localhost:1313/projects/text_descrambler/</link>
+      <pubDate>Sat, 15 Jun 2024 04:14:46 +0100</pubDate>
+      
+      <guid>//localhost:1313/projects/text_descrambler/</guid>
+      <description>Finetuning GPT2 to Reconstruct sentences Two words are anagrams if one can be formed by permuting the letters of the other. Applying the same logic to a sentence, would be saying that two sentences are anagrams(no such thing) if their component words can be permutated to form clones of each other.
+I thought it would be interesting to teach a language model to do this. You might be thinking that simply re-arranging words in a sentence doesn&amp;rsquo;t require intelligence and can be done with very trivial algorithms,you would be right, but I added an edge to this task, given a random sequence of words, the language model has to return a grammatically correct sequence using the same set of words.</description>
+    </item>
+    
+    <item>
+      <title>SabiYarn- Nigeria&#39;s First Foundational Language model</title>
+      <link>//localhost:1313/projects/sabiyarn/</link>
+      <pubDate>Fri, 15 Mar 2024 04:14:46 +0100</pubDate>
+      
+      <guid>//localhost:1313/projects/sabiyarn/</guid>
+      <description>Building and Training Nigeria&amp;rsquo;s first foundational language model. demo
+Paper
+Article</description>
+    </item>
+    
+    <item>
+      <title>TraceRoute</title>
+      <link>//localhost:1313/projects/traceroute/</link>
+      <pubDate>Fri, 15 Mar 2024 04:14:46 +0100</pubDate>
+      
+      <guid>//localhost:1313/projects/traceroute/</guid>
+      <description>Tracking a packet from source to destination. A tool for tracing the path followed by an internet packet across the internet implemented in python. Inspired by TraceRoute the Unix tool.
+github
+Try tracing a packet here</description>
+    </item>
+    
+    <item>
+      <title>Zeeno - Find books by describing them. A personal librarian for discovering books</title>
       <link>//localhost:1313/projects/zeeno/</link>
       <pubDate>Fri, 15 Mar 2024 04:14:46 +0100</pubDate>
       
       <guid>//localhost:1313/projects/zeeno/</guid>
-      <description>Find books about topics/ideas in your head An app that lets you find books about ideas or topics you are thinking about, by simply describing them with sentences.
-Demo :
-https://zeeno.vercel.app
-Code:
-https://github.com/damilojohn/zeno
-Find books by describing what they are about.
-Contributors :
-Oduguwa Damilola John (Machine Learning) Makinde Damilola (Frontend Engineering) Adebowale Segun (Design) Babaoye (Design) </description>
+      <description>Find books about topics/ideas in your head A recommendation service that let&amp;rsquo;s you find books about any topic or ideas you are thinking about by describing them in natural language.
+Github repo
+Link</description>
     </item>
     
     <item>
@@ -43,15 +70,6 @@ Oduguwa Damilola John (Machine Learning) Makinde Damilola (Frontend Engineering)
       <description>This is a fun side project where I explored transformers based sentiment classification for the first time by training BERT to identify 15 of the most popular programming languages.
 i startED with simple machine learning approaches and gradually work our way up to more complex methods till we have a satisfactory solution.
 The Dataset Our dataset is a csv containing 45,000 samples. The dataset is made up of two columns, the &amp;lsquo;code&amp;rsquo; feature contains code snippets we want to classify and the language column, which is our label contains the programming language it belongs to.</description>
-    </item>
-    
-    <item>
-      <title>Playlist Generator</title>
-      <link>//localhost:1313/projects/playlist_generator/</link>
-      <pubDate>Fri, 11 Aug 2023 02:14:46 +0100</pubDate>
-      
-      <guid>//localhost:1313/projects/playlist_generator/</guid>
-      <description>Playlist Generator An app that uses semantic search to generate afrobeat song playlists from input texts This is a side project where I built an end-to-end machine learning application that uses a sentence transformer model hosted as a model-as-a-service. It is a simple recommendation system that tries to find afrobeat songs about a user&amp;rsquo;s sentiment by comparing the user&amp;rsquo;s text inputs to song lyrics and then return the most similar songs.</description>
     </item>
     
     <item>
@@ -74,21 +92,15 @@ Computational photography describes signal processing techniques and algorithms 
     </item>
     
     <item>
-      <title></title>
-      <link>//localhost:1313/projects/localagent/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>//localhost:1313/projects/localagent/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>About me</title>
       <link>//localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/about/</guid>
-      <description>Hi I&amp;rsquo;m Damilola a passionate and driven software engineering student with a deep fascination for the intersection of technology and intelligence. Currently pursuing a degree in Computer Engineering from the University of Lagos, I am enthusiastic about leveraging my skills to contribute meaningfully in the field of machine learning engineering. Throughout my academic journey, I have developed a solid foundation in software engineering principles and practices. My coursework has provided me with hands-on experience in designing and implementing robust software solutions.</description>
+      <description>Hi I&amp;rsquo;m Damilola passionate about bringing intelligence to the web. A computer engineering student at the University of Lagos.
+Papers Semi-Supervised Learning with Transformers for Sentiment Analysis of Yoruba Sentences
+Training Nigeria&amp;rsquo;s First Foundational Decoder-only Language Model
+Books I&amp;rsquo;m Currently Reading: The Map of Information The Box </description>
     </item>
     
     
