@@ -14,8 +14,8 @@
       <pubDate>Wed, 11 Dec 2024 04:14:46 +0100</pubDate>
       
       <guid>//localhost:1313/articles/diff_attention/</guid>
-      <description>Introduction The [Transformers](add reference here) architecture has been the de-facto archictecture for language models for some time now. The unprecendented growth in their applications to real world products such as in the fastest growing software application of all time, ChatGPT, particularly in large language models have seen them become the de-facto architecture.
-The transformers architecture owes most of it&amp;rsquo;s ubuquitousness however to it&amp;rsquo;s scaling laws. Transformers, Language models in particular, have demonstrated exponentially increasing abilities across varying tasks, including but not limited to reasoning, translation, language understanding and comprehension, etc, with ever increasing sizes.</description>
+      <description>Introduction Over the last few years, the transformers architecture has emerged as biggest advances in
+The transformers architecture owes most of it&amp;rsquo;s ubuquitousness however to it&amp;rsquo;s scaling laws. Transformers, Language models in particular, have demonstrated exponentially increasing abilities across varying tasks, including but not limited to reasoning, translation, language understanding and comprehension, etc, with ever increasing sizes. The GPT models were of moderately reasonable sizes, with the largest GPT2 model released in 2018 being 1.</description>
     </item>
     
     <item>

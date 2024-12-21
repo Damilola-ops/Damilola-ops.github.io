@@ -63,7 +63,7 @@ params:
               url: "/about"
               weight: 30
             - name: CV 
-              url: "./Damilola-John-Oduguwa-CV.pdf"
+              url: "./oduguwa-damilola-resume.pdf"
               weight: 30
         
   
