@@ -7,7 +7,27 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright Damilola John &amp;copy; 2023</copyright>
-    <lastBuildDate>Sat, 15 Jun 2024 04:14:46 +0100</lastBuildDate><atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 11 Dec 2024 04:14:46 +0100</lastBuildDate><atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Understanding Differential Attention Transformers.</title>
+      <link>//localhost:1313/articles/diff_attention/</link>
+      <pubDate>Wed, 11 Dec 2024 04:14:46 +0100</pubDate>
+      
+      <guid>//localhost:1313/articles/diff_attention/</guid>
+      <description>Introduction Over the last few years, the transformers architecture has emerged as biggest advances in
+The transformers architecture owes most of it&amp;rsquo;s ubuquitousness however to it&amp;rsquo;s scaling laws. Transformers, Language models in particular, have demonstrated exponentially increasing abilities across varying tasks, including but not limited to reasoning, translation, language understanding and comprehension, etc, with ever increasing sizes. The GPT models were of moderately reasonable sizes, with the largest GPT2 model released in 2018 being 1.</description>
+    </item>
+    
+    <item>
+      <title>TraceRoute</title>
+      <link>//localhost:1313/projects/traceroute/</link>
+      <pubDate>Thu, 15 Aug 2024 04:14:46 +0100</pubDate>
+      
+      <guid>//localhost:1313/projects/traceroute/</guid>
+      <description>Tracking a packet from source to destination. A tool for tracing the path followed by an internet packet across the internet implemented in python. Inspired by TraceRoute the Unix tool.
+github</description>
+    </item>
+    
     <item>
       <title>Finetuning GPT2 to Reconstruct Sentences</title>
       <link>//localhost:1313/articles/text-desrambler/</link>
@@ -19,35 +39,23 @@ I thought it would be interesting to teach a language model to do this. You migh
     </item>
     
     <item>
-      <title>Text Descrambling</title>
+      <title>Descrambling Sentences with GPT2 </title>
       <link>//localhost:1313/projects/text_descrambler/</link>
-      <pubDate>Sat, 15 Jun 2024 04:14:46 +0100</pubDate>
+      <pubDate>Mon, 10 Jun 2024 04:14:46 +0100</pubDate>
       
       <guid>//localhost:1313/projects/text_descrambler/</guid>
       <description>Finetuning GPT2 to Reconstruct sentences Two words are anagrams if one can be formed by permuting the letters of the other. Applying the same logic to a sentence, would be saying that two sentences are anagrams(no such thing) if their component words can be permutated to form clones of each other.
-I thought it would be interesting to teach a language model to do this. You might be thinking that simply re-arranging words in a sentence doesn&amp;rsquo;t require intelligence and can be done with very trivial algorithms,you would be right, but I added an edge to this task, given a random sequence of words, the language model has to return a grammatically correct sequence using the same set of words.</description>
+I thought it would be interesting to finetune a language model to do this. You might be thinking that simply re-arranging words in a sentence doesn&amp;rsquo;t require intelligence and can be done with very trivial algorithms,you would be right, but I added an edge to this task, given a random sequence of words, the language model has to return a grammatically correct sequence using the same set of words.</description>
     </item>
     
     <item>
-      <title>SabiYarn- Nigeria&#39;s First Foundational Language model</title>
+      <title>SabiYarn: Training a Foundational Language Model on Nigerian Languages</title>
       <link>//localhost:1313/projects/sabiyarn/</link>
       <pubDate>Fri, 15 Mar 2024 04:14:46 +0100</pubDate>
       
       <guid>//localhost:1313/projects/sabiyarn/</guid>
-      <description>Building and Training Nigeria&amp;rsquo;s first foundational language model. demo
-Paper
+      <description>Training a 125M parameter decoder-only model on 70b tokens of Nigerian Languages. demo
 Article</description>
-    </item>
-    
-    <item>
-      <title>TraceRoute</title>
-      <link>//localhost:1313/projects/traceroute/</link>
-      <pubDate>Fri, 15 Mar 2024 04:14:46 +0100</pubDate>
-      
-      <guid>//localhost:1313/projects/traceroute/</guid>
-      <description>Tracking a packet from source to destination. A tool for tracing the path followed by an internet packet across the internet implemented in python. Inspired by TraceRoute the Unix tool.
-github
-Try tracing a packet here</description>
     </item>
     
     <item>
@@ -62,7 +70,7 @@ Link</description>
     </item>
     
     <item>
-      <title>Training BERT to identify 15 programming languages. </title>
+      <title>Classifying Code snippets with BERT.</title>
       <link>//localhost:1313/articles/language_classification/</link>
       <pubDate>Sat, 19 Aug 2023 04:14:46 +0100</pubDate>
       
@@ -97,10 +105,10 @@ Computational photography describes signal processing techniques and algorithms 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/about/</guid>
-      <description>Hi I&amp;rsquo;m Damilola passionate about bringing intelligence to the web. A computer engineering student at the University of Lagos.
-Papers Semi-Supervised Learning with Transformers for Sentiment Analysis of Yoruba Sentences
+      <description>Hi I&amp;rsquo;m Damilola I&amp;rsquo;m Currently an undergrad at the University of Lagos, studying for my Bachelors in Computer Engineering.
+Research Semi-Supervised Learning with Transformers for Sentiment Analysis of Yoruba Sentences
 Training Nigeria&amp;rsquo;s First Foundational Decoder-only Language Model
-Books I&amp;rsquo;m Currently Reading: The Map of Information The Box </description>
+Books I&amp;rsquo;m Currently Reading: </description>
     </item>
     
     

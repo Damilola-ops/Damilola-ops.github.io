@@ -9,13 +9,12 @@
     <copyright>Copyright Damilola John &amp;copy; 2023</copyright>
     <lastBuildDate>Fri, 15 Mar 2024 04:14:46 +0100</lastBuildDate><atom:link href="//localhost:1313/tags/agents/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>SabiYarn- Nigeria&#39;s First Foundational Language model</title>
+      <title>SabiYarn: Training a Foundational Language Model on Nigerian Languages</title>
       <link>//localhost:1313/projects/sabiyarn/</link>
       <pubDate>Fri, 15 Mar 2024 04:14:46 +0100</pubDate>
       
       <guid>//localhost:1313/projects/sabiyarn/</guid>
-      <description>Building and Training Nigeria&amp;rsquo;s first foundational language model. demo
-Paper
+      <description>Training a 125M parameter decoder-only model on 70b tokens of Nigerian Languages. demo
 Article</description>
     </item>
     

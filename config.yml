@@ -8,6 +8,20 @@ copyright : Copyright Damilola John &copy; 2023
 
 enableRobotsTXT : true 
 enableEmoji: true
+markup:
+  goldmark:
+    extensions:
+      passthrough:
+        delimiters:
+          block:
+          - - \[
+            - \]
+          - - $$
+            - $$
+          inline:
+          - - \(
+            - \)
+        enable: true
 
 
 params:
@@ -16,15 +30,13 @@ params:
   description : "Personal Blog"
   keywords: [Blog, Portfolio, PaperMod]
   author: Damilola John
+  math: true
 
   homeInfoParams:
     Title: " Damilola John \U0001F44B"
     Content: >
-      - **Damilola John ** currently studying Computer Engineering at the University of Lagos 
-           
-      -     A software engineer whose primary focus is in building 
-            scalable and transparent Machine learning systems,
-            living and studying at the university of lagos.
+      - **Hi, I'm Damilola, ** Welcome to my blog  
+      -   
                      
     imageURL: "1b3.jpg"
   socialIcons:
@@ -33,28 +45,26 @@ params:
     - name: github
       url: https://github.com/damilojohn
     - name: linkedin 
-      url: https://www.linkedin.com/in/oduguwa-damilola-b089131a8/
+      url: https://www.linkedin.com/in/oduguwa-damilola/
   profileMode:
         enabled: True
         title: Oduguwa Damilola John # optional default will be site title
-        subtitle: >
-                **Machine Learning Engineer**.
+        subtitle: > 
+          *Hi, I'm Damilola*
+            **Welcome to my blog**
                     
-
-                Beyond the world of code, I find myself at the crossroads of technology, Art, Biology, and Astronomy. These disciplines intertwine in my pursuit of innovative solutions, painting a diverse canvas where creativity meets cutting-edge innovation.
-
 
         imageUrl: ""
         imageWidth: 300
         imageHeight: 200
         imageTitle: pp
         buttons:
-            - name: Articles 
-              url: "/articles"
-            - name: Projects
-              url: "/projects"
+            - name: About Me
+              url: "/about"
+              weight: 30
             - name: CV 
               url: "./Damilola-John-Oduguwa-CV.pdf"
+              weight: 30
         
   
   

@@ -9,7 +9,7 @@
     <copyright>Copyright Damilola John &amp;copy; 2023</copyright>
     <lastBuildDate>Sat, 19 Aug 2023 04:14:46 +0100</lastBuildDate><atom:link href="//localhost:1313/categories/finetuning/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Training BERT to identify 15 programming languages. </title>
+      <title>Classifying Code snippets with BERT.</title>
       <link>//localhost:1313/articles/language_classification/</link>
       <pubDate>Sat, 19 Aug 2023 04:14:46 +0100</pubDate>
       

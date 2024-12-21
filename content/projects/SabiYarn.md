@@ -1,5 +1,5 @@
 ---
-title: "SabiYarn- Nigeria's First Foundational Language model"
+title: "SabiYarn: Training a Foundational Language Model on Nigerian Languages"
 date: 2024-03-15T04:14:46+01:00
 draft: False
 cover:
@@ -9,12 +9,10 @@ tags: ['NLP','Agents',]
 Categories: ['Cloud','LLM']
 ---
 
-## Building and Training Nigeria's first foundational language model.
+## Training a 125M parameter decoder-only model on 70b tokens of Nigerian Languages.
 
 
 
 [demo](https://huggingface.co/spaces/BeardedMonster/SabiYarn_125M)
-
-[Paper](https://Arxiv.com/)
 
 [Article](https://damilojohn.github.io/posts/sabiyarn.md)

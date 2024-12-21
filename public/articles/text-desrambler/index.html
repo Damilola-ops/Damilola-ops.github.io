@@ -11,7 +11,7 @@
 I thought it would be interesting to teach a language model to do this. You might be thinking that simply re-arranging words in a sentence doesn&rsquo;t require intelligence and can be done with very trivial algorithms,you would be right, but I added an edge to this task, given a random sequence of words, the language model has to return a grammatically correct sequence using the same set of words.">
 <meta name="author" content="Damilola John">
 <link rel="canonical" href="//localhost:1313/articles/text-desrambler/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.1c1e28998f9753533f43564f2a25ff185fdd931db31172d494f8b22215dfff16.css" integrity="sha256-HB4omY&#43;XU1M/Q1ZPKiX/GF/dkx2zEXLUlPiyIhXf/xY=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.51ae2dfd23423d479cfd90ba4215aeebadfd8c0833c61a978bfbc8648cc56365.css" integrity="sha256-Ua4t/SNCPUec/ZC6QhWu6639jAgzxhqXi/vIZIzFY2U=" rel="preload stylesheet" as="style">
 <script defer crossorigin="anonymous" src="/assets/js/highlight.acb54fd32bbc1982428b8850317e45d076b95012730a5936667e6bc21777692a.js" integrity="sha256-rLVP0yu8GYJCi4hQMX5F0Ha5UBJzClk2Zn5rwhd3aSo="
     onload="hljs.initHighlightingOnLoad();"></script>
 <link rel="icon" href="//localhost:1313/static/favicon.ico">
@@ -99,6 +99,28 @@ I thought it would be interesting to teach a language model to do this. You migh
   }
 }
 </script>
+</head>
+
+<head>
+    ...
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG+vnGctmUb0ZY0l8" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    renderMathInElement(document.body, {
+      delimiters: [
+        {left: '\\[', right: '\\]', display: true},   
+        {left: '$$', right: '$$', display: true},     
+        {left: '\\(', right: '\\)', display: false},  
+      ],
+      throwOnError : false
+    });
+  });
+</script>
+    
+    ...
 </head>
 
 <body class="" id="top">
@@ -404,10 +426,15 @@ and the model on <a href="">huggingface</a></p>
       <li><a href="//localhost:1313/tags/transformers/">Transformers</a></li>
     </ul>
 <nav class="paginav">
+  <a class="prev" href="//localhost:1313/articles/diff_attention/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>Understanding Differential Attention Transformers.</span>
+  </a>
   <a class="next" href="//localhost:1313/articles/language_classification/">
     <span class="title">Next »</span>
     <br>
-    <span>Training BERT to identify 15 programming languages. </span>
+    <span>Classifying Code snippets with BERT.</span>
   </a>
 </nav>
 

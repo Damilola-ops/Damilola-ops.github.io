@@ -1,5 +1,5 @@
 ---
-title: "Training BERT to identify 15 programming languages. "
+title: "Classifying Code snippets with BERT."
 date: 2023-08-19T04:14:46+01:00
 draft: false 
 cover:

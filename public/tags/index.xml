@@ -7,11 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright Damilola John &amp;copy; 2023</copyright>
-    <lastBuildDate>Sat, 15 Jun 2024 04:14:46 +0100</lastBuildDate><atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 11 Dec 2024 04:14:46 +0100</lastBuildDate><atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Natural Language Processing</title>
       <link>//localhost:1313/tags/natural-language-processing/</link>
-      <pubDate>Sat, 15 Jun 2024 04:14:46 +0100</pubDate>
+      <pubDate>Wed, 11 Dec 2024 04:14:46 +0100</pubDate>
       
       <guid>//localhost:1313/tags/natural-language-processing/</guid>
       <description></description>
@@ -20,9 +20,45 @@
     <item>
       <title>Transformers</title>
       <link>//localhost:1313/tags/transformers/</link>
-      <pubDate>Sat, 15 Jun 2024 04:14:46 +0100</pubDate>
+      <pubDate>Wed, 11 Dec 2024 04:14:46 +0100</pubDate>
       
       <guid>//localhost:1313/tags/transformers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CI/CD</title>
+      <link>//localhost:1313/tags/ci/cd/</link>
+      <pubDate>Thu, 15 Aug 2024 04:14:46 +0100</pubDate>
+      
+      <guid>//localhost:1313/tags/ci/cd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cloud</title>
+      <link>//localhost:1313/tags/cloud/</link>
+      <pubDate>Thu, 15 Aug 2024 04:14:46 +0100</pubDate>
+      
+      <guid>//localhost:1313/tags/cloud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NLP</title>
+      <link>//localhost:1313/tags/nlp/</link>
+      <pubDate>Thu, 15 Aug 2024 04:14:46 +0100</pubDate>
+      
+      <guid>//localhost:1313/tags/nlp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Semantic Search</title>
+      <link>//localhost:1313/tags/semantic-search/</link>
+      <pubDate>Thu, 15 Aug 2024 04:14:46 +0100</pubDate>
+      
+      <guid>//localhost:1313/tags/semantic-search/</guid>
       <description></description>
     </item>
     
@@ -32,42 +68,6 @@
       <pubDate>Fri, 15 Mar 2024 04:14:46 +0100</pubDate>
       
       <guid>//localhost:1313/tags/agents/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>CI/CD</title>
-      <link>//localhost:1313/tags/ci/cd/</link>
-      <pubDate>Fri, 15 Mar 2024 04:14:46 +0100</pubDate>
-      
-      <guid>//localhost:1313/tags/ci/cd/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cloud</title>
-      <link>//localhost:1313/tags/cloud/</link>
-      <pubDate>Fri, 15 Mar 2024 04:14:46 +0100</pubDate>
-      
-      <guid>//localhost:1313/tags/cloud/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>NLP</title>
-      <link>//localhost:1313/tags/nlp/</link>
-      <pubDate>Fri, 15 Mar 2024 04:14:46 +0100</pubDate>
-      
-      <guid>//localhost:1313/tags/nlp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Semantic Search</title>
-      <link>//localhost:1313/tags/semantic-search/</link>
-      <pubDate>Fri, 15 Mar 2024 04:14:46 +0100</pubDate>
-      
-      <guid>//localhost:1313/tags/semantic-search/</guid>
       <description></description>
     </item>
     

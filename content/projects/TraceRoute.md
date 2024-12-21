@@ -1,6 +1,6 @@
 ---
 title: "TraceRoute"
-date: 2024-03-15T04:14:46+01:00
+date: 2024-08-15T04:14:46+01:00
 draft: False
 cover:
     image: ""
@@ -13,6 +13,3 @@ Categories: ['Cloud','Semantic Search','Recsys']
 A tool for tracing the path followed by an internet packet across the internet implemented in python. Inspired by TraceRoute the Unix tool.
 
 [github](https://github.com/damilojohn/traceroute)
-
-
-Try tracing a packet [here](https://traceroute.vercel.app)

@@ -1,12 +1,12 @@
 ---
 title: "Implementing TraceRoute in Python"
-date: 2024-02-15T04:14:46+01:00
+date: 2024-12-08T03:14:46+01:00
 draft: True 
 cover:
     image: ""
     alt: ''
-tags: ['Natural Language Processing', 'Transformers']
-Categories: ['NLP','LLM']
+tags: []
+Categories: ['Network','Linux','Python']
 ---
 
 ## Pythoh implementation of TraceRoute

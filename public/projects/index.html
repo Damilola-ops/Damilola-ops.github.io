@@ -54,6 +54,28 @@
 </script>
 </head>
 
+<head>
+    ...
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG+vnGctmUb0ZY0l8" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    renderMathInElement(document.body, {
+      delimiters: [
+        {left: '\\[', right: '\\]', display: true},   
+        {left: '$$', right: '$$', display: true},     
+        {left: '\\(', right: '\\)', display: false},  
+      ],
+      throwOnError : false
+    });
+  });
+</script>
+    
+    ...
+</head>
+
 <body class="list" id="top">
 <script>
     if (localStorage.getItem("pref-theme") === "dark") {
@@ -129,33 +151,6 @@
 
 <div class="grid-container">
     <article class="post-entry"> 
-<figure class="entry-cover"><img loading="lazy" src="//localhost:1313/anagrams.jpg" alt="">
-</figure>
-      <header class="entry-header">
-        <h2>
-          <a href="//localhost:1313/projects/text_descrambler/">Text Descrambling</a>
-        </h2>
-      </header>
-      <div class="entry-content">
-        <p>Finetuning GPT2 to Reconstruct sentences Two words are anagrams if one can be formed by permuting the letters of the other. Applying the same logic to a sentence, would be saying that two sentences are anagrams(no such thing) if their component words can be permutated to form clones of each other.
-I thought it would be interesting to teach a language model to do this. You might be thinking that simply re-arranging words in a sentence doesn’t require intelligence and can be done with very trivial algorithms,you would be right, but I added an edge to this task, given a random sequence of words, the language model has to return a grammatically correct sequence using the same set of words....</p>
-      </div>
-      <footer class="entry-footer">&lt;span title=&#39;2024-06-15 04:14:46 &#43;0100 WAT&#39;&gt;June 15, 2024&lt;/span&gt;&amp;nbsp;·&amp;nbsp;1 min&amp;nbsp;·&amp;nbsp;153 words&amp;nbsp;·&amp;nbsp;Damilola John</footer>
-    </article>
-    <article class="post-entry"> 
-      <header class="entry-header">
-        <h2>
-          <a href="//localhost:1313/projects/sabiyarn/">SabiYarn- Nigeria&#39;s First Foundational Language model</a>
-        </h2>
-      </header>
-      <div class="entry-content">
-        <p>Building and Training Nigeria’s first foundational language model. demo
-Paper
-Article</p>
-      </div>
-      <footer class="entry-footer">&lt;span title=&#39;2024-03-15 04:14:46 &#43;0100 WAT&#39;&gt;March 15, 2024&lt;/span&gt;&amp;nbsp;·&amp;nbsp;1 min&amp;nbsp;·&amp;nbsp;11 words&amp;nbsp;·&amp;nbsp;Damilola John</footer>
-    </article>
-    <article class="post-entry"> 
       <header class="entry-header">
         <h2>
           <a href="//localhost:1313/projects/traceroute/">TraceRoute</a>
@@ -163,10 +158,35 @@ Article</p>
       </header>
       <div class="entry-content">
         <p>Tracking a packet from source to destination. A tool for tracing the path followed by an internet packet across the internet implemented in python. Inspired by TraceRoute the Unix tool.
-github
-Try tracing a packet here</p>
+github</p>
       </div>
-      <footer class="entry-footer">&lt;span title=&#39;2024-03-15 04:14:46 &#43;0100 WAT&#39;&gt;March 15, 2024&lt;/span&gt;&amp;nbsp;·&amp;nbsp;1 min&amp;nbsp;·&amp;nbsp;36 words&amp;nbsp;·&amp;nbsp;Damilola John</footer>
+      <footer class="entry-footer">&lt;span title=&#39;2024-08-15 04:14:46 &#43;0100 WAT&#39;&gt;August 15, 2024&lt;/span&gt;&amp;nbsp;·&amp;nbsp;1 min&amp;nbsp;·&amp;nbsp;31 words&amp;nbsp;·&amp;nbsp;Damilola John</footer>
+    </article>
+    <article class="post-entry"> 
+<figure class="entry-cover"><img loading="lazy" src="//localhost:1313/anagrams.jpg" alt="">
+</figure>
+      <header class="entry-header">
+        <h2>
+          <a href="//localhost:1313/projects/text_descrambler/">Descrambling Sentences with GPT2 </a>
+        </h2>
+      </header>
+      <div class="entry-content">
+        <p>Finetuning GPT2 to Reconstruct sentences Two words are anagrams if one can be formed by permuting the letters of the other. Applying the same logic to a sentence, would be saying that two sentences are anagrams(no such thing) if their component words can be permutated to form clones of each other.
+I thought it would be interesting to finetune a language model to do this. You might be thinking that simply re-arranging words in a sentence doesn’t require intelligence and can be done with very trivial algorithms,you would be right, but I added an edge to this task, given a random sequence of words, the language model has to return a grammatically correct sequence using the same set of words....</p>
+      </div>
+      <footer class="entry-footer">&lt;span title=&#39;2024-06-10 04:14:46 &#43;0100 WAT&#39;&gt;June 10, 2024&lt;/span&gt;&amp;nbsp;·&amp;nbsp;1 min&amp;nbsp;·&amp;nbsp;153 words&amp;nbsp;·&amp;nbsp;Damilola John</footer>
+    </article>
+    <article class="post-entry"> 
+      <header class="entry-header">
+        <h2>
+          <a href="//localhost:1313/projects/sabiyarn/">SabiYarn: Training a Foundational Language Model on Nigerian Languages</a>
+        </h2>
+      </header>
+      <div class="entry-content">
+        <p>Training a 125M parameter decoder-only model on 70b tokens of Nigerian Languages. demo
+Article</p>
+      </div>
+      <footer class="entry-footer">&lt;span title=&#39;2024-03-15 04:14:46 &#43;0100 WAT&#39;&gt;March 15, 2024&lt;/span&gt;&amp;nbsp;·&amp;nbsp;1 min&amp;nbsp;·&amp;nbsp;14 words&amp;nbsp;·&amp;nbsp;Damilola John</footer>
     </article>
     <article class="post-entry"> 
 <figure class="entry-cover"><img loading="lazy" src="//localhost:1313/zeeno.jpg" alt="Vanitas Still Life with a Candlestick, Musical Instruments, Dutch Books, a Writing Set, an Astrological and a Terrestial Globe and an Hourglass, All on a Draped Table by Evert Collier">

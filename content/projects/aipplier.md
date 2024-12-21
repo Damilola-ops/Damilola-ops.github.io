@@ -6,11 +6,11 @@ cover:
     image: ""
     alt: ''
 tags: ['NLP','Agents',]
-Categories: ['Cloud','LLM']
+Categories: ['Agents', 'AI']
 ---
 
 ## An LLM-Based Web Automation Agent for automatig job applications on popular job boards.
 
-Built using Langgraph and Selenium.
+Automating Job applications with LLM-based web automation.
 
 [Try it out here](https://aipplier.com)

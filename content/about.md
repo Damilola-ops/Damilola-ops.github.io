@@ -6,20 +6,18 @@ type: page
 
 # Hi I'm  Damilola 
 
-### passionate about bringing intelligence to the web. 
-A computer engineering student at the University of Lagos.
+ 
+I'm Currently an undergrad at the University of Lagos, studying for my Bachelors in Computer Engineering.
 
 
 
 
-
-# Papers
+# Research
 - [Semi-Supervised Learning with Transformers for Sentiment Analysis of Yoruba Sentences]()
 
 - [Training Nigeria's First Foundational Decoder-only Language Model]()
 
 # Books I'm Currently Reading:
-- [The Map of Information]()
-- [The Box]()
+- ![The Map of Information]()
+- ![MapMatics]()
 - 
-
