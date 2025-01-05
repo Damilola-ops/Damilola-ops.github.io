@@ -1,9 +1,9 @@
 ---
 title: " AIpplier"
-date: 2024-03-15T04:14:46+01:00
-draft: True
+date: 2024-10-15T04:14:46+01:00
+draft: false
 cover:
-    image: ""
+    image: "aipplier.png"
     alt: ''
 tags: ['NLP','Agents',]
 Categories: ['Agents', 'AI']
@@ -13,4 +13,4 @@ Categories: ['Agents', 'AI']
 
 Automating Job applications with LLM-based web automation.
 
-[Try it out here](https://aipplier.com)
+[Try it out here](https://www.aipplier.com/)

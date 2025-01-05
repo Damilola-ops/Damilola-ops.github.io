@@ -25,7 +25,7 @@ markup:
 
 
 params:
-  env: production
+  env: development
   title: Damilola John 
   description : "Personal Blog"
   keywords: [Blog, Portfolio, PaperMod]

@@ -18,6 +18,8 @@
 </script>
 {{- else }}
 {{- /* theme is auto */}}
+
+{{ partial "katex.html" . }}
 <script>
     if (localStorage.getItem("pref-theme") === "dark") {
         document.body.classList.add('dark');

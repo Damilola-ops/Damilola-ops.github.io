@@ -4,11 +4,11 @@
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="index, follow">
-<title>Understanding Differential Attention Transformers. | Home</title>
+<meta name="robots" content="noindex, nofollow">
+<title>Understanding Differential Attention. | Home</title>
 <meta name="keywords" content="Natural Language Processing, Transformers">
-<meta name="description" content="Introduction Over the last few years, the transformers architecture has emerged as biggest advances in
-The transformers architecture owes most of it&rsquo;s ubuquitousness however to it&rsquo;s scaling laws. Transformers, Language models in particular, have demonstrated exponentially increasing abilities across varying tasks, including but not limited to reasoning, translation, language understanding and comprehension, etc, with ever increasing sizes. The GPT models were of moderately reasonable sizes, with the largest GPT2 model released in 2018 being 1.">
+<meta name="description" content="Introduction Over the last few years, Transformers have emerged as the de-facto deep learning architecture in language models. Fundamentally changing the field of machine learning and Artificial intelligence as a whole. Their unprecendented success in solving complex language tasks, reasoning (or mimmicking it) in solving math and coding problems, have ushered in a new era in AI, powering successful AI products like ChatGPT.
+The key innovation of transformers lies in the self-attention mechanism, which allows each tokens in the input sequence to directly interact with every other token in the sequence.">
 <meta name="author" content="Damilola John">
 <link rel="canonical" href="//localhost:1313/articles/diff_attention/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.51ae2dfd23423d479cfd90ba4215aeebadfd8c0833c61a978bfbc8648cc56365.css" integrity="sha256-Ua4t/SNCPUec/ZC6QhWu6639jAgzxhqXi/vIZIzFY2U=" rel="preload stylesheet" as="style">
@@ -30,75 +30,7 @@ The transformers architecture owes most of it&rsquo;s ubuquitousness however to 
         }
 
     </style>
-</noscript><meta property="og:title" content="Understanding Differential Attention Transformers." />
-<meta property="og:description" content="Introduction Over the last few years, the transformers architecture has emerged as biggest advances in
-The transformers architecture owes most of it&rsquo;s ubuquitousness however to it&rsquo;s scaling laws. Transformers, Language models in particular, have demonstrated exponentially increasing abilities across varying tasks, including but not limited to reasoning, translation, language understanding and comprehension, etc, with ever increasing sizes. The GPT models were of moderately reasonable sizes, with the largest GPT2 model released in 2018 being 1." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="//localhost:1313/articles/diff_attention/" />
-<meta property="og:image" content="//localhost:1313/diff_attn.png" /><meta property="article:section" content="articles" />
-<meta property="article:published_time" content="2024-12-11T04:14:46+01:00" />
-<meta property="article:modified_time" content="2024-12-11T04:14:46+01:00" /><meta property="og:site_name" content="Damilola John" />
-
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:image" content="//localhost:1313/diff_attn.png" />
-<meta name="twitter:title" content="Understanding Differential Attention Transformers."/>
-<meta name="twitter:description" content="Introduction Over the last few years, the transformers architecture has emerged as biggest advances in
-The transformers architecture owes most of it&rsquo;s ubuquitousness however to it&rsquo;s scaling laws. Transformers, Language models in particular, have demonstrated exponentially increasing abilities across varying tasks, including but not limited to reasoning, translation, language understanding and comprehension, etc, with ever increasing sizes. The GPT models were of moderately reasonable sizes, with the largest GPT2 model released in 2018 being 1."/>
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position":  1 ,
-      "name": "Articles",
-      "item": "//localhost:1313/articles/"
-    }, 
-    {
-      "@type": "ListItem",
-      "position":  2 ,
-      "name": "Understanding Differential Attention Transformers.",
-      "item": "//localhost:1313/articles/diff_attention/"
-    }
-  ]
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "headline": "Understanding Differential Attention Transformers.",
-  "name": "Understanding Differential Attention Transformers.",
-  "description": "Introduction Over the last few years, the transformers architecture has emerged as biggest advances in\nThe transformers architecture owes most of it\u0026rsquo;s ubuquitousness however to it\u0026rsquo;s scaling laws. Transformers, Language models in particular, have demonstrated exponentially increasing abilities across varying tasks, including but not limited to reasoning, translation, language understanding and comprehension, etc, with ever increasing sizes. The GPT models were of moderately reasonable sizes, with the largest GPT2 model released in 2018 being 1.",
-  "keywords": [
-    "Natural Language Processing", "Transformers"
-  ],
-  "articleBody": "Introduction Over the last few years, the transformers architecture has emerged as biggest advances in\nThe transformers architecture owes most of it’s ubuquitousness however to it’s scaling laws. Transformers, Language models in particular, have demonstrated exponentially increasing abilities across varying tasks, including but not limited to reasoning, translation, language understanding and comprehension, etc, with ever increasing sizes. The GPT models were of moderately reasonable sizes, with the largest GPT2 model released in 2018 being 1.2 billion parameters in size. Their success in Language modelling has seen them gain adoption in other modalities including vision and even image/video generation models.\nA core component of the transformers architecture is the Self Attention Mechanism\nThe self-attention mechanism is a series of transformations that allow transformers create token-representations (Embeddings) that contain contextual information in a more computationally efficient manner to methods use in the preceeding language modelling architectures.\nIn the years since the first transformers paper, the biggest advances in the self attention mechanism have largely focused on computational efficiency, with the most notable ones being Flash Attention, blabla, to mention a few. Differential Attention focuses on improving context understanding and minimizing noise in the self attention processs.\nDifferential Attention was introduced in a 2024 paper by a team at Microsoft called Differential Transformer that proposes a new transformers architecture. However the only major difference between a differential transformer and a transformer is the differential attention mechanism\nNoise in Self Attention. As mentioned earlier, the goal of self-attention is to include information about a token’s context into it’s embeddings. This is carried out by performing a series of transformations that take the embeddings of all tokens in the input and returns context-aware embeddings that can be thought of as weighted sums of learned representations of all tokens in the input sequence. The weights computed in this process are called attention weights and they represent how much attention is paid to other tokens in the sequence.\nTransformers for all of their glory however, are still notorious for paying attention to irrelevant context in a sequence. By visualizing the attention scores of a transformer model during a retrieval task, the authors of differential attention compared the attention maps of transformers to those of differential transformers.\n(attention scores visualization)\nThe key idea behind Differential Attention is a technique called Differential Denoising.\nThis is a simple process that involves substracting two different attention weights computed from two attention maps. To readers with a background in Electrical Engineering, this might sound familiar to a common denoising electrical component, the Differential Amplifier.\nDifferential Amplifiers are amplifiers that are mainly used to reduce noise in signals. They amplify the difference between two input signals and remove noise in the process. They key idea behind this is that, if noise exists in a system, then equal amount of noise added to the input signals. If A and B are provided as the inputs to a Differential Amplifier, the differential amplifier amplifies the difference between signal A and B, and rejects( provides low gain) their commmon input (the noise) simply called the common mode.\nDifferential Denoising also finds application in Noise-Cancellation headphones.\nNow that the core idea of removing noise by taking the difference between two signals has been explored, let’s take a look at the inner workings of a differential amplifier.\nDifferential Attention Architecture The key difference between Differential attention and self-attention mechanism lies in how their attention weights are computed.\nThe differential attention mechanism computes outputs using the equation:\n\\[\r\\text{DiffAttn}(X) = \\left( \\text{softmax}\\left(\\frac{Q_1 K_1^T}{\\sqrt{d}}\\right) - \\lambda \\cdot \\text{softmax}\\left(\\frac{Q_2 K_2^T}{\\sqrt{d}}\\right) \\right) V\r\\] where:\n\\( Q_1, Q_2 \\) are query matrices, \\( K_1, K_2 \\) are key matrices, \\( V \\) is the value matrix, \\( \\lambda \\) is a learnable scalar, \\( d \\) is the head dimension. As a comparison, here’s how self attention computes outputs:\n\\[\r\\text{SelfAttn}(X) = \\left( \\text{softmax}\\left(\\frac{Q K^T}{\\sqrt{d}}\r\\right) \\right)\r\\] Implementation This implementation follows the assumption that the differential attention layer is implemented as a standalone module that can be imported into a decoder.\nclass DiffAttention(nn.Module):\rdef __init__(self, args: DiffAttnArgs,): A key detail to pay close attention to is that we set the number of attention heads to half that of a normal transformer model, then proceed to set the dimension of each head to\nself.num_heads = args.n_heads # half of transformers head\rself.head_dim = args.dim // args.n_heads // 2 This might seem odd, as the head dimension should be equal to\nself.head_dim = args.dim // args.n_heads This is done to make splitting the attention scores into two copies possible.\nThe key, query and vector projection layers are instantiated just like they are in their self-attention counterparts:\nself.wq = nn.Linear(args.embed_dim, args.embed_dim, bias=False)\rself.wk = nn.Linear(args.embed_dim, args.embed_dim, bias=False)\rself.wv = nn.Linear(args.embed_dim, args.embed_dim, bias=False) the scaling constant is defined as :\nself.scaling = self.head_dim ** -0.5 which is the same as in self-attention if you chose to multiply by the numerator (the dot product of key and query vectors).\nIn order to balance the learning dynamics with the rest of the model, the lambda value is parameterized as :\n\\[\r\\lambda = \\exp(\\lambda_{q1} \\cdot \\lambda_{k1}) - \\exp(\\lambda_{q2} \\cdot \\lambda_{k2}) + \\lambda_{\\text{init}}\r\\] where \\[ \\lambda_{q1} ,\\lambda_{k1}, \\lambda_{q2}, \\lambda_{q2}\r\\] are learnable vectors and are instantiated below :\nself.lambda_q1 = nn.Parameter(torch.zeros(self.head_dim, dtype=torch.float32))\rself.lambda_q2 = nn.Parameter(torch.zeros(self.head_dim, dtype=torch.float32))\rself.lambda_k1 = nn.Parameter(torch.zeros(self.head_dim, dtype=torch.float32))\rself.lambda_k2 = nn.Parameter(torch.zeros(self.head_dim, dtype=torch.float32)) \\[\r\\lambda_{\\text{init}} = 0.8 - 0.6 \\times \\exp(-0.3 \\cdot (l - 1))\r\\] is computed below:\ndef lambda_init_fn(depth):\r\"\"\"\rFunction for calculating Lambda_init\rArgs:\rdepth (int): Decoder layer index containing the attention mechanism.\rReturns: float: lambda init value.\r\"\"\"\rreturn 0.8 - 0.6 * math.exp(-0.3 * depth) where L, the layer index (index of the decoder layer the attention module resides in) is the depth argument.\nthen finally:\nself.lambda_init = lambda_init_fn(args.depth) Layer normalization is also initialized using Root-Mean-Square Normalization.\nself.sublayer_norm = RMSNorm(2 * self.head_dim, eps=1e-5,) The forward method is then implemented as follows:\nThe key, query and value vectors are computed and split into n_heads for multihead attention. q = self.wq(x)\rk = self.wk(x)\rv = self.wv(x)\rq = q.view(bsz, tgt_len, 2*self.num_heads, self.head_dim)\rk = k.view(bsz, tgt_len, 2*self.num_heads, self.head_dim)\rv = v.view(bsz, tgt_len, self.num_heads, 2*self.head_dim) Next, Rotary Positional Embeddings are added to the Key and Query vectors to include positional information in the sequence q,k = apply_rotary_emb(q, k, freqs_cis) To make up for the halved head_dim, the key and query heads each have twice the number of heads (head_dim should always equal embed_dim / num_heads). The same is done in the value vector however, here we use 2x the head dimension.\nHaving twice the number of heads for the key and query vector makes it possible to have two attention weights.\nThe attention scores the same as in self-attention with scaling and a causal masked applied.\nq *= self.scaling\rq = q.transpose(1,2)\rk = k.transpose(1,2)\rv = v.transpose(1,2)\rattn_weights = torch.matmul(q, k.transpose(2,3))\rif attn_mask is None:\rattn_mask = torch.triu(\rtorch.zeros((tgt_len, tgt_len)\r).float()\r.type_as(attn_weights),\rdiagonal= 1+offset\r)\rattn_weights = torch.nan_to_num(attn_weights)\rattn_weights += attn_mask Softmax is applied to get the attention weights.\nattn_weights = F.softmax(attn_weights, dim=-1, dtype=torch.float32).type_as(\rattn_weights\r) \\( \\lambda \\) is calculated as :\nlambda_1 = torch.exp(\rtorch.sum(\rself.lambda_q1 * self.lambda_k1, dim=-1).float()).type_as(q)\rlambda_2 = torch.exp(\rtorch.sum(\rself.lambda_q2 * self.lambda_k2, dim=-1).float()).type_as(q) + self.lambda_init\rlambda_full = lambda_1 - lambda_2 where lambda_1 and lambda_2 are the LHS and RHS of the equation we saw earlier :\n\\[\r\\lambda = \\exp(\\lambda_{q1} \\cdot \\lambda_{k1}) - \\exp(\\lambda_{q2} \\cdot \\lambda_{k2}) + \\lambda_{\\text{init}}\r\\] Here’s the key part, the attention weights are now halved across the head_dimensions, so the model now has half the number of heads, and two different attention weights in each head.\nattn_weights = attn_weights.view(\rbsz, self.num_heads,\r2, tgt_len, src_len) The difference between both attention weights is then:\nattn_weights = attn_weights[:, :, 0] - lambda_full * attn_weights[:, :, 1] Finally the attention weights are multiplied with the value vector to create the new context vectors, RMS norm is applied and the heads are concatenated into one output vector that has dim = embed_dim\nctx_vec= torch.matmul(attn_weights, v)\rctx_vec = self.sublayer_norm(ctx_vec)\rctx_vec = ctx_vec.transpose(1,2).reshape(\rbsz, tgt_len, self.num_heads * 2 * self.head_dim) Conclusion Differential transformers have demonstrated great potential early on, achieving comparable performances at 65% the size of transformers in language modelling and outpeform transformers on various downstream tasks.\n",
-  "wordCount" : "1369",
-  "inLanguage": "en",
-  "image":"//localhost:1313/diff_attn.png","datePublished": "2024-12-11T04:14:46+01:00",
-  "dateModified": "2024-12-11T04:14:46+01:00",
-  "author":{
-    "@type": "Person",
-    "name": "Damilola John"
-  },
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "//localhost:1313/articles/diff_attention/"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Home",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "//localhost:1313/static/favicon.ico"
-    }
-  }
-}
-</script>
+</noscript>
 </head>
 
 <head>
@@ -195,9 +127,9 @@ The transformers architecture owes most of it&rsquo;s ubuquitousness however to 
   <header class="post-header">
     <div class="breadcrumbs"><a href="//localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="//localhost:1313/articles/">Articles</a></div>
     <h1 class="post-title">
-      Understanding Differential Attention Transformers.
+      Understanding Differential Attention.
     </h1>
-    <div class="post-meta">&lt;span title=&#39;2024-12-11 04:14:46 &#43;0100 WAT&#39;&gt;December 11, 2024&lt;/span&gt;&amp;nbsp;·&amp;nbsp;7 min&amp;nbsp;·&amp;nbsp;1369 words&amp;nbsp;·&amp;nbsp;Damilola John
+    <div class="post-meta">&lt;span title=&#39;2024-12-11 04:14:46 &#43;0100 WAT&#39;&gt;December 11, 2024&lt;/span&gt;&amp;nbsp;·&amp;nbsp;7 min&amp;nbsp;·&amp;nbsp;1424 words&amp;nbsp;·&amp;nbsp;Damilola John
 
 </div>
   </header> 
@@ -227,11 +159,16 @@ The transformers architecture owes most of it&rsquo;s ubuquitousness however to 
 </div>
 
   <div class="post-content"><h2 id="introduction">Introduction<a hidden class="anchor" aria-hidden="true" href="#introduction">#</a></h2>
-<p>Over the last few years, the transformers architecture has emerged as biggest advances in</p>
-<p>The transformers architecture owes most of it&rsquo;s ubuquitousness however to it&rsquo;s scaling laws. Transformers, Language models in particular, have demonstrated exponentially increasing abilities across varying tasks, including but not limited to reasoning, translation, language understanding and comprehension, etc, with ever increasing sizes. The GPT models were of moderately reasonable sizes, with the largest GPT2 model released in 2018 being 1.2 billion parameters in size. Their success in Language modelling has seen them gain adoption in other modalities including vision and even image/video generation models.</p>
-<p>A core component of the transformers architecture is the Self Attention Mechanism</p>
-<p>The self-attention mechanism is a series of transformations that allow transformers create token-representations (Embeddings) that contain contextual information in a more computationally efficient manner to methods use in the preceeding language modelling architectures.</p>
-<p>In the years since the first transformers paper, the biggest advances in the self attention mechanism have largely focused on computational efficiency, with the most notable ones being <a href="">Flash Attention</a>, blabla, to mention a few. Differential Attention focuses on improving context understanding and minimizing noise in the self attention processs.</p>
+<p>Over the last few years, Transformers have emerged as the de-facto deep learning architecture in language models. Fundamentally changing the field of machine learning and Artificial intelligence as a whole.
+Their unprecendented success in solving complex language tasks, reasoning (or mimmicking it) in solving math and coding problems, have ushered in a new era in AI, powering successful AI products like ChatGPT.</p>
+<p>The key innovation of transformers lies in the self-attention mechanism, which allows each tokens in the input sequence to directly interact with every other token in the sequence.</p>
+<p>The self-attention mechanism is a series of transformations that allow transformers introduce information about a token&rsquo;s context into it&rsquo;s latent space representation( aka Embeddings).</p>
+<p>In simple terms, self attention turns each token&rsquo;s embeddings into a weighted sum of all the other embeddings in a sequence, creating an embedding that incorporates information about the other tokens in the sequence.</p>
+<p><img loading="lazy" src="%27/self_attn.png%27" alt="self-attention example"  />
+</p>
+<p>The goal of self-attention in the image above would be to create an embedding for the token &ldquo;flies&rdquo; that encodes the flow of time in the first sequence, and one that has encodes flies in relation to insects in the second sequence.</p>
+<p>In recent times, most of the spotlight in research on self-attention has been on techniques focused on optimizing computational and memory efficiency such as <img loading="lazy" src="https://arxiv.org/abs/2205.14135" alt="Flash attention (2022)"  />
+. However transformers are still notorious</p>
 <p><strong>Differential Attention was introduced in a 2024 <a href="https://arxiv.org/pdf/2410.05258">paper</a> by a team at Microsoft called Differential Transformer that proposes a new transformers architecture. However the only major difference between a differential transformer and a transformer is the differential attention mechanism</strong></p>
 <h2 id="noise-in-self-attention">Noise in Self Attention.<a hidden class="anchor" aria-hidden="true" href="#noise-in-self-attention">#</a></h2>
 <p>As mentioned earlier, the goal of self-attention is to include information about a token&rsquo;s context into it&rsquo;s embeddings. This is carried out  by performing a series of transformations that take the embeddings of all tokens in the input and returns context-aware embeddings that can be thought of as weighted sums of learned representations of all tokens in the input sequence. The weights computed in this process are called attention weights and they represent how much attention is paid to other tokens in the sequence.</p>
@@ -262,41 +199,41 @@ The transformers architecture owes most of it&rsquo;s ubuquitousness however to 
 \right) \right)
 \]
 <h2 id="implementation">Implementation<a hidden class="anchor" aria-hidden="true" href="#implementation">#</a></h2>
-<p>This implementation follows the assumption that the differential attention layer is implemented as a standalone module that can be imported into a decoder.</p>
+<p>This implementation assumes that the differential attention layer is implemented as a standalone module.</p>
 <pre tabindex="0"><code>class DiffAttention(nn.Module):
   def __init__(self, args: DiffAttnArgs,):
 </code></pre><p>A key detail to pay close attention to is that we set the number of attention heads to half that of a normal transformer model, then proceed to set the dimension of each head to</p>
 <pre tabindex="0"><code>self.num_heads = args.n_heads # half of transformers head
 self.head_dim = args.dim // args.n_heads // 2
-</code></pre><p>This might seem odd, as the head dimension should be equal to</p>
+</code></pre><p>This might seem odd, as intuitively, each head usually has a dimension of:</p>
 <pre tabindex="0"><code>self.head_dim = args.dim // args.n_heads 
-</code></pre><p>This is done to make splitting the attention scores into two copies possible.</p>
-<p>The key, query and vector projection layers are instantiated just like they are in their self-attention counterparts:</p>
+</code></pre><p>Taking GPT-2-small as an example, with 12 attention heads and each head having a head dimension of 64. Using differential attention, we would set the number of heads to 6 instead, and have a head dimension of 64 (with 6 heads), when we really should have a head dimension of 128 with 6 heads(following transformer&rsquo;s convention).</p>
+<p>The key, query and vector projection layers are instantiated just like they are in self-attention:</p>
 <pre tabindex="0"><code>    self.wq = nn.Linear(args.embed_dim, args.embed_dim, bias=False)
     self.wk = nn.Linear(args.embed_dim, args.embed_dim, bias=False)
     self.wv = nn.Linear(args.embed_dim, args.embed_dim, bias=False)
 </code></pre><p>the scaling constant is defined as :</p>
 <pre tabindex="0"><code>self.scaling = self.head_dim ** -0.5
-</code></pre><p>which is the same as in self-attention if you chose to multiply by the numerator (the dot product of key and query vectors).</p>
-<p>In order to balance the learning dynamics with the rest of the model, the lambda value is parameterized as :</p>
+</code></pre><p>the same as in self-attention, if you chose to multiply by the numerator (the dot product of key and query vectors).</p>
+<p>In order to balance gradient computation with the rest of the model, the lambda value is parameterized as :</p>
 \[
-\lambda = \exp(\lambda_{q1} \cdot \lambda_{k1}) - \exp(\lambda_{q2} \cdot \lambda_{k2}) + \lambda_{\text{init}}
+\lambda = e^{(\lambda_{q1} \cdot \lambda_{k1})} - e^{(\lambda_{q2} \cdot \lambda_{k2})} + \lambda_{\text{init}}
 \]
 <p>where
 </p>
 \[ 
 \lambda_{q1} ,\lambda_{k1}, \lambda_{q2}, \lambda_{q2}
 \]
-<p> are <strong>learnable vectors</strong> and are instantiated below :</p>
+<p> are <strong>learnable vectors</strong> and are instantiated as :</p>
 <pre tabindex="0"><code>self.lambda_q1 = nn.Parameter(torch.zeros(self.head_dim, dtype=torch.float32))
 self.lambda_q2 = nn.Parameter(torch.zeros(self.head_dim, dtype=torch.float32))
 self.lambda_k1 = nn.Parameter(torch.zeros(self.head_dim, dtype=torch.float32))
 self.lambda_k2 = nn.Parameter(torch.zeros(self.head_dim, dtype=torch.float32))
 </code></pre>\[
-\lambda_{\text{init}} = 0.8 - 0.6 \times \exp(-0.3 \cdot (l - 1))
+\lambda_{\text{init}} = 0.8 - 0.6 \times e^{-0.3 \cdot (l - 1)}
 \]
 <p>
-is computed below:</p>
+is defined as:</p>
 <pre tabindex="0"><code>def lambda_init_fn(depth):
       &#34;&#34;&#34;
       Function for calculating Lambda_init
@@ -307,8 +244,8 @@ is computed below:</p>
       &#34;&#34;&#34;
       
       return 0.8 - 0.6 * math.exp(-0.3 * depth)
-</code></pre><p>where L, the layer index (index of the decoder layer the attention module resides in) is the <strong>depth</strong> argument.</p>
-<p>then finally:</p>
+</code></pre><p>where L or <strong>depth</strong> is the layer index (index of the decoder layer the attention module resides in).</p>
+<p>finally:</p>
 <pre tabindex="0"><code>self.lambda_init = lambda_init_fn(args.depth)
 </code></pre><p>Layer normalization is also initialized using <a href="https://pytorch.org/docs/stable/generated/torch.nn.modules.normalization.RMSNorm.html">Root-Mean-Square Normalization</a>.</p>
 <pre tabindex="0"><code>    self.sublayer_norm = RMSNorm(2 * self.head_dim, eps=1e-5,)

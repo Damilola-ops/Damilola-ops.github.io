@@ -9,13 +9,13 @@
     <copyright>Copyright Damilola John &amp;copy; 2023</copyright>
     <lastBuildDate>Wed, 11 Dec 2024 04:14:46 +0100</lastBuildDate><atom:link href="//localhost:1313/articles/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Understanding Differential Attention Transformers.</title>
+      <title>Understanding Differential Attention.</title>
       <link>//localhost:1313/articles/diff_attention/</link>
       <pubDate>Wed, 11 Dec 2024 04:14:46 +0100</pubDate>
       
       <guid>//localhost:1313/articles/diff_attention/</guid>
-      <description>Introduction Over the last few years, the transformers architecture has emerged as biggest advances in
-The transformers architecture owes most of it&amp;rsquo;s ubuquitousness however to it&amp;rsquo;s scaling laws. Transformers, Language models in particular, have demonstrated exponentially increasing abilities across varying tasks, including but not limited to reasoning, translation, language understanding and comprehension, etc, with ever increasing sizes. The GPT models were of moderately reasonable sizes, with the largest GPT2 model released in 2018 being 1.</description>
+      <description>Introduction Over the last few years, Transformers have emerged as the de-facto deep learning architecture in language models. Fundamentally changing the field of machine learning and Artificial intelligence as a whole. Their unprecendented success in solving complex language tasks, reasoning (or mimmicking it) in solving math and coding problems, have ushered in a new era in AI, powering successful AI products like ChatGPT.
+The key innovation of transformers lies in the self-attention mechanism, which allows each tokens in the input sequence to directly interact with every other token in the sequence.</description>
     </item>
     
     <item>
