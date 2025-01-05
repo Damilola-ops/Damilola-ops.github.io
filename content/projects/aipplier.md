@@ -5,12 +5,11 @@ draft: false
 cover:
     image: "aipplier.png"
     alt: ''
-tags: ['NLP','Agents',]
+tags: ['AI','Agents',]
 Categories: ['Agents', 'AI']
 ---
 
 ## An LLM-Based Web Automation Agent for automatig job applications on popular job boards.
 
-Automating Job applications with LLM-based web automation.
 
 [Try it out here](https://www.aipplier.com/)

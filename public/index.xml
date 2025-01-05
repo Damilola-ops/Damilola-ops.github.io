@@ -19,6 +19,26 @@ The key innovation of transformers lies in the self-attention mechanism, which a
     </item>
     
     <item>
+      <title> AIpplier</title>
+      <link>//localhost:1313/projects/aipplier/</link>
+      <pubDate>Tue, 15 Oct 2024 04:14:46 +0100</pubDate>
+      
+      <guid>//localhost:1313/projects/aipplier/</guid>
+      <description>An LLM-Based Web Automation Agent for automatig job applications on popular job boards. Try it out here</description>
+    </item>
+    
+    <item>
+      <title>Zeeno - Find books by describing them. A personal librarian for discovering books</title>
+      <link>//localhost:1313/projects/zeeno/</link>
+      <pubDate>Sun, 15 Sep 2024 04:14:46 +0100</pubDate>
+      
+      <guid>//localhost:1313/projects/zeeno/</guid>
+      <description>Find books about topics/ideas in your head A recommendation service that let&amp;rsquo;s you find books about any topic or ideas you are thinking about by describing them in natural language.
+Github repo
+Link</description>
+    </item>
+    
+    <item>
       <title>TraceRoute</title>
       <link>//localhost:1313/projects/traceroute/</link>
       <pubDate>Thu, 15 Aug 2024 04:14:46 +0100</pubDate>
@@ -39,16 +59,6 @@ I thought it would be interesting to teach a language model to do this. You migh
     </item>
     
     <item>
-      <title>Descrambling Sentences with GPT2 </title>
-      <link>//localhost:1313/projects/text_descrambler/</link>
-      <pubDate>Mon, 10 Jun 2024 04:14:46 +0100</pubDate>
-      
-      <guid>//localhost:1313/projects/text_descrambler/</guid>
-      <description>Finetuning GPT2 to Reconstruct sentences Two words are anagrams if one can be formed by permuting the letters of the other. Applying the same logic to a sentence, would be saying that two sentences are anagrams(no such thing) if their component words can be permutated to form clones of each other.
-I thought it would be interesting to finetune a language model to do this. You might be thinking that simply re-arranging words in a sentence doesn&amp;rsquo;t require intelligence and can be done with very trivial algorithms,you would be right, but I added an edge to this task, given a random sequence of words, the language model has to return a grammatically correct sequence using the same set of words.</description>
-    </item>
-    
-    <item>
       <title>SabiYarn: Training a Foundational Language Model on Nigerian Languages</title>
       <link>//localhost:1313/projects/sabiyarn/</link>
       <pubDate>Fri, 15 Mar 2024 04:14:46 +0100</pubDate>
@@ -59,14 +69,13 @@ Article</description>
     </item>
     
     <item>
-      <title>Zeeno - Find books by describing them. A personal librarian for discovering books</title>
-      <link>//localhost:1313/projects/zeeno/</link>
-      <pubDate>Fri, 15 Mar 2024 04:14:46 +0100</pubDate>
+      <title>Descrambling Sentences with GPT2 </title>
+      <link>//localhost:1313/projects/text_descrambler/</link>
+      <pubDate>Wed, 10 Jan 2024 04:14:46 +0100</pubDate>
       
-      <guid>//localhost:1313/projects/zeeno/</guid>
-      <description>Find books about topics/ideas in your head A recommendation service that let&amp;rsquo;s you find books about any topic or ideas you are thinking about by describing them in natural language.
-Github repo
-Link</description>
+      <guid>//localhost:1313/projects/text_descrambler/</guid>
+      <description>Finetuning GPT2 to Reconstruct sentences Two words are anagrams if one can be formed by permuting the letters of the other. Applying the same logic to a sentence, would be saying that two sentences are anagrams(no such thing) if their component words can be permutated to form clones of each other.
+I thought it would be interesting to finetune a language model to do this. You might be thinking that simply re-arranging words in a sentence doesn&amp;rsquo;t require intelligence and can be done with very trivial algorithms,you would be right, but I added an edge to this task, given a random sequence of words, the language model has to return a grammatically correct sequence using the same set of words.</description>
     </item>
     
     <item>

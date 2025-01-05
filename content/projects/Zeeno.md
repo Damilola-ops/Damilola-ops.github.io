@@ -1,6 +1,6 @@
 ---
 title: "Zeeno - Find books by describing them. A personal librarian for discovering books"
-date: 2024-03-15T04:14:46+01:00
+date: 2024-09-15T04:14:46+01:00
 draft: False
 cover:
     image: "zeeno.jpg"

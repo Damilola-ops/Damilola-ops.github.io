@@ -1,6 +1,6 @@
 ---
 title:  "Descrambling Sentences with GPT2 "
-date: 2024-06-10T04:14:46+01:00
+date: 2024-01-10T04:14:46+01:00
 draft: false 
 cover:
     image: "anagrams.jpg"
